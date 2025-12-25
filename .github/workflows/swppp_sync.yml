@@ -13,19 +13,19 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
+      
       - name: Set up Python
-        uses: actions/set-python@v4
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-
+      
       - name: Install Dependencies
         run: |
           pip install requests
-
+      
       - name: Run Update Script
         run: python update_report.py
-
+      
       - name: Commit and Push Changes
         run: |
           git config --global user.name "SWPPP-Automation-Bot"
