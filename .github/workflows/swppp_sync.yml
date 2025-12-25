@@ -1,0 +1,35 @@
+name: SWPPP Dashboard Sync
+
+on:
+  schedule:
+    # This runs at 13:30 UTC, which is 8:30 AM EST in Charlotte.
+    - cron: '30 13 * * *'
+  workflow_dispatch:
+    # This adds a "Run workflow" button so you can update the site manually anytime.
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/set-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Run Update Script
+        run: python update_report.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "SWPPP-Automation-Bot"
+          git config --global user.email "automation@gemini.ai"
+          git add latest_report.json
+          # Only commit if the file actually changed to avoid empty errors
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated SWPPP Update: $(date)" && git push)
