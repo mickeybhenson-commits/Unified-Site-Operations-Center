@@ -1,0 +1,42 @@
+{
+    "site_info": {
+        "name": "6401 South Blvd",
+        "gauge": "USGS Archdale Dr"
+    },
+    "weather_metrics": {
+        "observed_24h_precip": 0.0,
+        "model_consensus": "Stable Conditions"
+    },
+    "soil_moisture": {
+        "level": "48%",
+        "status": "Workable"
+    },
+    "swppp_compliance": {
+        "risk_level": "MODERATE",
+        "map_labels": [
+            {
+                "lat": 35.108422,
+                "lon": -80.85845,
+                "label": "URGENT: Silt Fence Breach",
+                "priority": "High"
+            },
+            {
+                "lat": 35.10915,
+                "lon": -80.85828,
+                "label": "MAINTENANCE: Sediment Removal",
+                "priority": "Med"
+            },
+            {
+                "lat": 35.10962,
+                "lon": -80.85985,
+                "label": "STABILIZE: NW Slope Rills",
+                "priority": "High"
+            }
+        ]
+    },
+    "concrete_ops": {
+        "pour_status": "OPTIMAL",
+        "evap_rate": 0.42,
+        "notes": "Ensure curing compound is ready if wind increases."
+    }
+}
