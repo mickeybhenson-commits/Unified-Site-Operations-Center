@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
     # This adds a "Run workflow" button so you can update the site manually anytime.
 
+permissions:
+  contents: write  # ✅ THIS IS THE NEW LINE - Allows the workflow to push changes
+
 jobs:
   sync-data:
     runs-on: ubuntu-latest
