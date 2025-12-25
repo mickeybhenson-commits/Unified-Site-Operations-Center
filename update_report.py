@@ -292,4 +292,65 @@ report_data = {
         "temperature_f": weather['temp_f'],
         "temperature_c": weather['temp_c'],
         "wind_speed_mph": weather['wind_speed_mph'],
-        "win
+        "wind_direction": weather['wind_direction'],
+        "humidity_percent": weather['humidity'],
+        "conditions": weather['description'],
+        "precipitation_24h": rain_24h
+    },
+    "forecast_7day": forecast,
+    "active_alerts": alerts,
+    "soil_moisture": {
+        "level": "85%" if rain_24h > 0.5 else "65%" if rain_24h > 0.25 else "48%",
+        "status": "Saturated" if rain_24h > 0.5 else "Wet" if rain_24h > 0.25 else "Workable",
+        "last_rain_inches": rain_24h
+    },
+    "concrete_ops": {
+        "pour_status": recommendations['concrete_pouring']['status'],
+        "evap_rate_kg_m2_h": evap_rate,
+        "evap_status": "HIGH" if evap_rate > 1.0 else "MODERATE" if evap_rate > 0.5 else "LOW",
+        "notes": recommendations['concrete_pouring']['notes']
+    },
+    "activity_recommendations": recommendations,
+    "optimal_work_windows": work_windows,
+    "swppp_compliance": {
+        "risk_level": "HIGH" if rain_24h > 0.5 else "MODERATE" if rain_24h > 0.25 else "LOW",
+        "map_labels": [
+            {
+                "lat": 35.108422, 
+                "lon": -80.858450, 
+                "label": "URGENT: Silt Fence Breach", 
+                "priority": "High",
+                "color": [230, 0, 0]
+            },
+            {
+                "lat": 35.109150, 
+                "lon": -80.858280, 
+                "label": "MAINTENANCE: Sediment Removal", 
+                "priority": "Med",
+                "color": [255, 165, 0]
+            },
+            {
+                "lat": 35.109620, 
+                "lon": -80.859850, 
+                "label": "STABILIZE: NW Slope Rills", 
+                "priority": "High",
+                "color": [230, 0, 0]
+            }
+        ]
+    },
+    "last_updated": dt.now().isoformat()
+}
+
+print(f"\n📊 Report Summary:")
+print(f"   - Current: {weather['temp_f']}°F, {weather['description']}")
+print(f"   - Wind: {weather['wind_speed_mph']} mph {weather['wind_direction']}")
+print(f"   - 24hr Rain: {rain_24h} inches")
+print(f"   - Active Alerts: {len(alerts)}")
+print(f"   - Concrete Status: {recommendations['concrete_pouring']['status']}")
+print(f"   - Best concrete days: {', '.join(work_windows['concrete_pouring'][:3]) or 'None in next 7 days'}")
+
+with open('latest_report.json', 'w') as f:
+    json.dump(report_data, f, indent=4)
+
+print("\n✅ Comprehensive operations briefing written to latest_report.json")
+print("="*60)
