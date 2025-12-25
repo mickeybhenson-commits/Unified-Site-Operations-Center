@@ -12,12 +12,30 @@ def get_usgs_data():
     try:
         response = requests.get(url)
         data = response.json()
-        # Extracting latest precip value from the JSON nesting
-        time_series = data['value']['timeSeries'][0]['values'][0]['value']
-        latest_val = float(time_series[-1]['value'])
-        return latest_val
+        
+        # Check if timeSeries exists and has data
+        if 'value' in data and 'timeSeries' in data['value']:
+            time_series_list = data['value']['timeSeries']
+            
+            if len(time_series_list) > 0:
+                # Extracting latest precip value from the JSON nesting
+                values = time_series_list[0]['values'][0]['value']
+                if len(values) > 0:
+                    latest_val = float(values[-1]['value'])
+                    print(f"✅ Successfully fetched USGS data: {latest_val} inches")
+                    return latest_val
+                else:
+                    print("⚠️ No precipitation values available")
+                    return 0.0
+            else:
+                print("⚠️ No timeSeries data available for this site/parameter")
+                return 0.0
+        else:
+            print("⚠️ Unexpected data structure from USGS API")
+            return 0.0
+            
     except Exception as e:
-        print(f"Error fetching USGS data: {e}")
+        print(f"❌ Error fetching USGS data: {e}")
         return 0.0
 
 def calculate_aci_305r():
@@ -53,8 +71,13 @@ report_data = {
         "pour_status": "CAUTION" if evap_rate > 0.5 or rain_24h > 0.1 else "OPTIMAL",
         "evap_rate": evap_rate,
         "notes": "Ensure curing compound is ready if wind increases."
-    }
+    },
+    "last_updated": datetime.datetime.now().isoformat()
 }
+
+print(f"📝 Writing report with {rain_24h} inches precipitation...")
 
 with open('latest_report.json', 'w') as f:
     json.dump(report_data, f, indent=4)
+
+print("✅ Report successfully written to latest_report.json")
