@@ -8,94 +8,105 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 55.4,
-        "temperature_c": 13,
-        "wind_speed_mph": 37.3,
-        "wind_direction": "E",
-        "humidity_percent": 72,
-        "conditions": "Mostly Cloudy",
+        "temperature_f": 48.2,
+        "temperature_c": 9,
+        "wind_speed_mph": 12.4,
+        "wind_direction": "WNW",
+        "humidity_percent": 100,
+        "conditions": "Fog",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2025-12-26",
-            "high": 61,
-            "low": 49,
-            "precipitation_prob": 9,
-            "wind_speed": "3 to 8 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Patchy Fog then Mostly Sunny",
-            "detailed_forecast": "Patchy fog before 11am. Mostly sunny, with a high near 61. South southwest wind 3 to 8 mph."
-        },
-        {
-            "day": "Saturday",
             "date": "2025-12-27",
-            "high": 68,
-            "low": 48,
-            "precipitation_prob": 1,
-            "wind_speed": "2 to 6 mph",
+            "high": 67,
+            "low": 47,
+            "precipitation_prob": 0,
+            "wind_speed": "3 to 7 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 68. North northwest wind 2 to 6 mph."
+            "detailed_forecast": "Sunny, with a high near 67. North northwest wind 3 to 7 mph."
         },
         {
             "day": "Sunday",
             "date": "2025-12-28",
-            "high": 62,
-            "low": 50,
-            "precipitation_prob": 11,
+            "high": 61,
+            "low": 46,
+            "precipitation_prob": 19,
             "wind_speed": "3 to 7 mph",
             "wind_direction": "S",
-            "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 62. South wind 3 to 7 mph."
+            "short_forecast": "Patchy Fog",
+            "detailed_forecast": "Patchy fog before 8am, then patchy fog and a slight chance of rain between 8am and 1pm. Mostly cloudy, with a high near 61. South wind 3 to 7 mph. Chance of precipitation is 20%."
         },
         {
             "day": "Monday",
             "date": "2025-12-29",
-            "high": 58,
+            "high": 57,
             "low": 20,
-            "precipitation_prob": 60,
-            "wind_speed": "14 mph",
-            "wind_direction": "WNW",
-            "short_forecast": "Light Rain Likely",
-            "detailed_forecast": "Rain likely before 4pm. Partly sunny, with a high near 58. Chance of precipitation is 60%."
+            "precipitation_prob": 49,
+            "wind_speed": "12 to 16 mph",
+            "wind_direction": "W",
+            "short_forecast": "Chance Light Rain",
+            "detailed_forecast": "A chance of rain before 3pm. Mostly sunny, with a high near 57. West wind 12 to 16 mph, with gusts as high as 35 mph. Chance of precipitation is 50%."
         },
         {
             "day": "Tuesday",
             "date": "2025-12-30",
-            "high": 36,
-            "low": 20,
-            "precipitation_prob": 2,
-            "wind_speed": "8 to 14 mph",
+            "high": 35,
+            "low": 19,
+            "precipitation_prob": 0,
+            "wind_speed": "9 to 15 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 36."
+            "detailed_forecast": "Sunny, with a high near 35."
         },
         {
             "day": "Wednesday",
             "date": "2025-12-31",
-            "high": 45,
-            "low": 24,
-            "precipitation_prob": 2,
+            "high": 44,
+            "low": 25,
+            "precipitation_prob": 1,
             "wind_speed": "7 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 45."
+            "detailed_forecast": "Sunny, with a high near 44."
         },
         {
             "day": "New Year's Day",
             "date": "2026-01-01",
-            "high": 44,
-            "low": 22,
-            "precipitation_prob": 2,
+            "high": 46,
+            "low": 19,
+            "precipitation_prob": 3,
             "wind_speed": "7 mph",
             "wind_direction": "WNW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 46."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-01-02",
+            "high": 40,
+            "low": 21,
+            "precipitation_prob": 6,
+            "wind_speed": "6 mph",
+            "wind_direction": "NNW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 44."
+            "detailed_forecast": "Mostly sunny, with a high near 40."
         }
     ],
-    "active_alerts": [],
+    "active_alerts": [
+        {
+            "event": "Dense Fog Advisory",
+            "severity": "Moderate",
+            "urgency": "Expected",
+            "headline": "Dense Fog Advisory issued December 27 at 8:48AM EST until December 27 at 10:00AM EST by NWS Greenville-Spartanburg SC",
+            "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of western North Carolina and Upstate South\nCarolina, including most areas east of US Highway 221.\n\n* WHEN...Until 10 AM EST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+            "instruction": "If driving, slow down, use low-beam headlights and fog lamps, and\nleave plenty of distance ahead of you.",
+            "onset": "2025-12-27T08:48:00-05:00",
+            "expires": "2025-12-27T10:00:00-05:00"
+        }
+    ],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -103,7 +114,7 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.48,
+        "evap_rate_kg_m2_h": 0,
         "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work"
@@ -123,41 +134,39 @@
             ]
         },
         "asphalt_paving": {
-            "status": "GO",
-            "notes": []
-        },
-        "painting_coating": {
-            "status": "GO",
-            "notes": []
-        },
-        "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 37.3 mph exceeds safe limits"
+                "Temperature too low for asphalt"
             ]
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "painting_coating": {
+            "status": "STOP",
+            "notes": [
+                "Humidity too high"
+            ]
+        },
+        "crane_ops": {
+            "status": "GO",
+            "notes": []
+        },
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Saturday",
             "Sunday",
-            "Wednesday"
+            "New Year's Day"
         ],
         "grading": [
             "Today",
-            "Saturday",
             "Sunday",
             "Tuesday",
             "Wednesday",
-            "New Year's Day"
+            "New Year's Day",
+            "Friday"
         ],
         "painting": [
             "Today",
-            "Saturday",
             "Sunday"
         ]
     },
@@ -199,5 +208,5 @@
             }
         ]
     },
-    "last_updated": "2025-12-26T13:58:50.720333"
+    "last_updated": "2025-12-27T13:53:39.037633"
 }
