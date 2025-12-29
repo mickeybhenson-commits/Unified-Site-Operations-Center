@@ -8,65 +8,54 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 46.4,
-        "temperature_c": 8,
-        "wind_speed_mph": 29.0,
-        "wind_direction": "ESE",
-        "humidity_percent": 93,
+        "temperature_f": 62.6,
+        "temperature_c": 17,
+        "wind_speed_mph": 49.7,
+        "wind_direction": "SW",
+        "humidity_percent": 83,
         "conditions": "Fog/Mist",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2025-12-28",
-            "high": 59,
-            "low": 42,
-            "precipitation_prob": 14,
-            "wind_speed": "5 to 9 mph",
-            "wind_direction": "S",
-            "short_forecast": "Patchy Fog then Mostly Sunny",
-            "detailed_forecast": "Patchy fog before 11am. Mostly sunny, with a high near 59. South wind 5 to 9 mph."
-        },
-        {
-            "day": "Monday",
             "date": "2025-12-29",
-            "high": 54,
-            "low": 18,
-            "precipitation_prob": 55,
-            "wind_speed": "10 to 16 mph",
-            "wind_direction": "WNW",
-            "short_forecast": "Rain Showers Likely then Mostly Sunny",
-            "detailed_forecast": "Rain showers likely before noon. Mostly sunny. High near 54, with temperatures falling to around 33 in the afternoon. West northwest wind 10 to 16 mph, with gusts as high as 32 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+            "high": 49,
+            "low": 16,
+            "precipitation_prob": 7,
+            "wind_speed": "16 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny. High near 49, with temperatures falling to around 30 in the afternoon. Northwest wind around 16 mph, with gusts as high as 39 mph."
         },
         {
             "day": "Tuesday",
             "date": "2025-12-30",
             "high": 34,
-            "low": 20,
+            "low": 21,
             "precipitation_prob": 0,
-            "wind_speed": "9 to 15 mph",
+            "wind_speed": "8 to 15 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 34. Northwest wind 9 to 15 mph, with gusts as high as 33 mph."
+            "detailed_forecast": "Sunny, with a high near 34. Northwest wind 8 to 15 mph, with gusts as high as 36 mph."
         },
         {
             "day": "Wednesday",
             "date": "2025-12-31",
-            "high": 45,
-            "low": 25,
+            "high": 46,
+            "low": 27,
             "precipitation_prob": 0,
-            "wind_speed": "7 mph",
+            "wind_speed": "8 mph",
             "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 45."
+            "detailed_forecast": "Sunny, with a high near 46. West northwest wind around 8 mph, with gusts as high as 20 mph."
         },
         {
             "day": "New Year's Day",
             "date": "2026-01-01",
             "high": 48,
-            "low": 26,
-            "precipitation_prob": 3,
+            "low": 27,
+            "precipitation_prob": 0,
             "wind_speed": "8 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
@@ -75,24 +64,35 @@
         {
             "day": "Friday",
             "date": "2026-01-02",
-            "high": 48,
-            "low": 31,
-            "precipitation_prob": 2,
-            "wind_speed": "6 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 48."
+            "high": 49,
+            "low": 36,
+            "precipitation_prob": 10,
+            "wind_speed": "5 mph",
+            "wind_direction": "W",
+            "short_forecast": "Mostly Cloudy",
+            "detailed_forecast": "Mostly cloudy, with a high near 49."
         },
         {
             "day": "Saturday",
             "date": "2026-01-03",
-            "high": 51,
-            "low": 37,
-            "precipitation_prob": 37,
-            "wind_speed": "6 mph",
-            "wind_direction": "SW",
+            "high": 48,
+            "low": 34,
+            "precipitation_prob": 51,
+            "wind_speed": "5 mph",
+            "wind_direction": "NNW",
             "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Partly sunny, with a high near 51. Chance of precipitation is 40%."
+            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 48. Chance of precipitation is 50%."
+        },
+        {
+            "day": "Sunday",
+            "date": "2026-01-04",
+            "high": 48,
+            "low": 29,
+            "precipitation_prob": 6,
+            "wind_speed": "6 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 48."
         }
     ],
     "active_alerts": [],
@@ -103,8 +103,8 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.061,
-        "evap_status": "LOW",
+        "evap_rate_kg_m2_h": 0.517,
+        "evap_status": "MODERATE",
         "notes": [
             "Optimal conditions for concrete work"
         ]
@@ -123,21 +123,17 @@
             ]
         },
         "asphalt_paving": {
-            "status": "STOP",
-            "notes": [
-                "Temperature too low for asphalt"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "painting_coating": {
-            "status": "STOP",
-            "notes": [
-                "Humidity too high"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 29.0 mph exceeds safe limits"
+                "Wind speed 49.7 mph exceeds safe limits"
             ]
         },
         "general_safety": [
@@ -149,18 +145,18 @@
             "Today",
             "Wednesday",
             "New Year's Day",
-            "Friday"
+            "Friday",
+            "Sunday"
         ],
         "grading": [
             "Today",
             "Tuesday",
             "Wednesday",
             "New Year's Day",
-            "Friday"
+            "Friday",
+            "Sunday"
         ],
-        "painting": [
-            "Today"
-        ]
+        "painting": []
     },
     "swppp_compliance": {
         "risk_level": "LOW",
@@ -200,5 +196,5 @@
             }
         ]
     },
-    "last_updated": "2025-12-28T13:50:08.091516"
+    "last_updated": "2025-12-29T13:58:30.923351"
 }
