@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 41.0,
-        "temperature_c": 5,
+        "temperature_f": 50.0,
+        "temperature_c": 10,
         "wind_speed_mph": 16.6,
-        "wind_direction": "SW",
-        "humidity_percent": 65,
-        "conditions": "",
+        "wind_direction": "ENE",
+        "humidity_percent": 76,
+        "conditions": "Light Rain",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-02",
-            "high": 54,
-            "low": 40,
-            "precipitation_prob": 2,
-            "wind_speed": "6 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 54. Northwest wind around 6 mph."
-        },
-        {
-            "day": "Saturday",
             "date": "2026-01-03",
-            "high": 44,
-            "low": 34,
-            "precipitation_prob": 72,
+            "high": 47,
+            "low": 32,
+            "precipitation_prob": 36,
             "wind_speed": "2 mph",
-            "wind_direction": "ENE",
-            "short_forecast": "Rain Likely",
-            "detailed_forecast": "Rain likely and patchy fog. Cloudy, with a high near 44. East northeast wind around 2 mph. Chance of precipitation is 70%. New rainfall amounts between a half and three quarters of an inch possible."
+            "wind_direction": "ESE",
+            "short_forecast": "Chance Light Rain then Partly Sunny",
+            "detailed_forecast": "A chance of rain before 11am. Partly sunny, with a high near 47. East southeast wind around 2 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
         },
         {
             "day": "Sunday",
             "date": "2026-01-04",
-            "high": 50,
-            "low": 34,
-            "precipitation_prob": 1,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 50. North northwest wind 2 to 6 mph."
+            "high": 52,
+            "low": 33,
+            "precipitation_prob": 0,
+            "wind_speed": "5 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Areas Of Fog then Sunny",
+            "detailed_forecast": "Areas of fog before 9am. Sunny, with a high near 52. Northwest wind around 5 mph."
         },
         {
             "day": "Monday",
             "date": "2026-01-05",
-            "high": 52,
-            "low": 36,
-            "precipitation_prob": 1,
-            "wind_speed": "7 mph",
-            "wind_direction": "S",
+            "high": 55,
+            "low": 38,
+            "precipitation_prob": 0,
+            "wind_speed": "6 mph",
+            "wind_direction": "SSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 52."
+            "detailed_forecast": "Mostly sunny, with a high near 55. South southwest wind around 6 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-01-06",
-            "high": 59,
-            "low": 44,
-            "precipitation_prob": 2,
-            "wind_speed": "7 mph",
+            "high": 60,
+            "low": 43,
+            "precipitation_prob": 0,
+            "wind_speed": "6 mph",
             "wind_direction": "SW",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 59."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 60."
         },
         {
             "day": "Wednesday",
             "date": "2026-01-07",
-            "high": 61,
-            "low": 45,
-            "precipitation_prob": 14,
+            "high": 62,
+            "low": 44,
+            "precipitation_prob": 5,
             "wind_speed": "5 mph",
             "wind_direction": "W",
-            "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 61."
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 62."
         },
         {
             "day": "Thursday",
             "date": "2026-01-08",
-            "high": 59,
-            "low": 48,
-            "precipitation_prob": 29,
-            "wind_speed": "6 mph",
+            "high": 60,
+            "low": 50,
+            "precipitation_prob": 17,
+            "wind_speed": "3 to 7 mph",
             "wind_direction": "S",
+            "short_forecast": "Slight Chance Light Rain",
+            "detailed_forecast": "A slight chance of rain after 9am. Mostly cloudy, with a high near 60."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-01-09",
+            "high": 62,
+            "low": 48,
+            "precipitation_prob": 31,
+            "wind_speed": "7 mph",
+            "wind_direction": "SSW",
             "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 59. Chance of precipitation is 30%."
+            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 62. Chance of precipitation is 30%."
         }
     ],
     "active_alerts": [],
@@ -103,19 +103,17 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.136,
+        "evap_rate_kg_m2_h": 0.153,
         "evap_status": "LOW",
         "notes": [
-            "Optimal conditions for concrete work",
-            "Rain expected Saturday (72%)"
+            "Optimal conditions for concrete work"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "GO",
             "notes": [
-                "Optimal conditions for concrete work",
-                "Rain expected Saturday (72%)"
+                "Optimal conditions for concrete work"
             ]
         },
         "grading_excavation": {
@@ -125,16 +123,12 @@
             ]
         },
         "asphalt_paving": {
-            "status": "STOP",
-            "notes": [
-                "Temperature too low for asphalt"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "painting_coating": {
-            "status": "CAUTION",
-            "notes": [
-                "Temperature outside optimal range"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "crane_ops": {
             "status": "CAUTION",
@@ -146,7 +140,6 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Today",
             "Sunday",
             "Monday",
             "Tuesday",
@@ -154,18 +147,18 @@
             "Thursday"
         ],
         "grading": [
-            "Today",
             "Sunday",
             "Monday",
             "Tuesday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ],
         "painting": [
-            "Today",
             "Sunday",
             "Monday",
             "Tuesday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ]
     },
     "swppp_compliance": {
@@ -206,5 +199,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-02T13:54:01.648349"
+    "last_updated": "2026-01-03T13:44:30.030356"
 }
