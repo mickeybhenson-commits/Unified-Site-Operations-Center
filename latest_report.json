@@ -8,105 +8,94 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 46.4,
-        "temperature_c": 8,
-        "wind_speed_mph": 0,
-        "wind_direction": "N",
-        "humidity_percent": 93,
-        "conditions": "Fog",
+        "temperature_f": 50.0,
+        "temperature_c": 10,
+        "wind_speed_mph": 29.0,
+        "wind_direction": "SSW",
+        "humidity_percent": 87,
+        "conditions": "Fog/Mist",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-05",
-            "high": 58,
-            "low": 40,
-            "precipitation_prob": 0,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "W",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 58. West wind 2 to 6 mph."
-        },
-        {
-            "day": "Tuesday",
             "date": "2026-01-06",
-            "high": 63,
-            "low": 43,
+            "high": 61,
+            "low": 42,
             "precipitation_prob": 3,
             "wind_speed": "7 mph",
-            "wind_direction": "WSW",
+            "wind_direction": "W",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 63. West southwest wind around 7 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 61. West wind around 7 mph, with gusts as high as 18 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-01-07",
             "high": 62,
-            "low": 42,
-            "precipitation_prob": 1,
-            "wind_speed": "5 mph",
+            "low": 40,
+            "precipitation_prob": 0,
+            "wind_speed": "2 to 6 mph",
             "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 62. Northwest wind around 5 mph."
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 62. Northwest wind 2 to 6 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-01-08",
-            "high": 61,
+            "high": 59,
             "low": 50,
-            "precipitation_prob": 8,
-            "wind_speed": "2 to 7 mph",
-            "wind_direction": "SSW",
+            "precipitation_prob": 4,
+            "wind_speed": "1 to 7 mph",
+            "wind_direction": "S",
             "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 61."
+            "detailed_forecast": "Partly sunny, with a high near 59. South wind 1 to 7 mph."
         },
         {
             "day": "Friday",
             "date": "2026-01-09",
             "high": 61,
-            "low": 48,
-            "precipitation_prob": 41,
-            "wind_speed": "9 mph",
-            "wind_direction": "S",
-            "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 61. Chance of precipitation is 40%."
+            "low": 51,
+            "precipitation_prob": 53,
+            "wind_speed": "8 mph",
+            "wind_direction": "SSW",
+            "short_forecast": "Chance Rain",
+            "detailed_forecast": "A chance of rain. Cloudy, with a high near 61. Chance of precipitation is 50%."
         },
         {
             "day": "Saturday",
             "date": "2026-01-10",
-            "high": 55,
-            "low": 30,
-            "precipitation_prob": 60,
-            "wind_speed": "9 mph",
-            "wind_direction": "W",
+            "high": 57,
+            "low": 29,
+            "precipitation_prob": 62,
+            "wind_speed": "8 mph",
+            "wind_direction": "SW",
             "short_forecast": "Rain Likely",
-            "detailed_forecast": "Rain likely. Partly sunny, with a high near 55. Chance of precipitation is 60%."
+            "detailed_forecast": "Rain likely. Mostly cloudy, with a high near 57. Chance of precipitation is 60%."
         },
         {
             "day": "Sunday",
             "date": "2026-01-11",
-            "high": 41,
-            "low": 22,
-            "precipitation_prob": 14,
+            "high": 39,
+            "low": 23,
+            "precipitation_prob": 15,
             "wind_speed": "9 mph",
             "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 41."
-        }
-    ],
-    "active_alerts": [
+            "short_forecast": "Slight Chance Light Snow then Sunny",
+            "detailed_forecast": "A slight chance of snow between 7am and 10am. Sunny, with a high near 39."
+        },
         {
-            "event": "Dense Fog Advisory",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Dense Fog Advisory issued January 5 at 2:07AM EST until January 5 at 10:00AM EST by NWS Greenville-Spartanburg SC",
-            "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Catawba, Gaston, Lincoln, Mecklenburg, and Union Counties.\n\n* WHEN...Until 10 AM EST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-            "instruction": "If driving, slow down, use low-beam headlights and fog lamps, and\nleave plenty of distance ahead of you.",
-            "onset": "2026-01-05T02:07:00-05:00",
-            "expires": "2026-01-05T10:00:00-05:00"
+            "day": "Monday",
+            "date": "2026-01-12",
+            "high": 47,
+            "low": 26,
+            "precipitation_prob": 9,
+            "wind_speed": "6 mph",
+            "wind_direction": "NNW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 47."
         }
     ],
+    "active_alerts": [],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -114,7 +103,7 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.005,
+        "evap_rate_kg_m2_h": 0.137,
         "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work"
@@ -134,10 +123,8 @@
             ]
         },
         "asphalt_paving": {
-            "status": "STOP",
-            "notes": [
-                "Temperature too low for asphalt"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "painting_coating": {
             "status": "STOP",
@@ -146,28 +133,31 @@
             ]
         },
         "crane_ops": {
-            "status": "GO",
-            "notes": []
+            "status": "STOP",
+            "notes": [
+                "Wind speed 29.0 mph exceeds safe limits"
+            ]
         },
-        "general_safety": []
+        "general_safety": [
+            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
+        ]
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Tuesday",
             "Wednesday",
-            "Thursday"
+            "Thursday",
+            "Monday"
         ],
         "grading": [
             "Today",
-            "Tuesday",
             "Wednesday",
             "Thursday",
-            "Sunday"
+            "Sunday",
+            "Monday"
         ],
         "painting": [
             "Today",
-            "Tuesday",
             "Wednesday",
             "Thursday"
         ]
@@ -210,5 +200,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-05T13:55:48.970327"
+    "last_updated": "2026-01-06T13:53:42.439587"
 }
