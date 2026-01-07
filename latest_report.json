@@ -8,94 +8,115 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 50.0,
-        "temperature_c": 10,
-        "wind_speed_mph": 29.0,
-        "wind_direction": "SSW",
-        "humidity_percent": 87,
-        "conditions": "Fog/Mist",
+        "temperature_f": 51.8,
+        "temperature_c": 11,
+        "wind_speed_mph": 12.4,
+        "wind_direction": "SW",
+        "humidity_percent": 94,
+        "conditions": "Fog",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-06",
-            "high": 61,
-            "low": 42,
-            "precipitation_prob": 3,
-            "wind_speed": "7 mph",
-            "wind_direction": "W",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 61. West wind around 7 mph, with gusts as high as 18 mph."
-        },
-        {
-            "day": "Wednesday",
             "date": "2026-01-07",
             "high": 62,
             "low": 40,
             "precipitation_prob": 0,
-            "wind_speed": "2 to 6 mph",
+            "wind_speed": "6 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 62. Northwest wind 2 to 6 mph."
+            "detailed_forecast": "Sunny, with a high near 62. Northwest wind around 6 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-01-08",
             "high": 59,
-            "low": 50,
-            "precipitation_prob": 4,
-            "wind_speed": "1 to 7 mph",
+            "low": 49,
+            "precipitation_prob": 2,
+            "wind_speed": "2 to 7 mph",
             "wind_direction": "S",
             "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 59. South wind 1 to 7 mph."
+            "detailed_forecast": "Partly sunny, with a high near 59. South wind 2 to 7 mph."
         },
         {
             "day": "Friday",
             "date": "2026-01-09",
-            "high": 61,
-            "low": 51,
-            "precipitation_prob": 53,
+            "high": 63,
+            "low": 54,
+            "precipitation_prob": 46,
             "wind_speed": "8 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Chance Rain",
-            "detailed_forecast": "A chance of rain. Cloudy, with a high near 61. Chance of precipitation is 50%."
+            "wind_direction": "S",
+            "short_forecast": "Chance Light Rain",
+            "detailed_forecast": "A chance of rain. Cloudy, with a high near 63. South wind around 8 mph, with gusts as high as 20 mph. Chance of precipitation is 50%."
         },
         {
             "day": "Saturday",
             "date": "2026-01-10",
-            "high": 57,
-            "low": 29,
-            "precipitation_prob": 62,
-            "wind_speed": "8 mph",
-            "wind_direction": "SW",
-            "short_forecast": "Rain Likely",
-            "detailed_forecast": "Rain likely. Mostly cloudy, with a high near 57. Chance of precipitation is 60%."
+            "high": 61,
+            "low": 35,
+            "precipitation_prob": 89,
+            "wind_speed": "8 to 12 mph",
+            "wind_direction": "SSW",
+            "short_forecast": "Rain",
+            "detailed_forecast": "Rain. Cloudy, with a high near 61. Chance of precipitation is 90%."
         },
         {
             "day": "Sunday",
             "date": "2026-01-11",
-            "high": 39,
-            "low": 23,
-            "precipitation_prob": 15,
-            "wind_speed": "9 mph",
+            "high": 42,
+            "low": 20,
+            "precipitation_prob": 17,
+            "wind_speed": "12 mph",
             "wind_direction": "NW",
-            "short_forecast": "Slight Chance Light Snow then Sunny",
-            "detailed_forecast": "A slight chance of snow between 7am and 10am. Sunny, with a high near 39."
+            "short_forecast": "Slight Chance Light Rain then Mostly Sunny",
+            "detailed_forecast": "A slight chance of rain before 10am. Mostly sunny, with a high near 42."
         },
         {
             "day": "Monday",
             "date": "2026-01-12",
-            "high": 47,
-            "low": 26,
-            "precipitation_prob": 9,
-            "wind_speed": "6 mph",
-            "wind_direction": "NNW",
+            "high": 44,
+            "low": 25,
+            "precipitation_prob": 8,
+            "wind_speed": "5 to 8 mph",
+            "wind_direction": "N",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 47."
+            "detailed_forecast": "Sunny, with a high near 44."
+        },
+        {
+            "day": "Tuesday",
+            "date": "2026-01-13",
+            "high": 48,
+            "low": 27,
+            "precipitation_prob": 5,
+            "wind_speed": "3 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 48."
         }
     ],
-    "active_alerts": [],
+    "active_alerts": [
+        {
+            "event": "Dense Fog Advisory",
+            "severity": "Moderate",
+            "urgency": "Expected",
+            "headline": "Dense Fog Advisory issued January 7 at 8:51AM EST until January 7 at 10:00AM EST by NWS Greenville-Spartanburg SC",
+            "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of northeast Georgia, Piedmont North Carolina,\nand Upstate South Carolina.\n\n* WHEN...Until 10 AM EST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+            "instruction": "If driving, slow down, use low-beam headlights and fog lamps, and\nleave plenty of distance ahead of you.",
+            "onset": "2026-01-07T08:51:00-05:00",
+            "expires": "2026-01-07T10:00:00-05:00"
+        },
+        {
+            "event": "Special Weather Statement",
+            "severity": "Moderate",
+            "urgency": "Expected",
+            "headline": "Special Weather Statement issued January 7 at 5:02AM EST by NWS Greenville-Spartanburg SC",
+            "description": "Patchy dense fog has developed across the Upstate of South\nCarolina and in the Piedmont and Foothills of western North\nCarolina this morning. The fog will likely linger through the\nearly morning hours before dissipating by 9 am. If driving, be\nprepared for sudden reductions in visibility. Slow down, use low-\nbeam headlights, and leave extra space between vehicles.",
+            "instruction": null,
+            "onset": "2026-01-07T05:02:00-05:00",
+            "expires": "2026-01-07T09:00:00-05:00"
+        }
+    ],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -103,7 +124,7 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.137,
+        "evap_rate_kg_m2_h": 0.033,
         "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work"
@@ -133,32 +154,26 @@
             ]
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 29.0 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Wednesday",
             "Thursday",
-            "Monday"
+            "Tuesday"
         ],
         "grading": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
         "painting": [
             "Today",
-            "Wednesday",
             "Thursday"
         ]
     },
@@ -200,5 +215,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-06T13:53:42.439587"
+    "last_updated": "2026-01-07T13:55:30.368629"
 }
