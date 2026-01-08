@@ -8,115 +8,94 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 51.8,
-        "temperature_c": 11,
+        "temperature_f": 48.2,
+        "temperature_c": 9,
         "wind_speed_mph": 12.4,
-        "wind_direction": "SW",
-        "humidity_percent": 94,
-        "conditions": "Fog",
+        "wind_direction": "NW",
+        "humidity_percent": 71,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-07",
-            "high": 62,
-            "low": 40,
-            "precipitation_prob": 0,
-            "wind_speed": "6 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 62. Northwest wind around 6 mph."
-        },
-        {
-            "day": "Thursday",
             "date": "2026-01-08",
-            "high": 59,
-            "low": 49,
-            "precipitation_prob": 2,
+            "high": 58,
+            "low": 48,
+            "precipitation_prob": 3,
             "wind_speed": "2 to 7 mph",
             "wind_direction": "S",
             "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 59. South wind 2 to 7 mph."
+            "detailed_forecast": "Partly sunny, with a high near 58. South wind 2 to 7 mph."
         },
         {
             "day": "Friday",
             "date": "2026-01-09",
-            "high": 63,
+            "high": 62,
             "low": 54,
-            "precipitation_prob": 46,
+            "precipitation_prob": 70,
             "wind_speed": "8 mph",
-            "wind_direction": "S",
-            "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Cloudy, with a high near 63. South wind around 8 mph, with gusts as high as 20 mph. Chance of precipitation is 50%."
+            "wind_direction": "SSW",
+            "short_forecast": "Rain Likely",
+            "detailed_forecast": "A slight chance of rain before 8am, then patchy fog and a slight chance of rain between 8am and 9am, then rain likely and patchy fog. Cloudy, with a high near 62. South southwest wind around 8 mph, with gusts as high as 18 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
         },
         {
             "day": "Saturday",
             "date": "2026-01-10",
-            "high": 61,
-            "low": 35,
-            "precipitation_prob": 89,
-            "wind_speed": "8 to 12 mph",
+            "high": 62,
+            "low": 34,
+            "precipitation_prob": 93,
+            "wind_speed": "9 mph",
             "wind_direction": "SSW",
             "short_forecast": "Rain",
-            "detailed_forecast": "Rain. Cloudy, with a high near 61. Chance of precipitation is 90%."
+            "detailed_forecast": "Rain before 7am, then rain and a slight chance of thunderstorms. Cloudy, with a high near 62. South southwest wind around 9 mph, with gusts as high as 24 mph. Chance of precipitation is 90%."
         },
         {
             "day": "Sunday",
             "date": "2026-01-11",
-            "high": 42,
+            "high": 41,
             "low": 20,
-            "precipitation_prob": 17,
-            "wind_speed": "12 mph",
+            "precipitation_prob": 7,
+            "wind_speed": "9 to 14 mph",
             "wind_direction": "NW",
-            "short_forecast": "Slight Chance Light Rain then Mostly Sunny",
-            "detailed_forecast": "A slight chance of rain before 10am. Mostly sunny, with a high near 42."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 41."
         },
         {
             "day": "Monday",
             "date": "2026-01-12",
-            "high": 44,
-            "low": 25,
-            "precipitation_prob": 8,
-            "wind_speed": "5 to 8 mph",
-            "wind_direction": "N",
+            "high": 43,
+            "low": 24,
+            "precipitation_prob": 1,
+            "wind_speed": "2 to 7 mph",
+            "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 44."
+            "detailed_forecast": "Sunny, with a high near 43."
         },
         {
             "day": "Tuesday",
             "date": "2026-01-13",
-            "high": 48,
-            "low": 27,
-            "precipitation_prob": 5,
+            "high": 52,
+            "low": 30,
+            "precipitation_prob": 3,
             "wind_speed": "3 mph",
             "wind_direction": "WSW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 48."
-        }
-    ],
-    "active_alerts": [
-        {
-            "event": "Dense Fog Advisory",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Dense Fog Advisory issued January 7 at 8:51AM EST until January 7 at 10:00AM EST by NWS Greenville-Spartanburg SC",
-            "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of northeast Georgia, Piedmont North Carolina,\nand Upstate South Carolina.\n\n* WHEN...Until 10 AM EST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-            "instruction": "If driving, slow down, use low-beam headlights and fog lamps, and\nleave plenty of distance ahead of you.",
-            "onset": "2026-01-07T08:51:00-05:00",
-            "expires": "2026-01-07T10:00:00-05:00"
+            "detailed_forecast": "Sunny, with a high near 52."
         },
         {
-            "event": "Special Weather Statement",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Special Weather Statement issued January 7 at 5:02AM EST by NWS Greenville-Spartanburg SC",
-            "description": "Patchy dense fog has developed across the Upstate of South\nCarolina and in the Piedmont and Foothills of western North\nCarolina this morning. The fog will likely linger through the\nearly morning hours before dissipating by 9 am. If driving, be\nprepared for sudden reductions in visibility. Slow down, use low-\nbeam headlights, and leave extra space between vehicles.",
-            "instruction": null,
-            "onset": "2026-01-07T05:02:00-05:00",
-            "expires": "2026-01-07T09:00:00-05:00"
+            "day": "Wednesday",
+            "date": "2026-01-14",
+            "high": 48,
+            "low": 30,
+            "precipitation_prob": 12,
+            "wind_speed": "6 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 48."
         }
     ],
+    "active_alerts": [],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -124,17 +103,21 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.033,
+        "evap_rate_kg_m2_h": 0.132,
         "evap_status": "LOW",
         "notes": [
-            "Optimal conditions for concrete work"
+            "Optimal conditions for concrete work",
+            "Rain expected Friday (70%)",
+            "Rain expected Saturday (93%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "GO",
             "notes": [
-                "Optimal conditions for concrete work"
+                "Optimal conditions for concrete work",
+                "Rain expected Friday (70%)",
+                "Rain expected Saturday (93%)"
             ]
         },
         "grading_excavation": {
@@ -144,13 +127,15 @@
             ]
         },
         "asphalt_paving": {
-            "status": "GO",
-            "notes": []
-        },
-        "painting_coating": {
             "status": "STOP",
             "notes": [
-                "Humidity too high"
+                "Temperature too low for asphalt"
+            ]
+        },
+        "painting_coating": {
+            "status": "CAUTION",
+            "notes": [
+                "Temperature outside optimal range"
             ]
         },
         "crane_ops": {
@@ -162,19 +147,19 @@
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Thursday",
-            "Tuesday"
+            "Tuesday",
+            "Wednesday"
         ],
         "grading": [
             "Today",
-            "Thursday",
             "Sunday",
             "Monday",
-            "Tuesday"
+            "Tuesday",
+            "Wednesday"
         ],
         "painting": [
             "Today",
-            "Thursday"
+            "Tuesday"
         ]
     },
     "swppp_compliance": {
@@ -215,5 +200,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-07T13:55:30.368629"
+    "last_updated": "2026-01-08T13:56:11.112258"
 }
