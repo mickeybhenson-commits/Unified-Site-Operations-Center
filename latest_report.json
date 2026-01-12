@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 48.2,
-        "temperature_c": 9,
-        "wind_speed_mph": 41.4,
-        "wind_direction": "WNW",
-        "humidity_percent": 0,
+        "temperature_f": 30.2,
+        "temperature_c": -1,
+        "wind_speed_mph": 12.4,
+        "wind_direction": "NNW",
+        "humidity_percent": 64,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-11",
-            "high": 36,
-            "low": 20,
-            "precipitation_prob": 4,
-            "wind_speed": "14 to 18 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny. High near 36, with temperatures falling to around 28 in the afternoon. Northwest wind 14 to 18 mph, with gusts as high as 39 mph."
-        },
-        {
-            "day": "Monday",
             "date": "2026-01-12",
             "high": 46,
-            "low": 27,
+            "low": 28,
             "precipitation_prob": 0,
-            "wind_speed": "3 mph",
-            "wind_direction": "NW",
+            "wind_speed": "2 mph",
+            "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 46. Northwest wind around 3 mph."
+            "detailed_forecast": "Sunny, with a high near 46. North northwest wind around 2 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-01-13",
             "high": 55,
-            "low": 32,
+            "low": 33,
             "precipitation_prob": 0,
-            "wind_speed": "5 mph",
+            "wind_speed": "3 mph",
             "wind_direction": "WSW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 55. West southwest wind around 5 mph."
+            "detailed_forecast": "Sunny, with a high near 55. West southwest wind around 3 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-01-14",
-            "high": 48,
+            "high": 51,
             "low": 22,
-            "precipitation_prob": 13,
+            "precipitation_prob": 27,
             "wind_speed": "7 mph",
             "wind_direction": "W",
-            "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 48."
+            "short_forecast": "Partly Sunny then Chance Light Rain",
+            "detailed_forecast": "A chance of rain after 2pm. Partly sunny, with a high near 51. West wind around 7 mph. Chance of precipitation is 30%."
         },
         {
             "day": "Thursday",
             "date": "2026-01-15",
-            "high": 31,
-            "low": 17,
-            "precipitation_prob": 21,
-            "wind_speed": "10 to 14 mph",
+            "high": 27,
+            "low": 13,
+            "precipitation_prob": 31,
+            "wind_speed": "16 mph",
             "wind_direction": "NW",
-            "short_forecast": "Slight Chance Light Snow then Mostly Sunny",
-            "detailed_forecast": "A slight chance of snow before 10am. Mostly sunny, with a high near 31. New snow accumulation of less than half an inch possible."
+            "short_forecast": "Chance Light Snow",
+            "detailed_forecast": "A chance of snow before 3pm. Partly sunny, with a high near 27. Chance of precipitation is 30%. New snow accumulation of around one inch possible."
         },
         {
             "day": "Friday",
             "date": "2026-01-16",
-            "high": 43,
-            "low": 24,
-            "precipitation_prob": 2,
+            "high": 38,
+            "low": 22,
+            "precipitation_prob": 1,
             "wind_speed": "7 mph",
             "wind_direction": "W",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 43."
+            "detailed_forecast": "Sunny, with a high near 38."
         },
         {
             "day": "Saturday",
             "date": "2026-01-17",
-            "high": 42,
-            "low": 22,
-            "precipitation_prob": 10,
-            "wind_speed": "5 to 8 mph",
+            "high": 38,
+            "low": 17,
+            "precipitation_prob": 11,
+            "wind_speed": "6 to 10 mph",
             "wind_direction": "WSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 42."
+            "detailed_forecast": "Mostly sunny, with a high near 38."
+        },
+        {
+            "day": "Sunday",
+            "date": "2026-01-18",
+            "high": 31,
+            "low": 13,
+            "precipitation_prob": 10,
+            "wind_speed": "10 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 31."
         }
     ],
     "active_alerts": [],
@@ -103,17 +103,17 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 1.338,
-        "evap_status": "HIGH",
+        "evap_rate_kg_m2_h": 0.051,
+        "evap_status": "LOW",
         "notes": [
-            "High evaporation (1.338 kg/m\u00b2/h) - increase curing"
+            "Cold weather - use heated concrete/protection"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "CAUTION",
             "notes": [
-                "High evaporation (1.338 kg/m\u00b2/h) - increase curing"
+                "Cold weather - use heated concrete/protection"
             ]
         },
         "grading_excavation": {
@@ -135,28 +135,23 @@
             ]
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 41.4 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Monday",
+            "Today",
             "Tuesday",
             "Wednesday"
         ],
         "grading": [
             "Today",
-            "Monday",
             "Tuesday",
-            "Wednesday",
             "Friday",
-            "Saturday"
+            "Saturday",
+            "Sunday"
         ],
         "painting": [
             "Tuesday"
@@ -200,5 +195,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-11T13:45:56.172702"
+    "last_updated": "2026-01-12T13:57:00.472679"
 }
