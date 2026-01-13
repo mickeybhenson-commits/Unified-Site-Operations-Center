@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 30.2,
-        "temperature_c": -1,
-        "wind_speed_mph": 12.4,
-        "wind_direction": "NNW",
-        "humidity_percent": 64,
+        "temperature_f": 33.8,
+        "temperature_c": 1,
+        "wind_speed_mph": 0,
+        "wind_direction": "N",
+        "humidity_percent": 69,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-12",
-            "high": 46,
-            "low": 28,
-            "precipitation_prob": 0,
-            "wind_speed": "2 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 46. North northwest wind around 2 mph."
-        },
-        {
-            "day": "Tuesday",
             "date": "2026-01-13",
-            "high": 55,
-            "low": 33,
+            "high": 56,
+            "low": 34,
             "precipitation_prob": 0,
-            "wind_speed": "3 mph",
-            "wind_direction": "WSW",
+            "wind_speed": "5 mph",
+            "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 55. West southwest wind around 3 mph."
+            "detailed_forecast": "Sunny. High near 56, with temperatures falling to around 50 in the afternoon. West northwest wind around 5 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-01-14",
-            "high": 51,
-            "low": 22,
-            "precipitation_prob": 27,
-            "wind_speed": "7 mph",
+            "high": 50,
+            "low": 16,
+            "precipitation_prob": 34,
+            "wind_speed": "3 to 7 mph",
             "wind_direction": "W",
             "short_forecast": "Partly Sunny then Chance Light Rain",
-            "detailed_forecast": "A chance of rain after 2pm. Partly sunny, with a high near 51. West wind around 7 mph. Chance of precipitation is 30%."
+            "detailed_forecast": "A chance of rain after 1pm. Partly sunny. High near 50, with temperatures falling to around 44 in the afternoon. West wind 3 to 7 mph. Chance of precipitation is 30%."
         },
         {
             "day": "Thursday",
             "date": "2026-01-15",
-            "high": 27,
-            "low": 13,
-            "precipitation_prob": 31,
-            "wind_speed": "16 mph",
+            "high": 25,
+            "low": 12,
+            "precipitation_prob": 10,
+            "wind_speed": "12 to 15 mph",
             "wind_direction": "NW",
-            "short_forecast": "Chance Light Snow",
-            "detailed_forecast": "A chance of snow before 3pm. Partly sunny, with a high near 27. Chance of precipitation is 30%. New snow accumulation of around one inch possible."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 25. Northwest wind 12 to 15 mph, with gusts as high as 35 mph. New snow accumulation of less than half an inch possible."
         },
         {
             "day": "Friday",
             "date": "2026-01-16",
-            "high": 38,
-            "low": 22,
-            "precipitation_prob": 1,
-            "wind_speed": "7 mph",
-            "wind_direction": "W",
+            "high": 41,
+            "low": 24,
+            "precipitation_prob": 2,
+            "wind_speed": "3 to 9 mph",
+            "wind_direction": "SW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 38."
+            "detailed_forecast": "Sunny, with a high near 41."
         },
         {
             "day": "Saturday",
             "date": "2026-01-17",
-            "high": 38,
+            "high": 39,
             "low": 17,
-            "precipitation_prob": 11,
-            "wind_speed": "6 to 10 mph",
+            "precipitation_prob": 12,
+            "wind_speed": "7 to 12 mph",
             "wind_direction": "WSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 38."
+            "detailed_forecast": "Mostly sunny, with a high near 39."
         },
         {
             "day": "Sunday",
             "date": "2026-01-18",
-            "high": 31,
-            "low": 13,
-            "precipitation_prob": 10,
-            "wind_speed": "10 mph",
+            "high": 32,
+            "low": 14,
+            "precipitation_prob": 11,
+            "wind_speed": "9 mph",
             "wind_direction": "WNW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 31."
+            "detailed_forecast": "Mostly sunny, with a high near 32."
+        },
+        {
+            "day": "M.L. King Jr. Day",
+            "date": "2026-01-19",
+            "high": 36,
+            "low": 17,
+            "precipitation_prob": 5,
+            "wind_speed": "7 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 36."
         }
     ],
     "active_alerts": [],
@@ -103,7 +103,7 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.051,
+        "evap_rate_kg_m2_h": 0.01,
         "evap_status": "LOW",
         "notes": [
             "Cold weather - use heated concrete/protection"
@@ -142,19 +142,18 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Today",
-            "Tuesday",
-            "Wednesday"
+            "Today"
         ],
         "grading": [
             "Today",
-            "Tuesday",
+            "Thursday",
             "Friday",
             "Saturday",
-            "Sunday"
+            "Sunday",
+            "M.L. King Jr. Day"
         ],
         "painting": [
-            "Tuesday"
+            "Today"
         ]
     },
     "swppp_compliance": {
@@ -195,5 +194,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-12T13:57:00.472679"
+    "last_updated": "2026-01-13T13:56:17.044866"
 }
