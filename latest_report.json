@@ -8,66 +8,55 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 0,
-        "temperature_c": 0,
-        "wind_speed_mph": 0,
-        "wind_direction": "N/A",
-        "humidity_percent": 0,
-        "conditions": "N/A",
+        "temperature_f": 23.0,
+        "temperature_c": -5,
+        "wind_speed_mph": 20.7,
+        "wind_direction": "S",
+        "humidity_percent": 63,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-15",
-            "high": 24,
-            "low": 13,
-            "precipitation_prob": 4,
-            "wind_speed": "12 to 17 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 24. Wind chill values as low as -2. Northwest wind 12 to 17 mph, with gusts as high as 38 mph."
-        },
-        {
-            "day": "Friday",
             "date": "2026-01-16",
             "high": 44,
             "low": 30,
-            "precipitation_prob": 0,
-            "wind_speed": "2 to 8 mph",
+            "precipitation_prob": 1,
+            "wind_speed": "2 to 9 mph",
             "wind_direction": "SW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 44. Southwest wind 2 to 8 mph, with gusts as high as 21 mph."
+            "detailed_forecast": "Sunny, with a high near 44. Southwest wind 2 to 9 mph, with gusts as high as 20 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-01-17",
-            "high": 44,
-            "low": 18,
-            "precipitation_prob": 36,
-            "wind_speed": "6 to 9 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Chance Light Rain then Mostly Sunny",
-            "detailed_forecast": "A chance of rain before 9am. Mostly sunny, with a high near 44. West southwest wind 6 to 9 mph, with gusts as high as 23 mph. Chance of precipitation is 40%. New snow accumulation of less than half an inch possible."
+            "high": 43,
+            "low": 20,
+            "precipitation_prob": 27,
+            "wind_speed": "5 to 8 mph",
+            "wind_direction": "W",
+            "short_forecast": "Chance Rain Showers then Mostly Sunny",
+            "detailed_forecast": "A chance of rain showers before 11am. Mostly sunny, with a high near 43. West wind 5 to 8 mph, with gusts as high as 22 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
         },
         {
             "day": "Sunday",
             "date": "2026-01-18",
-            "high": 27,
-            "low": 11,
-            "precipitation_prob": 17,
-            "wind_speed": "9 mph",
+            "high": 32,
+            "low": 18,
+            "precipitation_prob": 9,
+            "wind_speed": "7 mph",
             "wind_direction": "NW",
-            "short_forecast": "Slight Chance Light Snow then Mostly Sunny",
-            "detailed_forecast": "A slight chance of snow before 7am. Mostly sunny, with a high near 27. New snow accumulation of less than half an inch possible."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 32. Northwest wind around 7 mph, with gusts as high as 18 mph."
         },
         {
             "day": "M.L. King Jr. Day",
             "date": "2026-01-19",
             "high": 37,
-            "low": 11,
+            "low": 10,
             "precipitation_prob": 0,
-            "wind_speed": "5 to 9 mph",
+            "wind_speed": "5 to 10 mph",
             "wind_direction": "WNW",
             "short_forecast": "Sunny",
             "detailed_forecast": "Sunny, with a high near 37."
@@ -75,24 +64,35 @@
         {
             "day": "Tuesday",
             "date": "2026-01-20",
-            "high": 32,
-            "low": 14,
-            "precipitation_prob": 1,
-            "wind_speed": "6 to 9 mph",
+            "high": 34,
+            "low": 17,
+            "precipitation_prob": 0,
+            "wind_speed": "5 to 9 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 32."
+            "detailed_forecast": "Sunny, with a high near 34."
         },
         {
             "day": "Wednesday",
             "date": "2026-01-21",
-            "high": 43,
-            "low": 26,
-            "precipitation_prob": 1,
-            "wind_speed": "7 mph",
+            "high": 46,
+            "low": 29,
+            "precipitation_prob": 2,
+            "wind_speed": "3 to 7 mph",
             "wind_direction": "WSW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 43."
+            "detailed_forecast": "Sunny, with a high near 46."
+        },
+        {
+            "day": "Thursday",
+            "date": "2026-01-22",
+            "high": 51,
+            "low": 33,
+            "precipitation_prob": 18,
+            "wind_speed": "6 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Slight Chance Snow Showers",
+            "detailed_forecast": "A slight chance of snow showers before 8am, then a slight chance of rain and snow showers. Partly sunny, with a high near 51."
         }
     ],
     "active_alerts": [
@@ -100,11 +100,11 @@
             "event": "Special Weather Statement",
             "severity": "Moderate",
             "urgency": "Expected",
-            "headline": "Special Weather Statement issued January 15 at 7:59AM EST by NWS Greenville-Spartanburg SC",
-            "description": "Relative humidity is expected to drop below 25 percent this\nafternoon as extremely dry Arctic air arrives in the Carolinas and\nnortheast Georgia. Gusts as high as 25-30 kts will accompany this\nair mass, resulting in potential for fine dead fuel moisture to\ndrop to critical levels. Although cold temperatures will somewhat\nlimit erratic fire behavior, the risk for quick spread of fires\nwill nonetheless be elevated across the North Carolina Piedmont,\nthe South Carolina Upstate, and northeast Georgia this afternoon.\n\nConsult your local burn permitting authority on whether you may\nburn today. If you do burn, exercise extreme caution.",
+            "headline": "Special Weather Statement issued January 16 at 6:51AM EST by NWS Greenville-Spartanburg SC",
+            "description": "Minimum relative humidity will drop below 25 percent this\nafternoon, with wind gusts up to 25 mph expected. Low humidity\ncombined with gusty winds will lead to increased fire danger\nthis afternoon and early evening across the North Carolina\nPiedmont.\n\nPlease refer to your local burn permitting authorities on whether\nyou can burn Friday. If you do burn, use extreme caution since\nfires can quickly get out of hand under these conditions.",
             "instruction": null,
-            "onset": "2026-01-15T07:59:00-05:00",
-            "expires": "2026-01-15T20:00:00-05:00"
+            "onset": "2026-01-16T06:51:00-05:00",
+            "expires": "2026-01-16T18:00:00-05:00"
         }
     ],
     "soil_moisture": {
@@ -114,7 +114,7 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.0,
+        "evap_rate_kg_m2_h": 0.042,
         "evap_status": "LOW",
         "notes": [
             "Cold weather - use heated concrete/protection"
@@ -146,22 +146,29 @@
             ]
         },
         "crane_ops": {
-            "status": "GO",
-            "notes": []
+            "status": "STOP",
+            "notes": [
+                "Wind speed 20.7 mph exceeds safe limits"
+            ]
         },
         "general_safety": []
     },
     "optimal_work_windows": {
-        "concrete_pouring": [],
+        "concrete_pouring": [
+            "Wednesday",
+            "Thursday"
+        ],
         "grading": [
             "Today",
-            "Friday",
             "Sunday",
             "M.L. King Jr. Day",
             "Tuesday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ],
-        "painting": []
+        "painting": [
+            "Thursday"
+        ]
     },
     "swppp_compliance": {
         "risk_level": "LOW",
@@ -201,5 +208,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-15T13:56:01.733312"
+    "last_updated": "2026-01-16T13:54:20.700746"
 }
