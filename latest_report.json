@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 42.8,
-        "temperature_c": 6,
-        "wind_speed_mph": 20.7,
-        "wind_direction": "WSW",
-        "humidity_percent": 87,
-        "conditions": "Light Rain and Fog/Mist",
+        "temperature_f": 28.4,
+        "temperature_c": -2,
+        "wind_speed_mph": 0,
+        "wind_direction": "N",
+        "humidity_percent": 74,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
-            "day": "Today",
-            "date": "2026-01-18",
-            "high": 29,
-            "low": 16,
-            "precipitation_prob": 14,
-            "wind_speed": "6 to 9 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 29. North northwest wind 6 to 9 mph, with gusts as high as 18 mph."
-        },
-        {
             "day": "M.L. King Jr. Day",
             "date": "2026-01-19",
-            "high": 38,
+            "high": 37,
             "low": 12,
             "precipitation_prob": 0,
-            "wind_speed": "5 to 8 mph",
+            "wind_speed": "5 to 12 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny. High near 38, with temperatures falling to around 32 in the afternoon. Northwest wind 5 to 8 mph, with gusts as high as 20 mph."
+            "detailed_forecast": "Sunny, with a high near 37. Northwest wind 5 to 12 mph, with gusts as high as 22 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-01-20",
             "high": 34,
-            "low": 18,
+            "low": 20,
             "precipitation_prob": 0,
-            "wind_speed": "3 to 7 mph",
-            "wind_direction": "NNW",
+            "wind_speed": "7 mph",
+            "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 34. North northwest wind 3 to 7 mph."
+            "detailed_forecast": "Sunny, with a high near 34. Northwest wind around 7 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-01-21",
-            "high": 44,
-            "low": 27,
+            "high": 45,
+            "low": 29,
             "precipitation_prob": 0,
-            "wind_speed": "3 to 7 mph",
+            "wind_speed": "5 to 8 mph",
             "wind_direction": "SSW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 44."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 45. South southwest wind 5 to 8 mph, with gusts as high as 18 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-01-22",
-            "high": 45,
-            "low": 22,
-            "precipitation_prob": 15,
-            "wind_speed": "7 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Slight Chance Snow Showers then Mostly Sunny",
-            "detailed_forecast": "A slight chance of snow showers before 7am. Mostly sunny, with a high near 45."
+            "high": 47,
+            "low": 27,
+            "precipitation_prob": 21,
+            "wind_speed": "6 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Slight Chance Light Rain then Mostly Sunny",
+            "detailed_forecast": "A slight chance of rain before 11am. Mostly sunny, with a high near 47."
         },
         {
             "day": "Friday",
             "date": "2026-01-23",
-            "high": 48,
-            "low": 31,
-            "precipitation_prob": 3,
+            "high": 44,
+            "low": 26,
+            "precipitation_prob": 26,
             "wind_speed": "2 to 6 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 48."
+            "wind_direction": "NW",
+            "short_forecast": "Slight Chance Light Snow then Chance Rain And Snow",
+            "detailed_forecast": "A slight chance of snow between 7am and 9am, then a chance of rain and snow. Partly sunny, with a high near 44. Chance of precipitation is 30%."
         },
         {
             "day": "Saturday",
             "date": "2026-01-24",
-            "high": 52,
-            "low": 32,
-            "precipitation_prob": 33,
+            "high": 34,
+            "low": 19,
+            "precipitation_prob": 51,
+            "wind_speed": "5 mph",
+            "wind_direction": "N",
+            "short_forecast": "Chance Snow",
+            "detailed_forecast": "A chance of snow before 1pm, then a chance of rain between 1pm and 5pm, then a chance of rain and snow. Mostly cloudy, with a high near 34. Chance of precipitation is 50%. New snow accumulation of 2 to 4 inches possible."
+        },
+        {
+            "day": "Sunday",
+            "date": "2026-01-25",
+            "high": 34,
+            "low": 17,
+            "precipitation_prob": 46,
             "wind_speed": "6 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Chance Rain",
-            "detailed_forecast": "A slight chance of rain showers before 7am, then a chance of rain. Partly sunny, with a high near 52. Chance of precipitation is 30%."
+            "wind_direction": "NE",
+            "short_forecast": "Chance Snow",
+            "detailed_forecast": "A chance of snow before 2pm, then a slight chance of rain between 2pm and 5pm, then a slight chance of rain and snow. Partly sunny, with a high near 34. Chance of precipitation is 50%. New snow accumulation of 1 to 2 inches possible."
         }
     ],
     "active_alerts": [],
@@ -102,18 +102,18 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.068,
+        "pour_status": "CAUTION",
+        "evap_rate_kg_m2_h": 0.005,
         "evap_status": "LOW",
         "notes": [
-            "Optimal conditions for concrete work"
+            "Cold weather - use heated concrete/protection"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "GO",
+            "status": "CAUTION",
             "notes": [
-                "Optimal conditions for concrete work"
+                "Cold weather - use heated concrete/protection"
             ]
         },
         "grading_excavation": {
@@ -129,31 +129,26 @@
             ]
         },
         "painting_coating": {
-            "status": "STOP",
+            "status": "CAUTION",
             "notes": [
-                "Humidity too high"
+                "Temperature outside optimal range"
             ]
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 20.7 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Thursday",
-            "Friday"
+            "Wednesday",
+            "Thursday"
         ],
         "grading": [
-            "Today",
             "M.L. King Jr. Day",
             "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
+            "Wednesday"
         ],
         "painting": []
     },
@@ -195,5 +190,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-18T13:44:53.691987"
+    "last_updated": "2026-01-19T13:58:52.975115"
 }
