@@ -11,88 +11,88 @@
         "temperature_f": 44.6,
         "temperature_c": 7,
         "wind_speed_mph": 12.4,
-        "wind_direction": "W",
-        "humidity_percent": 39,
-        "conditions": "Cloudy",
+        "wind_direction": "NNW",
+        "humidity_percent": 70,
+        "conditions": "Light Rain",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-22",
-            "high": 50,
-            "low": 32,
-            "precipitation_prob": 19,
-            "wind_speed": "3 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Slight Chance Light Rain then Partly Sunny",
-            "detailed_forecast": "A slight chance of rain before 10am. Partly sunny, with a high near 50. North northwest wind around 3 mph. Chance of precipitation is 20%."
-        },
-        {
-            "day": "Friday",
             "date": "2026-01-23",
-            "high": 43,
-            "low": 23,
-            "precipitation_prob": 28,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain before 3pm. Mostly cloudy, with a high near 43. Northwest wind 2 to 6 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+            "high": 44,
+            "low": 24,
+            "precipitation_prob": 2,
+            "wind_speed": "1 to 6 mph",
+            "wind_direction": "N",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 44. North wind 1 to 6 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-01-24",
-            "high": 30,
-            "low": 20,
-            "precipitation_prob": 67,
+            "high": 33,
+            "low": 21,
+            "precipitation_prob": 50,
             "wind_speed": "2 to 7 mph",
-            "wind_direction": "ESE",
-            "short_forecast": "Light Snow Likely",
-            "detailed_forecast": "A slight chance of snow before 10am, then a chance of snow and a chance of sleet between 10am and 2pm, then snow likely and sleet likely and freezing rain likely. Mostly cloudy, with a high near 30. East southeast wind 2 to 7 mph. Chance of precipitation is 70%. New snow accumulation of around one inch possible. Little or no ice accumulation expected."
+            "wind_direction": "SE",
+            "short_forecast": "Mostly Cloudy then Chance Light Snow",
+            "detailed_forecast": "A chance of snow between 1pm and 3pm, then a chance of sleet between 3pm and 4pm, then a chance of sleet and a chance of freezing rain. Mostly cloudy, with a high near 33. Southeast wind 2 to 7 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected."
         },
         {
             "day": "Sunday",
             "date": "2026-01-25",
-            "high": 36,
-            "low": 16,
-            "precipitation_prob": 97,
-            "wind_speed": "7 mph",
+            "high": 41,
+            "low": 15,
+            "precipitation_prob": 99,
+            "wind_speed": "8 mph",
             "wind_direction": "SSE",
-            "short_forecast": "Freezing Rain then Rain And Snow Likely",
-            "detailed_forecast": "Freezing rain before 1pm, then freezing rain and rain between 1pm and 5pm, then rain and snow likely. Cloudy, with a high near 36. Chance of precipitation is 100%. New ice accumulation of less than one inch possible."
+            "short_forecast": "Freezing Rain",
+            "detailed_forecast": "Freezing rain before 1pm, then rain. Cloudy, with a high near 41. South southeast wind around 8 mph, with gusts as high as 20 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible. New ice accumulation of less than one inch possible."
         },
         {
             "day": "Monday",
             "date": "2026-01-26",
-            "high": 28,
-            "low": 7,
-            "precipitation_prob": 4,
-            "wind_speed": "10 mph",
+            "high": 24,
+            "low": 3,
+            "precipitation_prob": 3,
+            "wind_speed": "15 mph",
             "wind_direction": "NW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 28."
+            "detailed_forecast": "Mostly sunny, with a high near 24."
         },
         {
             "day": "Tuesday",
             "date": "2026-01-27",
-            "high": 37,
-            "low": 17,
-            "precipitation_prob": 1,
-            "wind_speed": "5 mph",
-            "wind_direction": "NW",
+            "high": 36,
+            "low": 14,
+            "precipitation_prob": 0,
+            "wind_speed": "6 mph",
+            "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 37."
+            "detailed_forecast": "Sunny, with a high near 36."
         },
         {
             "day": "Wednesday",
             "date": "2026-01-28",
-            "high": 40,
-            "low": 15,
-            "precipitation_prob": 5,
+            "high": 36,
+            "low": 10,
+            "precipitation_prob": 1,
             "wind_speed": "7 mph",
-            "wind_direction": "WNW",
+            "wind_direction": "NW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 40."
+            "detailed_forecast": "Mostly sunny, with a high near 36."
+        },
+        {
+            "day": "Thursday",
+            "date": "2026-01-29",
+            "high": 26,
+            "low": 5,
+            "precipitation_prob": 10,
+            "wind_speed": "10 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 26."
         }
     ],
     "active_alerts": [
@@ -100,11 +100,11 @@
             "event": "Winter Storm Watch",
             "severity": "Severe",
             "urgency": "Future",
-            "headline": "Winter Storm Watch issued January 22 at 1:30AM EST until January 26 at 1:00PM EST by NWS Greenville-Spartanburg SC",
-            "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 1 and 3 inches and ice accumulations between\none half and one inch possible.\n\n* WHERE...Portions of northeast Georgia, Piedmont and western North\nCarolina, and Upstate South Carolina.\n\n* WHEN...From Saturday morning through Monday afternoon.\n\n* IMPACTS...Significant ice accumulation on power lines and tree\nlimbs may cause widespread and long-lasting power outages. Ice and\nsnow covered roadways will become treacherous and impassable.\nWidespread power outages are likely due to the weight of the ice\nand snow on tree limbs and power lines. The outages could last for\ndays in some areas. The hazardous conditions could impact the\nMonday morning commute.\n\n* ADDITIONAL DETAILS...Highest snow and sleet accumulations are\npossible north of I-40. Highest ice accumulations are possible\nacross the southern mountains of North Carolina, the mountains of\nnortheast Georgia, and the mountains of South Carolina.",
+            "headline": "Winter Storm Watch issued January 23 at 12:54AM EST until January 26 at 1:00PM EST by NWS Greenville-Spartanburg SC",
+            "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations up to 3 inches and ice accumulations between four\ntenths and one inch possible. Winds could gust as high as 35 mph.\n\n* WHERE...Portions of Piedmont and western North Carolina and\nUpstate South Carolina.\n\n* WHEN...From Saturday morning through Monday afternoon.\n\n* IMPACTS...Significant ice accumulation on power lines and tree\nlimbs may cause widespread and long-lasting power outages. Ice and\nsleet covered roadways will become treacherous and impassable. The\nhazardous conditions could impact the Monday morning commute.\n\n* ADDITIONAL DETAILS...Highest snow and sleet accumulations are\npossible north of I-40. Highest ice accumulations are possible\nacross the southern mountains of North Carolina, the mountains of\nnortheast Georgia, and the mountains of South Carolina.",
             "instruction": "Monitor the latest forecasts for updates on this situation.\n\nPersons should consider delaying all travel. If travel is absolutely\nnecessary, drive with extreme caution. Consider taking a winter\nstorm kit along with you, including such items as tire chains,\nbooster cables, flashlight, shovel, blankets and extra clothing.\nAlso take water, a first aid kit, and anything else that would help\nyou survive in case you become stranded.",
             "onset": "2026-01-24T07:00:00-05:00",
-            "expires": "2026-01-22T15:00:00-05:00"
+            "expires": "2026-01-23T13:00:00-05:00"
         }
     ],
     "soil_moisture": {
@@ -114,11 +114,11 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.228,
+        "evap_rate_kg_m2_h": 0.112,
         "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work",
-            "Rain expected Saturday (67%)"
+            "Rain expected Sunday (99%)"
         ]
     },
     "activity_recommendations": {
@@ -126,7 +126,7 @@
             "status": "GO",
             "notes": [
                 "Optimal conditions for concrete work",
-                "Rain expected Saturday (67%)"
+                "Rain expected Sunday (99%)"
             ]
         },
         "grading_excavation": {
@@ -154,18 +154,15 @@
         "general_safety": []
     },
     "optimal_work_windows": {
-        "concrete_pouring": [
-            "Today"
-        ],
+        "concrete_pouring": [],
         "grading": [
             "Today",
             "Monday",
             "Tuesday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ],
-        "painting": [
-            "Today"
-        ]
+        "painting": []
     },
     "swppp_compliance": {
         "risk_level": "LOW",
@@ -205,5 +202,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-22T14:00:48.130299"
+    "last_updated": "2026-01-23T13:56:59.354667"
 }
