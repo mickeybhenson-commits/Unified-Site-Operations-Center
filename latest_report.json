@@ -8,66 +8,55 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 44.6,
-        "temperature_c": 7,
-        "wind_speed_mph": 12.4,
-        "wind_direction": "NNW",
-        "humidity_percent": 70,
-        "conditions": "Light Rain",
+        "temperature_f": 33.8,
+        "temperature_c": 1,
+        "wind_speed_mph": 0,
+        "wind_direction": "N",
+        "humidity_percent": 37,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-23",
-            "high": 44,
-            "low": 24,
-            "precipitation_prob": 2,
-            "wind_speed": "1 to 6 mph",
-            "wind_direction": "N",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 44. North wind 1 to 6 mph."
-        },
-        {
-            "day": "Saturday",
             "date": "2026-01-24",
             "high": 33,
             "low": 21,
             "precipitation_prob": 50,
             "wind_speed": "2 to 7 mph",
             "wind_direction": "SE",
-            "short_forecast": "Mostly Cloudy then Chance Light Snow",
-            "detailed_forecast": "A chance of snow between 1pm and 3pm, then a chance of sleet between 3pm and 4pm, then a chance of sleet and a chance of freezing rain. Mostly cloudy, with a high near 33. Southeast wind 2 to 7 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected."
+            "short_forecast": "Chance Snow Showers then Chance Light Snow",
+            "detailed_forecast": "A chance of snow showers and a chance of sleet before 10am, then a chance of snow and a chance of sleet. Mostly cloudy, with a high near 33. Southeast wind 2 to 7 mph. Chance of precipitation is 50%. Little or no ice accumulation expected."
         },
         {
             "day": "Sunday",
             "date": "2026-01-25",
-            "high": 41,
-            "low": 15,
-            "precipitation_prob": 99,
+            "high": 45,
+            "low": 16,
+            "precipitation_prob": 100,
             "wind_speed": "8 mph",
-            "wind_direction": "SSE",
-            "short_forecast": "Freezing Rain",
-            "detailed_forecast": "Freezing rain before 1pm, then rain. Cloudy, with a high near 41. South southeast wind around 8 mph, with gusts as high as 20 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible. New ice accumulation of less than one inch possible."
+            "wind_direction": "S",
+            "short_forecast": "Freezing Rain then Rain",
+            "detailed_forecast": "Freezing rain and patchy fog before 11am, then rain and patchy fog. Cloudy, with a high near 45. South wind around 8 mph, with gusts as high as 18 mph. Chance of precipitation is 100%. New ice accumulation of less than half an inch possible."
         },
         {
             "day": "Monday",
             "date": "2026-01-26",
-            "high": 24,
+            "high": 26,
             "low": 3,
-            "precipitation_prob": 3,
-            "wind_speed": "15 mph",
+            "precipitation_prob": 7,
+            "wind_speed": "13 to 16 mph",
             "wind_direction": "NW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 24."
+            "detailed_forecast": "Mostly sunny, with a high near 26. Northwest wind 13 to 16 mph, with gusts as high as 35 mph. Little or no ice accumulation expected."
         },
         {
             "day": "Tuesday",
             "date": "2026-01-27",
             "high": 36,
             "low": 14,
-            "precipitation_prob": 0,
-            "wind_speed": "6 mph",
+            "precipitation_prob": 1,
+            "wind_speed": "7 mph",
             "wind_direction": "WNW",
             "short_forecast": "Sunny",
             "detailed_forecast": "Sunny, with a high near 36."
@@ -76,8 +65,8 @@
             "day": "Wednesday",
             "date": "2026-01-28",
             "high": 36,
-            "low": 10,
-            "precipitation_prob": 1,
+            "low": 13,
+            "precipitation_prob": 0,
             "wind_speed": "7 mph",
             "wind_direction": "NW",
             "short_forecast": "Mostly Sunny",
@@ -87,24 +76,35 @@
             "day": "Thursday",
             "date": "2026-01-29",
             "high": 26,
-            "low": 5,
-            "precipitation_prob": 10,
-            "wind_speed": "10 mph",
+            "low": 7,
+            "precipitation_prob": 4,
+            "wind_speed": "12 mph",
             "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 26."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 26."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-01-30",
+            "high": 28,
+            "low": 12,
+            "precipitation_prob": 4,
+            "wind_speed": "9 mph",
+            "wind_direction": "NNW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 28."
         }
     ],
     "active_alerts": [
         {
-            "event": "Winter Storm Watch",
-            "severity": "Severe",
-            "urgency": "Future",
-            "headline": "Winter Storm Watch issued January 23 at 12:54AM EST until January 26 at 1:00PM EST by NWS Greenville-Spartanburg SC",
-            "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations up to 3 inches and ice accumulations between four\ntenths and one inch possible. Winds could gust as high as 35 mph.\n\n* WHERE...Portions of Piedmont and western North Carolina and\nUpstate South Carolina.\n\n* WHEN...From Saturday morning through Monday afternoon.\n\n* IMPACTS...Significant ice accumulation on power lines and tree\nlimbs may cause widespread and long-lasting power outages. Ice and\nsleet covered roadways will become treacherous and impassable. The\nhazardous conditions could impact the Monday morning commute.\n\n* ADDITIONAL DETAILS...Highest snow and sleet accumulations are\npossible north of I-40. Highest ice accumulations are possible\nacross the southern mountains of North Carolina, the mountains of\nnortheast Georgia, and the mountains of South Carolina.",
-            "instruction": "Monitor the latest forecasts for updates on this situation.\n\nPersons should consider delaying all travel. If travel is absolutely\nnecessary, drive with extreme caution. Consider taking a winter\nstorm kit along with you, including such items as tire chains,\nbooster cables, flashlight, shovel, blankets and extra clothing.\nAlso take water, a first aid kit, and anything else that would help\nyou survive in case you become stranded.",
-            "onset": "2026-01-24T07:00:00-05:00",
-            "expires": "2026-01-23T13:00:00-05:00"
+            "event": "Ice Storm Warning",
+            "severity": "Extreme",
+            "urgency": "Expected",
+            "headline": "Ice Storm Warning issued January 24 at 2:35AM EST until January 26 at 1:00PM EST by NWS Greenville-Spartanburg SC",
+            "description": "* WHAT...Damaging icing expected. Total snow and sleet accumulations\nup to one inch and ice accumulations mainly between one half and\nthree quarters of an inch. Locally higher ice amounts possible,\nespecially across the South Carolina foothills.\n\n* WHERE...The Piedmont of North Carolina, Upstate South Carolina,\nand northeast Georgia\n\n* WHEN...From 1 PM this afternoon to 1 PM EST Monday.\n\n* IMPACTS...Significant ice accumulation on power lines and tree\nlimbs may cause widespread and long-lasting power outages. Trees\nand large limbs could fall on structures, posing threat to life\nand property. Ice and snow covered roadways will become\ntreacherous and impassable. The hazardous conditions could impact\nthe Monday morning commute.\n\n* ADDITIONAL DETAILS...Ice accumulations will rapidly increase late\nSaturday night into Sunday morning, possibly tapering off by\nSunday evening. Treacherous road conditions and power outages will\nremain Sunday night and likely linger through at least Monday.",
+            "instruction": "An Ice Storm Warning means severe winter weather conditions are\nexpected or occurring. Significant amounts of ice accumulations will\nmake travel dangerous or impossible. Travel is strongly discouraged.\nCommerce will likely be severely impacted. If you must travel, keep\na flashlight, food, and water in your vehicle in case of an\nemergency. Ice accumulations and winds will likely lead to snapped\npower lines and falling tree branches that add to the danger.\nPrepare for possible power outages. The latest road conditions for\nthe state you are calling from can be obtained by calling 5 1 1.\n\nDo not touch downed lines and report any power outages to your\nelectric company. Travel is highly discouraged due to slick roadways\nand the possibility of downed trees and power lines.",
+            "onset": "2026-01-24T13:00:00-05:00",
+            "expires": "2026-01-24T15:30:00-05:00"
         }
     ],
     "soil_moisture": {
@@ -113,20 +113,20 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.112,
+        "pour_status": "CAUTION",
+        "evap_rate_kg_m2_h": 0.02,
         "evap_status": "LOW",
         "notes": [
-            "Optimal conditions for concrete work",
-            "Rain expected Sunday (99%)"
+            "Cold weather - use heated concrete/protection",
+            "Rain expected Sunday (100%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "GO",
+            "status": "CAUTION",
             "notes": [
-                "Optimal conditions for concrete work",
-                "Rain expected Sunday (99%)"
+                "Cold weather - use heated concrete/protection",
+                "Rain expected Sunday (100%)"
             ]
         },
         "grading_excavation": {
@@ -156,11 +156,11 @@
     "optimal_work_windows": {
         "concrete_pouring": [],
         "grading": [
-            "Today",
             "Monday",
             "Tuesday",
             "Wednesday",
-            "Thursday"
+            "Thursday",
+            "Friday"
         ],
         "painting": []
     },
@@ -202,5 +202,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-23T13:56:59.354667"
+    "last_updated": "2026-01-24T13:46:53.451109"
 }
