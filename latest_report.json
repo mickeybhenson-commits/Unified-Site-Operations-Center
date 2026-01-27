@@ -8,113 +8,103 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 33.8,
-        "temperature_c": 1,
-        "wind_speed_mph": 33.2,
-        "wind_direction": "WNW",
-        "humidity_percent": 86,
-        "conditions": "Fog/Mist",
+        "temperature_f": 17.6,
+        "temperature_c": -8,
+        "wind_speed_mph": 24.9,
+        "wind_direction": "SW",
+        "humidity_percent": 62,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-26",
-            "high": 24,
-            "low": 4,
-            "precipitation_prob": 2,
-            "wind_speed": "13 to 18 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 24. Northwest wind 13 to 18 mph, with gusts as high as 37 mph."
-        },
-        {
-            "day": "Tuesday",
             "date": "2026-01-27",
             "high": 38,
-            "low": 15,
+            "low": 17,
             "precipitation_prob": 0,
-            "wind_speed": "3 to 8 mph",
-            "wind_direction": "WNW",
+            "wind_speed": "3 to 10 mph",
+            "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 38. Wind chill values as low as -2. West northwest wind 3 to 8 mph, with gusts as high as 21 mph."
+            "detailed_forecast": "Sunny, with a high near 38. Northwest wind 3 to 10 mph, with gusts as high as 25 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-01-28",
-            "high": 35,
-            "low": 14,
-            "precipitation_prob": 0,
+            "high": 39,
+            "low": 17,
+            "precipitation_prob": 1,
             "wind_speed": "7 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 35. Northwest wind around 7 mph."
+            "detailed_forecast": "Sunny, with a high near 39. Northwest wind around 7 mph, with gusts as high as 18 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-01-29",
-            "high": 34,
-            "low": 15,
-            "precipitation_prob": 0,
-            "wind_speed": "7 mph",
+            "high": 36,
+            "low": 20,
+            "precipitation_prob": 6,
+            "wind_speed": "3 to 7 mph",
             "wind_direction": "NNW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 34."
+            "detailed_forecast": "Mostly sunny, with a high near 36. North northwest wind 3 to 7 mph."
         },
         {
             "day": "Friday",
             "date": "2026-01-30",
-            "high": 28,
-            "low": 8,
-            "precipitation_prob": 5,
-            "wind_speed": "3 to 7 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 28."
+            "high": 34,
+            "low": 10,
+            "precipitation_prob": 12,
+            "wind_speed": "1 to 6 mph",
+            "wind_direction": "N",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 34."
         },
         {
             "day": "Saturday",
             "date": "2026-01-31",
-            "high": 28,
-            "low": 10,
-            "precipitation_prob": 15,
-            "wind_speed": "8 mph",
+            "high": 17,
+            "low": 5,
+            "precipitation_prob": 34,
+            "wind_speed": "9 to 13 mph",
             "wind_direction": "NNW",
-            "short_forecast": "Slight Chance Light Snow then Sunny",
-            "detailed_forecast": "A slight chance of snow before 7am. Sunny, with a high near 28."
+            "short_forecast": "Chance Light Snow",
+            "detailed_forecast": "A chance of snow before 3pm. Partly sunny, with a high near 17. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible."
         },
         {
             "day": "Sunday",
             "date": "2026-02-01",
-            "high": 34,
-            "low": 16,
-            "precipitation_prob": 6,
-            "wind_speed": "7 mph",
+            "high": 24,
+            "low": 11,
+            "precipitation_prob": 4,
+            "wind_speed": "9 to 14 mph",
             "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 34."
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 24."
+        },
+        {
+            "day": "Monday",
+            "date": "2026-02-02",
+            "high": 34,
+            "low": 15,
+            "precipitation_prob": 1,
+            "wind_speed": "6 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 34."
         }
     ],
     "active_alerts": [
         {
-            "event": "Winter Weather Advisory",
+            "event": "Special Weather Statement",
             "severity": "Moderate",
             "urgency": "Expected",
-            "headline": "Winter Weather Advisory issued January 26 at 3:53AM EST until January 26 at 1:00PM EST by NWS Greenville-Spartanburg SC",
-            "description": "* WHAT...Surfaces remain slick and hazardous from Sunday's wintry\nmix. Winds gusting as high as 40 mph over the mountains.\n\n* WHERE...Portions of northeast Georgia, Piedmont and western North\nCarolina, and Upstate South Carolina.\n\n* WHEN...Until 1 PM EST this afternoon.\n\n* IMPACTS...Although precipitation has ended for much of the area,\nmany roads, and especially bridges and overpasses, will remain\nslick and hazardous this morning.",
-            "instruction": "Be prepared for slippery roads. Slow down and use caution while\ndriving. If you are going outside, watch your first few steps taken\non stairs, sidewalks, and driveways. These surfaces could be icy and\nslippery, increasing your risk of a fall and injury.\n\nIf you need shelter, sheltering information and other human services\nin your area can be found by dialing 211.",
-            "onset": "2026-01-26T04:00:00-05:00",
-            "expires": "2026-01-26T13:00:00-05:00"
-        },
-        {
-            "event": "Cold Weather Advisory",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Cold Weather Advisory issued January 26 at 2:29AM EST until January 27 at 12:00PM EST by NWS Greenville-Spartanburg SC",
-            "description": "* WHAT...Very cold wind chills as low as 4 above expected.\n\n* WHERE...The foothills and Piedmont of northeast Georgia, western\nNorth Carolina, and Upstate South Carolina.\n\n* WHEN...From 6 PM this evening to noon EST Tuesday.\n\n* IMPACTS...The cold wind chills as low as 5 above zero could result\nin hypothermia if precautions are not taken.",
-            "instruction": "Use caution while traveling outside. Wear appropriate clothing, a\nhat, and gloves.\n\nMake frequent checks on older family, friends, and neighbors. Ensure\nportable heaters are used correctly. Do not use generators or grills\ninside.",
-            "onset": "2026-01-26T18:00:00-05:00",
-            "expires": "2026-01-26T10:15:00-05:00"
+            "headline": "Special Weather Statement issued January 27 at 3:35AM EST by NWS Greenville-Spartanburg SC",
+            "description": "Lingering slush and runoff has refrozen and likely resulted in\npatchy black ice on area roads. Icy patches will remain until\ntemperatures can warm above freezing later this morning. If\ntraveling this morning, be prepared for slick spots, especially\non bridges and overpasses and any untreated roadways. Use extra\ncaution when walking on sidewalks, driveways, and in parking lots.",
+            "instruction": null,
+            "onset": "2026-01-27T03:35:00-05:00",
+            "expires": "2026-01-27T10:00:00-05:00"
         }
     ],
     "soil_moisture": {
@@ -124,7 +114,7 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.063,
+        "evap_rate_kg_m2_h": 0.026,
         "evap_status": "LOW",
         "notes": [
             "Cold weather - use heated concrete/protection"
@@ -150,31 +140,28 @@
             ]
         },
         "painting_coating": {
-            "status": "STOP",
+            "status": "CAUTION",
             "notes": [
-                "Humidity too high"
+                "Temperature outside optimal range"
             ]
         },
         "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 33.2 mph exceeds safe limits"
+                "Wind speed 24.9 mph exceeds safe limits"
             ]
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [],
         "grading": [
             "Today",
-            "Tuesday",
             "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday",
-            "Sunday"
+            "Sunday",
+            "Monday"
         ],
         "painting": []
     },
@@ -216,5 +203,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-26T13:58:44.056654"
+    "last_updated": "2026-01-27T14:01:14.576237"
 }
