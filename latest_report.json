@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 17.6,
-        "temperature_c": -8,
-        "wind_speed_mph": 24.9,
-        "wind_direction": "SW",
-        "humidity_percent": 62,
-        "conditions": "Clear",
+        "temperature_f": 0,
+        "temperature_c": 0,
+        "wind_speed_mph": 0,
+        "wind_direction": "N/A",
+        "humidity_percent": 0,
+        "conditions": "N/A",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-01-27",
-            "high": 38,
-            "low": 17,
-            "precipitation_prob": 0,
-            "wind_speed": "3 to 10 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 38. Northwest wind 3 to 10 mph, with gusts as high as 25 mph."
-        },
-        {
-            "day": "Wednesday",
             "date": "2026-01-28",
-            "high": 39,
-            "low": 17,
-            "precipitation_prob": 1,
-            "wind_speed": "7 mph",
-            "wind_direction": "NW",
+            "high": 36,
+            "low": 16,
+            "precipitation_prob": 0,
+            "wind_speed": "6 to 10 mph",
+            "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 39. Northwest wind around 7 mph, with gusts as high as 18 mph."
+            "detailed_forecast": "Sunny, with a high near 36. North northwest wind 6 to 10 mph, with gusts as high as 23 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-01-29",
-            "high": 36,
-            "low": 20,
-            "precipitation_prob": 6,
-            "wind_speed": "3 to 7 mph",
-            "wind_direction": "NNW",
+            "high": 37,
+            "low": 21,
+            "precipitation_prob": 0,
+            "wind_speed": "2 to 8 mph",
+            "wind_direction": "NW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 36. North northwest wind 3 to 7 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 37. Northwest wind 2 to 8 mph, with gusts as high as 18 mph."
         },
         {
             "day": "Friday",
             "date": "2026-01-30",
-            "high": 34,
-            "low": 10,
-            "precipitation_prob": 12,
-            "wind_speed": "1 to 6 mph",
-            "wind_direction": "N",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 34."
+            "high": 38,
+            "low": 14,
+            "precipitation_prob": 14,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "SSE",
+            "short_forecast": "Mostly Cloudy",
+            "detailed_forecast": "Mostly cloudy, with a high near 38. South southeast wind 1 to 5 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-01-31",
-            "high": 17,
-            "low": 5,
-            "precipitation_prob": 34,
-            "wind_speed": "9 to 13 mph",
+            "high": 19,
+            "low": 4,
+            "precipitation_prob": 52,
+            "wind_speed": "9 to 15 mph",
             "wind_direction": "NNW",
-            "short_forecast": "Chance Light Snow",
-            "detailed_forecast": "A chance of snow before 3pm. Partly sunny, with a high near 17. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible."
+            "short_forecast": "Chance Snow",
+            "detailed_forecast": "A chance of snow. Partly sunny, with a high near 19. Chance of precipitation is 50%. New snow accumulation of 2 to 4 inches possible."
         },
         {
             "day": "Sunday",
             "date": "2026-02-01",
-            "high": 24,
-            "low": 11,
+            "high": 23,
+            "low": 9,
             "precipitation_prob": 4,
-            "wind_speed": "9 to 14 mph",
+            "wind_speed": "12 to 16 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 24."
+            "detailed_forecast": "Sunny, with a high near 23."
         },
         {
             "day": "Monday",
             "date": "2026-02-02",
-            "high": 34,
+            "high": 35,
             "low": 15,
             "precipitation_prob": 1,
-            "wind_speed": "6 mph",
+            "wind_speed": "7 mph",
             "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 34."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 35."
+        },
+        {
+            "day": "Tuesday",
+            "date": "2026-02-03",
+            "high": 43,
+            "low": 23,
+            "precipitation_prob": 1,
+            "wind_speed": "5 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 43."
         }
     ],
     "active_alerts": [
@@ -100,11 +100,11 @@
             "event": "Special Weather Statement",
             "severity": "Moderate",
             "urgency": "Expected",
-            "headline": "Special Weather Statement issued January 27 at 3:35AM EST by NWS Greenville-Spartanburg SC",
-            "description": "Lingering slush and runoff has refrozen and likely resulted in\npatchy black ice on area roads. Icy patches will remain until\ntemperatures can warm above freezing later this morning. If\ntraveling this morning, be prepared for slick spots, especially\non bridges and overpasses and any untreated roadways. Use extra\ncaution when walking on sidewalks, driveways, and in parking lots.",
+            "headline": "Special Weather Statement issued January 28 at 3:48AM EST by NWS Greenville-Spartanburg SC",
+            "description": "Temperatures have fallen below freezing across the area, causing\nlingering runoff from melted snow and sleet to refreeze on\nuntreated roads. Patchy black ice can be expected once again\nthrough this morning. Icy patches will remain until temperatures\ncan warm above freezing in the late morning hours. If traveling\nthis morning, be prepared for slick spots, especially on bridges\nand overpasses and any untreated roadways. Use extra caution when\nwalking on sidewalks, driveways, and in parking lots.",
             "instruction": null,
-            "onset": "2026-01-27T03:35:00-05:00",
-            "expires": "2026-01-27T10:00:00-05:00"
+            "onset": "2026-01-28T03:48:00-05:00",
+            "expires": "2026-01-28T10:00:00-05:00"
         }
     ],
     "soil_moisture": {
@@ -114,7 +114,7 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.026,
+        "evap_rate_kg_m2_h": 0.0,
         "evap_status": "LOW",
         "notes": [
             "Cold weather - use heated concrete/protection"
@@ -146,10 +146,8 @@
             ]
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 24.9 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "general_safety": []
     },
@@ -157,11 +155,11 @@
         "concrete_pouring": [],
         "grading": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Friday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
         "painting": []
     },
@@ -203,5 +201,5 @@
             }
         ]
     },
-    "last_updated": "2026-01-27T14:01:14.576237"
+    "last_updated": "2026-01-28T14:01:19.319350"
 }
