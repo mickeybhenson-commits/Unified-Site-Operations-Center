@@ -12,62 +12,51 @@
         "temperature_c": -8,
         "wind_speed_mph": 0,
         "wind_direction": "N",
-        "humidity_percent": 53,
+        "humidity_percent": 62,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-02-01",
-            "high": 18,
-            "low": 6,
-            "precipitation_prob": 0,
-            "wind_speed": "9 to 17 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Patchy Fog then Sunny",
-            "detailed_forecast": "Patchy fog before 9am. Sunny, with a high near 18. Wind chill values as low as -17. Northwest wind 9 to 17 mph, with gusts as high as 36 mph."
-        },
-        {
-            "day": "Monday",
             "date": "2026-02-02",
-            "high": 36,
-            "low": 20,
+            "high": 38,
+            "low": 21,
             "precipitation_prob": 0,
             "wind_speed": "3 mph",
-            "wind_direction": "WNW",
+            "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 36. West northwest wind around 3 mph."
+            "detailed_forecast": "Sunny, with a high near 38. North northwest wind around 3 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-02-03",
             "high": 47,
-            "low": 34,
-            "precipitation_prob": 9,
-            "wind_speed": "5 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 47. West southwest wind around 5 mph."
+            "low": 33,
+            "precipitation_prob": 20,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "W",
+            "short_forecast": "Mostly Cloudy then Slight Chance Light Rain",
+            "detailed_forecast": "A slight chance of rain after 4pm. Mostly cloudy, with a high near 47. West wind 1 to 5 mph. Chance of precipitation is 20%."
         },
         {
             "day": "Wednesday",
             "date": "2026-02-04",
-            "high": 43,
-            "low": 21,
-            "precipitation_prob": 36,
-            "wind_speed": "2 to 6 mph",
+            "high": 42,
+            "low": 22,
+            "precipitation_prob": 19,
+            "wind_speed": "5 mph",
             "wind_direction": "NW",
-            "short_forecast": "Chance Rain And Snow",
-            "detailed_forecast": "A chance of rain before 7am, then a chance of rain and snow. Mostly cloudy, with a high near 43. Chance of precipitation is 40%."
+            "short_forecast": "Slight Chance Light Rain",
+            "detailed_forecast": "A slight chance of rain. Mostly cloudy, with a high near 42. Northwest wind around 5 mph. Chance of precipitation is 20%."
         },
         {
             "day": "Thursday",
             "date": "2026-02-05",
             "high": 36,
-            "low": 19,
-            "precipitation_prob": 6,
-            "wind_speed": "7 mph",
+            "low": 20,
+            "precipitation_prob": 5,
+            "wind_speed": "6 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
             "detailed_forecast": "Sunny, with a high near 36."
@@ -75,36 +64,57 @@
         {
             "day": "Friday",
             "date": "2026-02-06",
-            "high": 46,
-            "low": 25,
-            "precipitation_prob": 9,
+            "high": 47,
+            "low": 22,
+            "precipitation_prob": 6,
             "wind_speed": "5 to 10 mph",
-            "wind_direction": "W",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 46."
+            "wind_direction": "WNW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 47."
         },
         {
             "day": "Saturday",
             "date": "2026-02-07",
-            "high": 37,
-            "low": 18,
-            "precipitation_prob": 5,
+            "high": 39,
+            "low": 20,
+            "precipitation_prob": 2,
             "wind_speed": "8 to 14 mph",
+            "wind_direction": "NNW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 39."
+        },
+        {
+            "day": "Sunday",
+            "date": "2026-02-08",
+            "high": 44,
+            "low": 24,
+            "precipitation_prob": 2,
+            "wind_speed": "6 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 37."
+            "detailed_forecast": "Sunny, with a high near 44."
         }
     ],
     "active_alerts": [
         {
-            "event": "Extreme Cold Warning",
-            "severity": "Severe",
+            "event": "Special Weather Statement",
+            "severity": "Moderate",
             "urgency": "Expected",
-            "headline": "Extreme Cold Warning issued February 1 at 1:48AM EST until February 1 at 10:00AM EST by NWS Greenville-Spartanburg SC",
-            "description": "* WHAT...Dangerously cold wind chills as low as 5 below zero\nexpected.\n\n* WHERE...Northeast Georgia, the foothills and Piedmont of North\nCarolina, and the Upstate of South Carolina.\n\n* WHEN...Until 10 AM EST this morning.\n\n* IMPACTS...The dangerously cold wind chills as low as 5 below zero\ncould result in hypothermia or frostbite if precautions are not\ntaken. Frostbite and hypothermia will occur if unprotected skin is\nexposed to these temperatures. Pets and livestock will be\nendangered by extreme cold if left unprotected for extended\nperiods.",
-            "instruction": "Dress in layers including a hat, face mask, and gloves if you must\ngo outside.\n\nTo prevent water pipes from freezing, wrap or drain or allow them to\ndrip slowly.\n\nMake frequent checks on older family, friends, and neighbors. Ensure\nportable heaters are used correctly. Do not use generators or grills\ninside.",
-            "onset": "2026-02-01T01:48:00-05:00",
-            "expires": "2026-02-01T10:00:00-05:00"
+            "headline": "Special Weather Statement issued February 2 at 4:00AM EST by NWS Greenville-Spartanburg SC",
+            "description": "With temperatures below freezing across the region, areas of black\nice are expected to remain on roadways this morning. If traveling,\nbe prepared for hazardous road conditions, especially on bridges\nand overpasses as well as on untreated or shaded roadways. Use\nextra caution when walking on sidewalks, driveways, and in parking\nlots. Although temperatures will rise above freezing across most\nlocations by afternoon, patchy black ice may linger across the\nhigher elevations of the North Carolina mountains as well as in\nshaded areas throughout the day.",
+            "instruction": null,
+            "onset": "2026-02-02T04:00:00-05:00",
+            "expires": "2026-02-02T10:00:00-05:00"
+        },
+        {
+            "event": "Special Weather Statement",
+            "severity": "Moderate",
+            "urgency": "Expected",
+            "headline": "Special Weather Statement issued February 1 at 10:54AM EST by NWS Greenville-Spartanburg SC",
+            "description": "The NOAA Weather Radio All Hazards transmitter broadcasting from Rock\nHill South Carolina, serving the Piedmont of the Carolinas on\n162.425 MHz, will intermittently be off the air until further\nnotice. Maintenance will be performed at the site and service\nwill be restored as soon as possible. We apologize for any\ninconvenience this may cause our listeners.\n\nUse alternate broadcasts from Charlotte on 162.475 MHz or\nGreenville on 162.550 MHz during the outage.",
+            "instruction": null,
+            "onset": "2026-02-01T10:54:00-05:00",
+            "expires": "2026-02-03T11:00:00-05:00"
         }
     ],
     "soil_moisture": {
@@ -114,7 +124,7 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.003,
+        "evap_rate_kg_m2_h": 0.002,
         "evap_status": "LOW",
         "notes": [
             "Cold weather - use heated concrete/protection"
@@ -158,11 +168,11 @@
         ],
         "grading": [
             "Today",
-            "Monday",
-            "Tuesday",
+            "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday"
+            "Saturday",
+            "Sunday"
         ],
         "painting": []
     },
@@ -204,5 +214,5 @@
             }
         ]
     },
-    "last_updated": "2026-02-01T13:57:28.729639"
+    "last_updated": "2026-02-02T14:11:16.852999"
 }
