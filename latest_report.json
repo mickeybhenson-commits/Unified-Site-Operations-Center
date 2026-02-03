@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 17.6,
-        "temperature_c": -8,
+        "temperature_f": 28.4,
+        "temperature_c": -2,
         "wind_speed_mph": 0,
         "wind_direction": "N",
-        "humidity_percent": 62,
+        "humidity_percent": 69,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-02-02",
-            "high": 38,
-            "low": 21,
-            "precipitation_prob": 0,
-            "wind_speed": "3 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 38. North northwest wind around 3 mph."
-        },
-        {
-            "day": "Tuesday",
             "date": "2026-02-03",
             "high": 47,
-            "low": 33,
-            "precipitation_prob": 20,
-            "wind_speed": "1 to 5 mph",
+            "low": 34,
+            "precipitation_prob": 8,
+            "wind_speed": "5 mph",
             "wind_direction": "W",
-            "short_forecast": "Mostly Cloudy then Slight Chance Light Rain",
-            "detailed_forecast": "A slight chance of rain after 4pm. Mostly cloudy, with a high near 47. West wind 1 to 5 mph. Chance of precipitation is 20%."
+            "short_forecast": "Mostly Cloudy",
+            "detailed_forecast": "Mostly cloudy, with a high near 47. West wind around 5 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-02-04",
-            "high": 42,
-            "low": 22,
-            "precipitation_prob": 19,
-            "wind_speed": "5 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Slight Chance Light Rain",
-            "detailed_forecast": "A slight chance of rain. Mostly cloudy, with a high near 42. Northwest wind around 5 mph. Chance of precipitation is 20%."
+            "high": 44,
+            "low": 20,
+            "precipitation_prob": 62,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "N",
+            "short_forecast": "Light Rain Likely",
+            "detailed_forecast": "Patchy fog before 7am, then rain likely and patchy fog between 7am and 5pm, then rain and snow likely. Cloudy. High near 44, with temperatures falling to around 38 in the afternoon. North wind 1 to 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
         },
         {
             "day": "Thursday",
             "date": "2026-02-05",
-            "high": 36,
-            "low": 20,
-            "precipitation_prob": 5,
-            "wind_speed": "6 mph",
+            "high": 35,
+            "low": 19,
+            "precipitation_prob": 8,
+            "wind_speed": "7 mph",
             "wind_direction": "NNW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 36."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 35. North northwest wind around 7 mph."
         },
         {
             "day": "Friday",
             "date": "2026-02-06",
-            "high": 47,
-            "low": 22,
-            "precipitation_prob": 6,
+            "high": 48,
+            "low": 28,
+            "precipitation_prob": 3,
             "wind_speed": "5 to 10 mph",
             "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 47."
+            "detailed_forecast": "Sunny, with a high near 48."
         },
         {
             "day": "Saturday",
             "date": "2026-02-07",
-            "high": 39,
-            "low": 20,
-            "precipitation_prob": 2,
-            "wind_speed": "8 to 14 mph",
+            "high": 45,
+            "low": 26,
+            "precipitation_prob": 3,
+            "wind_speed": "6 to 14 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 39."
+            "detailed_forecast": "Sunny, with a high near 45."
         },
         {
             "day": "Sunday",
             "date": "2026-02-08",
-            "high": 44,
-            "low": 24,
+            "high": 49,
+            "low": 27,
             "precipitation_prob": 2,
             "wind_speed": "6 mph",
             "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 44."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 49."
+        },
+        {
+            "day": "Monday",
+            "date": "2026-02-09",
+            "high": 46,
+            "low": 29,
+            "precipitation_prob": 5,
+            "wind_speed": "5 mph",
+            "wind_direction": "NNE",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 46."
         }
     ],
     "active_alerts": [
@@ -100,11 +100,11 @@
             "event": "Special Weather Statement",
             "severity": "Moderate",
             "urgency": "Expected",
-            "headline": "Special Weather Statement issued February 2 at 4:00AM EST by NWS Greenville-Spartanburg SC",
-            "description": "With temperatures below freezing across the region, areas of black\nice are expected to remain on roadways this morning. If traveling,\nbe prepared for hazardous road conditions, especially on bridges\nand overpasses as well as on untreated or shaded roadways. Use\nextra caution when walking on sidewalks, driveways, and in parking\nlots. Although temperatures will rise above freezing across most\nlocations by afternoon, patchy black ice may linger across the\nhigher elevations of the North Carolina mountains as well as in\nshaded areas throughout the day.",
+            "headline": "Special Weather Statement issued February 3 at 5:10AM EST by NWS Greenville-Spartanburg SC",
+            "description": "Temperatures have fallen below freezing again across the area,\ncausing lingering runoff from melted snow and ice to refreeze\non roads. Areas of black ice can be expected once again this\nmorning. Temperatures should warm above freezing later this\nmorning, with highs in the 40s to low 50s this afternoon. Be\nprepared for slick spots this morning, especially on bridges\nand overpasses and any untreated roadways. Use extra caution\nwhen walking on sidewalks, driveways, and in parking lots.",
             "instruction": null,
-            "onset": "2026-02-02T04:00:00-05:00",
-            "expires": "2026-02-02T10:00:00-05:00"
+            "onset": "2026-02-03T05:10:00-05:00",
+            "expires": "2026-02-03T11:00:00-05:00"
         },
         {
             "event": "Special Weather Statement",
@@ -124,17 +124,19 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.002,
+        "evap_rate_kg_m2_h": 0.006,
         "evap_status": "LOW",
         "notes": [
-            "Cold weather - use heated concrete/protection"
+            "Cold weather - use heated concrete/protection",
+            "Rain expected Wednesday (62%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "CAUTION",
             "notes": [
-                "Cold weather - use heated concrete/protection"
+                "Cold weather - use heated concrete/protection",
+                "Rain expected Wednesday (62%)"
             ]
         },
         "grading_excavation": {
@@ -163,16 +165,19 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Tuesday",
-            "Friday"
+            "Today",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Monday"
         ],
         "grading": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Friday",
             "Saturday",
-            "Sunday"
+            "Sunday",
+            "Monday"
         ],
         "painting": []
     },
@@ -214,5 +219,5 @@
             }
         ]
     },
-    "last_updated": "2026-02-02T14:11:16.852999"
+    "last_updated": "2026-02-03T14:13:39.104134"
 }
