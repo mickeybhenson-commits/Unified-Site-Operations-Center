@@ -8,135 +8,112 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 28.4,
-        "temperature_c": -2,
+        "temperature_f": 41.0,
+        "temperature_c": 5,
         "wind_speed_mph": 0,
         "wind_direction": "N",
-        "humidity_percent": 69,
-        "conditions": "Clear",
+        "humidity_percent": 75,
+        "conditions": "Cloudy",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-02-03",
-            "high": 47,
-            "low": 34,
-            "precipitation_prob": 8,
-            "wind_speed": "5 mph",
-            "wind_direction": "W",
-            "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 47. West wind around 5 mph."
-        },
-        {
-            "day": "Wednesday",
             "date": "2026-02-04",
-            "high": 44,
-            "low": 20,
-            "precipitation_prob": 62,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "N",
-            "short_forecast": "Light Rain Likely",
-            "detailed_forecast": "Patchy fog before 7am, then rain likely and patchy fog between 7am and 5pm, then rain and snow likely. Cloudy. High near 44, with temperatures falling to around 38 in the afternoon. North wind 1 to 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+            "high": 48,
+            "low": 23,
+            "precipitation_prob": 54,
+            "wind_speed": "2 mph",
+            "wind_direction": "NE",
+            "short_forecast": "Chance Light Rain",
+            "detailed_forecast": "Patchy fog before 10am, then a chance of rain. Mostly cloudy, with a high near 48. Northeast wind around 2 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
         },
         {
             "day": "Thursday",
             "date": "2026-02-05",
-            "high": 35,
+            "high": 37,
             "low": 19,
-            "precipitation_prob": 8,
-            "wind_speed": "7 mph",
-            "wind_direction": "NNW",
+            "precipitation_prob": 4,
+            "wind_speed": "6 mph",
+            "wind_direction": "NW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 35. North northwest wind around 7 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 37. Northwest wind around 6 mph."
         },
         {
             "day": "Friday",
             "date": "2026-02-06",
-            "high": 48,
-            "low": 28,
-            "precipitation_prob": 3,
-            "wind_speed": "5 to 10 mph",
+            "high": 47,
+            "low": 26,
+            "precipitation_prob": 7,
+            "wind_speed": "2 to 12 mph",
             "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 48."
+            "detailed_forecast": "Sunny, with a high near 47. West northwest wind 2 to 12 mph, with gusts as high as 26 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-02-07",
-            "high": 45,
-            "low": 26,
-            "precipitation_prob": 3,
-            "wind_speed": "6 to 14 mph",
-            "wind_direction": "NNW",
+            "high": 40,
+            "low": 23,
+            "precipitation_prob": 2,
+            "wind_speed": "7 to 17 mph",
+            "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 45."
+            "detailed_forecast": "Sunny, with a high near 40."
         },
         {
             "day": "Sunday",
             "date": "2026-02-08",
             "high": 49,
-            "low": 27,
-            "precipitation_prob": 2,
-            "wind_speed": "6 mph",
-            "wind_direction": "NW",
+            "low": 30,
+            "precipitation_prob": 1,
+            "wind_speed": "2 to 6 mph",
+            "wind_direction": "WSW",
             "short_forecast": "Mostly Sunny",
             "detailed_forecast": "Mostly sunny, with a high near 49."
         },
         {
             "day": "Monday",
             "date": "2026-02-09",
-            "high": 46,
-            "low": 29,
-            "precipitation_prob": 5,
+            "high": 54,
+            "low": 35,
+            "precipitation_prob": 3,
             "wind_speed": "5 mph",
-            "wind_direction": "NNE",
+            "wind_direction": "NW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 46."
-        }
-    ],
-    "active_alerts": [
-        {
-            "event": "Special Weather Statement",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Special Weather Statement issued February 3 at 5:10AM EST by NWS Greenville-Spartanburg SC",
-            "description": "Temperatures have fallen below freezing again across the area,\ncausing lingering runoff from melted snow and ice to refreeze\non roads. Areas of black ice can be expected once again this\nmorning. Temperatures should warm above freezing later this\nmorning, with highs in the 40s to low 50s this afternoon. Be\nprepared for slick spots this morning, especially on bridges\nand overpasses and any untreated roadways. Use extra caution\nwhen walking on sidewalks, driveways, and in parking lots.",
-            "instruction": null,
-            "onset": "2026-02-03T05:10:00-05:00",
-            "expires": "2026-02-03T11:00:00-05:00"
+            "detailed_forecast": "Mostly sunny, with a high near 54."
         },
         {
-            "event": "Special Weather Statement",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Special Weather Statement issued February 1 at 10:54AM EST by NWS Greenville-Spartanburg SC",
-            "description": "The NOAA Weather Radio All Hazards transmitter broadcasting from Rock\nHill South Carolina, serving the Piedmont of the Carolinas on\n162.425 MHz, will intermittently be off the air until further\nnotice. Maintenance will be performed at the site and service\nwill be restored as soon as possible. We apologize for any\ninconvenience this may cause our listeners.\n\nUse alternate broadcasts from Charlotte on 162.475 MHz or\nGreenville on 162.550 MHz during the outage.",
-            "instruction": null,
-            "onset": "2026-02-01T10:54:00-05:00",
-            "expires": "2026-02-03T11:00:00-05:00"
+            "day": "Tuesday",
+            "date": "2026-02-10",
+            "high": 57,
+            "low": 39,
+            "precipitation_prob": 6,
+            "wind_speed": "3 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 57."
         }
     ],
+    "active_alerts": [],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.006,
+        "pour_status": "GO",
+        "evap_rate_kg_m2_h": 0.013,
         "evap_status": "LOW",
         "notes": [
-            "Cold weather - use heated concrete/protection",
-            "Rain expected Wednesday (62%)"
+            "Optimal conditions for concrete work"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "CAUTION",
+            "status": "GO",
             "notes": [
-                "Cold weather - use heated concrete/protection",
-                "Rain expected Wednesday (62%)"
+                "Optimal conditions for concrete work"
             ]
         },
         "grading_excavation": {
@@ -165,21 +142,23 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Today",
             "Friday",
-            "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
         "grading": [
-            "Today",
             "Thursday",
             "Friday",
             "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
-        "painting": []
+        "painting": [
+            "Monday",
+            "Tuesday"
+        ]
     },
     "swppp_compliance": {
         "risk_level": "LOW",
@@ -219,5 +198,5 @@
             }
         ]
     },
-    "last_updated": "2026-02-03T14:13:39.104134"
+    "last_updated": "2026-02-04T14:12:24.913013"
 }
