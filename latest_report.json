@@ -8,94 +8,105 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 28.4,
-        "temperature_c": -2,
+        "temperature_f": 39.2,
+        "temperature_c": 4,
         "wind_speed_mph": 0,
         "wind_direction": "N",
-        "humidity_percent": 93,
-        "conditions": "Fog/Mist",
+        "humidity_percent": 48,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-02-06",
-            "high": 48,
-            "low": 18,
-            "precipitation_prob": 20,
-            "wind_speed": "3 to 13 mph",
-            "wind_direction": "WNW",
-            "short_forecast": "Mostly Sunny then Slight Chance Rain Showers",
-            "detailed_forecast": "A slight chance of rain showers after 2pm. Mostly sunny, with a high near 48. West northwest wind 3 to 13 mph, with gusts as high as 31 mph. Chance of precipitation is 20%."
-        },
-        {
-            "day": "Saturday",
             "date": "2026-02-07",
             "high": 30,
-            "low": 15,
-            "precipitation_prob": 1,
-            "wind_speed": "12 to 22 mph",
+            "low": 16,
+            "precipitation_prob": 6,
+            "wind_speed": "13 to 24 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 30. Northwest wind 12 to 22 mph, with gusts as high as 53 mph."
+            "detailed_forecast": "Sunny, with a high near 30. Northwest wind 13 to 24 mph, with gusts as high as 54 mph."
         },
         {
             "day": "Sunday",
             "date": "2026-02-08",
-            "high": 47,
-            "low": 28,
-            "precipitation_prob": 0,
+            "high": 46,
+            "low": 26,
+            "precipitation_prob": 2,
             "wind_speed": "3 mph",
-            "wind_direction": "W",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 47. West wind around 3 mph."
+            "wind_direction": "NNW",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 46. North northwest wind around 3 mph."
         },
         {
             "day": "Monday",
             "date": "2026-02-09",
-            "high": 56,
-            "low": 36,
-            "precipitation_prob": 0,
-            "wind_speed": "5 mph",
-            "wind_direction": "WNW",
+            "high": 52,
+            "low": 34,
+            "precipitation_prob": 1,
+            "wind_speed": "3 mph",
+            "wind_direction": "WSW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 56."
+            "detailed_forecast": "Sunny, with a high near 52. West southwest wind around 3 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-02-10",
-            "high": 60,
-            "low": 42,
-            "precipitation_prob": 8,
+            "high": 63,
+            "low": 44,
+            "precipitation_prob": 1,
             "wind_speed": "3 mph",
             "wind_direction": "W",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 60."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 63."
         },
         {
             "day": "Wednesday",
             "date": "2026-02-11",
-            "high": 57,
-            "low": 36,
-            "precipitation_prob": 36,
-            "wind_speed": "7 mph",
+            "high": 59,
+            "low": 38,
+            "precipitation_prob": 46,
+            "wind_speed": "3 to 7 mph",
             "wind_direction": "WNW",
             "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 57. Chance of precipitation is 40%."
+            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 59. Chance of precipitation is 50%."
         },
         {
             "day": "Thursday",
             "date": "2026-02-12",
-            "high": 51,
-            "low": 29,
-            "precipitation_prob": 18,
-            "wind_speed": "8 mph",
+            "high": 54,
+            "low": 36,
+            "precipitation_prob": 24,
+            "wind_speed": "6 mph",
             "wind_direction": "NW",
-            "short_forecast": "Slight Chance Light Rain then Mostly Cloudy",
-            "detailed_forecast": "A slight chance of rain before 7am. Mostly cloudy, with a high near 51."
+            "short_forecast": "Slight Chance Light Rain",
+            "detailed_forecast": "A slight chance of rain. Mostly cloudy, with a high near 54."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-02-13",
+            "high": 50,
+            "low": 33,
+            "precipitation_prob": 41,
+            "wind_speed": "7 mph",
+            "wind_direction": "SSW",
+            "short_forecast": "Chance Light Rain",
+            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 50. Chance of precipitation is 40%."
         }
     ],
-    "active_alerts": [],
+    "active_alerts": [
+        {
+            "event": "Wind Advisory",
+            "severity": "Moderate",
+            "urgency": "Expected",
+            "headline": "Wind Advisory issued February 7 at 5:16AM EST until February 7 at 7:00PM EST by NWS Greenville-Spartanburg SC",
+            "description": "* WHAT...Northwest winds 10 to 20 mph with gusts up to 46 mph.\n\n* WHERE...Portions of northeast Georgia, Piedmont and western North\nCarolina, and Upstate South Carolina.\n\n* WHEN...Until 7 PM EST this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+            "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.\n\nStay tuned to NOAA Weather Radio or your favorite source of weather\ninformation for the latest updates. Additional details can be found\nat www.weather.gov/gsp.",
+            "onset": "2026-02-07T05:16:00-05:00",
+            "expires": "2026-02-07T13:30:00-05:00"
+        }
+    ],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -103,7 +114,7 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.001,
+        "evap_rate_kg_m2_h": 0.024,
         "evap_status": "LOW",
         "notes": [
             "Cold weather - use heated concrete/protection"
@@ -129,9 +140,9 @@
             ]
         },
         "painting_coating": {
-            "status": "STOP",
+            "status": "CAUTION",
             "notes": [
-                "Humidity too high"
+                "Temperature outside optimal range"
             ]
         },
         "crane_ops": {
@@ -142,23 +153,20 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Today",
             "Sunday",
             "Monday",
             "Tuesday",
             "Thursday"
         ],
         "grading": [
-            "Saturday",
+            "Today",
             "Sunday",
             "Monday",
-            "Tuesday",
-            "Thursday"
+            "Tuesday"
         ],
         "painting": [
             "Monday",
-            "Tuesday",
-            "Thursday"
+            "Tuesday"
         ]
     },
     "swppp_compliance": {
@@ -199,5 +207,5 @@
             }
         ]
     },
-    "last_updated": "2026-02-06T14:11:36.758886"
+    "last_updated": "2026-02-07T13:58:00.665464"
 }
