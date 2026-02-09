@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 28.4,
-        "temperature_c": -2,
+        "temperature_f": 35.6,
+        "temperature_c": 2,
         "wind_speed_mph": 12.4,
-        "wind_direction": "E",
-        "humidity_percent": 0,
-        "conditions": "Partly Cloudy",
+        "wind_direction": "ESE",
+        "humidity_percent": 32,
+        "conditions": "Mostly Cloudy",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-02-08",
-            "high": 45,
-            "low": 27,
-            "precipitation_prob": 1,
-            "wind_speed": "2 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 45. North northeast wind around 2 mph."
-        },
-        {
-            "day": "Monday",
             "date": "2026-02-09",
-            "high": 51,
-            "low": 34,
-            "precipitation_prob": 1,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "S",
+            "high": 53,
+            "low": 36,
+            "precipitation_prob": 0,
+            "wind_speed": "2 to 6 mph",
+            "wind_direction": "SSW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 51. South wind 1 to 5 mph."
+            "detailed_forecast": "Sunny, with a high near 53. South southwest wind 2 to 6 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-02-10",
-            "high": 64,
-            "low": 45,
-            "precipitation_prob": 1,
+            "high": 65,
+            "low": 44,
+            "precipitation_prob": 0,
             "wind_speed": "6 mph",
             "wind_direction": "W",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 64. West wind around 6 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 65. West wind around 6 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-02-11",
-            "high": 56,
-            "low": 35,
-            "precipitation_prob": 51,
-            "wind_speed": "7 mph",
+            "high": 55,
+            "low": 30,
+            "precipitation_prob": 33,
+            "wind_speed": "8 mph",
             "wind_direction": "NW",
             "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 56. Chance of precipitation is 50%."
+            "detailed_forecast": "A chance of rain before 1pm. Partly sunny, with a high near 55. Northwest wind around 8 mph, with gusts as high as 20 mph. Chance of precipitation is 30%."
         },
         {
             "day": "Thursday",
             "date": "2026-02-12",
-            "high": 51,
+            "high": 53,
             "low": 33,
-            "precipitation_prob": 18,
+            "precipitation_prob": 7,
             "wind_speed": "5 mph",
             "wind_direction": "NNW",
-            "short_forecast": "Slight Chance Light Rain",
-            "detailed_forecast": "A slight chance of rain. Mostly cloudy, with a high near 51."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 53."
         },
         {
             "day": "Friday",
             "date": "2026-02-13",
-            "high": 48,
-            "low": 30,
-            "precipitation_prob": 46,
-            "wind_speed": "6 mph",
-            "wind_direction": "NE",
+            "high": 46,
+            "low": 32,
+            "precipitation_prob": 33,
+            "wind_speed": "5 mph",
+            "wind_direction": "E",
             "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 48. Chance of precipitation is 50%."
+            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 46. Chance of precipitation is 30%."
         },
         {
             "day": "Saturday",
             "date": "2026-02-14",
-            "high": 45,
-            "low": 31,
-            "precipitation_prob": 47,
-            "wind_speed": "6 mph",
-            "wind_direction": "S",
-            "short_forecast": "Chance Freezing Rain then Chance Rain",
-            "detailed_forecast": "A chance of freezing rain before 9am, then a chance of rain. Mostly cloudy, with a high near 45. Chance of precipitation is 50%. New ice accumulation of less than half an inch possible."
+            "high": 44,
+            "low": 34,
+            "precipitation_prob": 48,
+            "wind_speed": "3 to 7 mph",
+            "wind_direction": "SE",
+            "short_forecast": "Chance Rain",
+            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 44. Chance of precipitation is 50%."
+        },
+        {
+            "day": "Sunday",
+            "date": "2026-02-15",
+            "high": 44,
+            "low": 33,
+            "precipitation_prob": 71,
+            "wind_speed": "7 mph",
+            "wind_direction": "E",
+            "short_forecast": "Rain And Snow Likely",
+            "detailed_forecast": "Rain and snow likely. Mostly cloudy, with a high near 44. Chance of precipitation is 70%."
         }
     ],
     "active_alerts": [],
@@ -103,7 +103,7 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.123,
+        "evap_rate_kg_m2_h": 0.146,
         "evap_status": "LOW",
         "notes": [
             "Cold weather - use heated concrete/protection"
@@ -143,18 +143,16 @@
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Monday",
             "Tuesday",
             "Thursday"
         ],
         "grading": [
             "Today",
-            "Monday",
             "Tuesday",
             "Thursday"
         ],
         "painting": [
-            "Monday",
+            "Today",
             "Tuesday",
             "Thursday"
         ]
@@ -197,5 +195,5 @@
             }
         ]
     },
-    "last_updated": "2026-02-08T13:59:22.979068"
+    "last_updated": "2026-02-09T14:34:11.943326"
 }
