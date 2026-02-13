@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 0,
-        "temperature_c": 0,
+        "temperature_f": 33.8,
+        "temperature_c": 1,
         "wind_speed_mph": 0,
-        "wind_direction": "N/A",
-        "humidity_percent": 0,
-        "conditions": "N/A",
+        "wind_direction": "N",
+        "humidity_percent": 55,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-02-12",
-            "high": 47,
-            "low": 27,
-            "precipitation_prob": 1,
-            "wind_speed": "6 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 47. Northwest wind around 6 mph."
-        },
-        {
-            "day": "Friday",
             "date": "2026-02-13",
             "high": 50,
             "low": 30,
-            "precipitation_prob": 1,
-            "wind_speed": "3 mph",
-            "wind_direction": "NNW",
+            "precipitation_prob": 0,
+            "wind_speed": "5 mph",
+            "wind_direction": "NNE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 50. North northwest wind around 3 mph."
+            "detailed_forecast": "Sunny, with a high near 50. North northeast wind around 5 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-02-14",
-            "high": 55,
-            "low": 41,
-            "precipitation_prob": 4,
+            "high": 57,
+            "low": 40,
+            "precipitation_prob": 1,
             "wind_speed": "3 mph",
-            "wind_direction": "SW",
+            "wind_direction": "SSW",
             "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 55. Southwest wind around 3 mph."
+            "detailed_forecast": "Partly sunny, with a high near 57. South southwest wind around 3 mph."
         },
         {
             "day": "Sunday",
             "date": "2026-02-15",
-            "high": 49,
-            "low": 42,
-            "precipitation_prob": 92,
-            "wind_speed": "6 mph",
-            "wind_direction": "SE",
+            "high": 47,
+            "low": 43,
+            "precipitation_prob": 99,
+            "wind_speed": "2 to 6 mph",
+            "wind_direction": "SSE",
             "short_forecast": "Rain",
-            "detailed_forecast": "Rain. Cloudy, with a high near 49. Chance of precipitation is 90%."
+            "detailed_forecast": "Rain. Cloudy, with a high near 47. South southeast wind 2 to 6 mph. Chance of precipitation is 100%."
         },
         {
             "day": "Washington's Birthday",
             "date": "2026-02-16",
-            "high": 57,
+            "high": 58,
             "low": 39,
-            "precipitation_prob": 12,
-            "wind_speed": "5 mph",
+            "precipitation_prob": 10,
+            "wind_speed": "3 mph",
             "wind_direction": "NE",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 57."
+            "detailed_forecast": "Mostly sunny, with a high near 58."
         },
         {
             "day": "Tuesday",
             "date": "2026-02-17",
-            "high": 61,
-            "low": 43,
+            "high": 62,
+            "low": 44,
             "precipitation_prob": 4,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 61."
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "S",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 62."
         },
         {
             "day": "Wednesday",
             "date": "2026-02-18",
-            "high": 65,
-            "low": 45,
-            "precipitation_prob": 11,
-            "wind_speed": "5 to 8 mph",
-            "wind_direction": "SW",
+            "high": 67,
+            "low": 46,
+            "precipitation_prob": 7,
+            "wind_speed": "3 to 8 mph",
+            "wind_direction": "WSW",
             "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 65."
+            "detailed_forecast": "Mostly cloudy, with a high near 67."
+        },
+        {
+            "day": "Thursday",
+            "date": "2026-02-19",
+            "high": 68,
+            "low": 45,
+            "precipitation_prob": 10,
+            "wind_speed": "9 mph",
+            "wind_direction": "W",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 68."
         }
     ],
     "active_alerts": [],
@@ -103,17 +103,19 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.0,
+        "evap_rate_kg_m2_h": 0.014,
         "evap_status": "LOW",
         "notes": [
-            "Cold weather - use heated concrete/protection"
+            "Cold weather - use heated concrete/protection",
+            "Rain expected Sunday (99%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "CAUTION",
             "notes": [
-                "Cold weather - use heated concrete/protection"
+                "Cold weather - use heated concrete/protection",
+                "Rain expected Sunday (99%)"
             ]
         },
         "grading_excavation": {
@@ -143,26 +145,27 @@
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Friday",
             "Saturday",
             "Washington's Birthday",
             "Tuesday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ],
         "grading": [
             "Today",
-            "Friday",
             "Saturday",
             "Washington's Birthday",
             "Tuesday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ],
         "painting": [
-            "Friday",
+            "Today",
             "Saturday",
             "Washington's Birthday",
             "Tuesday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ]
     },
     "swppp_compliance": {
@@ -203,5 +206,5 @@
             }
         ]
     },
-    "last_updated": "2026-02-12T14:30:18.803673"
+    "last_updated": "2026-02-13T14:12:13.490996"
 }
