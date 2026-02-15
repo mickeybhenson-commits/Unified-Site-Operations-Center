@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 0,
-        "temperature_c": 0,
-        "wind_speed_mph": 0,
-        "wind_direction": "N/A",
-        "humidity_percent": 0,
-        "conditions": "N/A",
+        "temperature_f": 46.4,
+        "temperature_c": 8,
+        "wind_speed_mph": 12.4,
+        "wind_direction": "ENE",
+        "humidity_percent": 81,
+        "conditions": "Rain",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-02-14",
-            "high": 56,
-            "low": 39,
-            "precipitation_prob": 1,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 56. Northwest wind 1 to 5 mph."
-        },
-        {
-            "day": "Sunday",
             "date": "2026-02-15",
             "high": 48,
-            "low": 40,
-            "precipitation_prob": 100,
-            "wind_speed": "5 mph",
-            "wind_direction": "SSE",
+            "low": 38,
+            "precipitation_prob": 99,
+            "wind_speed": "6 mph",
+            "wind_direction": "S",
             "short_forecast": "Rain",
-            "detailed_forecast": "Rain before 9am, then rain and patchy fog. Cloudy, with a high near 48. South southeast wind around 5 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+            "detailed_forecast": "Rain likely before 9am, then rain and patchy fog. Cloudy, with a high near 48. South wind around 6 mph, with gusts as high as 20 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
         },
         {
             "day": "Washington's Birthday",
             "date": "2026-02-16",
-            "high": 60,
-            "low": 39,
-            "precipitation_prob": 4,
-            "wind_speed": "2 mph",
-            "wind_direction": "NE",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 60. Northeast wind around 2 mph."
+            "high": 62,
+            "low": 37,
+            "precipitation_prob": 1,
+            "wind_speed": "2 to 7 mph",
+            "wind_direction": "N",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 62. North wind 2 to 7 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-02-17",
-            "high": 62,
-            "low": 44,
+            "high": 64,
+            "low": 45,
             "precipitation_prob": 0,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 62."
+            "wind_speed": "1 to 6 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 64. Southwest wind 1 to 6 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-02-18",
-            "high": 66,
-            "low": 46,
-            "precipitation_prob": 5,
-            "wind_speed": "8 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 66."
+            "high": 63,
+            "low": 48,
+            "precipitation_prob": 3,
+            "wind_speed": "9 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Mostly Cloudy",
+            "detailed_forecast": "Mostly cloudy, with a high near 63."
         },
         {
             "day": "Thursday",
             "date": "2026-02-19",
             "high": 66,
-            "low": 50,
-            "precipitation_prob": 7,
-            "wind_speed": "7 mph",
-            "wind_direction": "W",
-            "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 66."
+            "low": 51,
+            "precipitation_prob": 20,
+            "wind_speed": "2 to 8 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Slight Chance Rain Showers",
+            "detailed_forecast": "A slight chance of rain showers between 7am and 1pm. Partly sunny, with a high near 66."
         },
         {
             "day": "Friday",
             "date": "2026-02-20",
-            "high": 65,
-            "low": 42,
-            "precipitation_prob": 19,
-            "wind_speed": "5 to 9 mph",
-            "wind_direction": "W",
-            "short_forecast": "Slight Chance Rain Showers",
-            "detailed_forecast": "A slight chance of rain showers between 7am and 1pm. Mostly sunny, with a high near 65."
+            "high": 68,
+            "low": 45,
+            "precipitation_prob": 36,
+            "wind_speed": "6 to 9 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Chance Rain Showers",
+            "detailed_forecast": "A chance of rain showers. Partly sunny, with a high near 68. Chance of precipitation is 40%."
+        },
+        {
+            "day": "Saturday",
+            "date": "2026-02-21",
+            "high": 56,
+            "low": 33,
+            "precipitation_prob": 30,
+            "wind_speed": "9 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Chance Rain Showers then Mostly Sunny",
+            "detailed_forecast": "A chance of rain showers before noon. Mostly sunny, with a high near 56. Chance of precipitation is 30%."
         }
     ],
     "active_alerts": [],
@@ -102,20 +102,20 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.0,
+        "pour_status": "GO",
+        "evap_rate_kg_m2_h": 0.078,
         "evap_status": "LOW",
         "notes": [
-            "Cold weather - use heated concrete/protection",
-            "Rain expected Sunday (100%)"
+            "Optimal conditions for concrete work",
+            "Rain expected Today (99%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "CAUTION",
+            "status": "GO",
             "notes": [
-                "Cold weather - use heated concrete/protection",
-                "Rain expected Sunday (100%)"
+                "Optimal conditions for concrete work",
+                "Rain expected Today (99%)"
             ]
         },
         "grading_excavation": {
@@ -144,28 +144,20 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Today",
             "Washington's Birthday",
             "Tuesday",
             "Wednesday",
-            "Thursday",
-            "Friday"
+            "Thursday"
         ],
         "grading": [
-            "Today",
             "Washington's Birthday",
             "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
+            "Wednesday"
         ],
         "painting": [
-            "Today",
             "Washington's Birthday",
             "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
+            "Wednesday"
         ]
     },
     "swppp_compliance": {
@@ -206,5 +198,5 @@
             }
         ]
     },
-    "last_updated": "2026-02-14T13:58:27.029398"
+    "last_updated": "2026-02-15T13:58:59.039246"
 }
