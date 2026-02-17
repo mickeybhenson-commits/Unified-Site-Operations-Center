@@ -18,81 +18,81 @@
     },
     "forecast_7day": [
         {
-            "day": "Washington's Birthday",
-            "date": "2026-02-16",
-            "high": 60,
-            "low": 38,
-            "precipitation_prob": 0,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 60. North northeast wind 2 to 6 mph."
-        },
-        {
-            "day": "Tuesday",
+            "day": "Today",
             "date": "2026-02-17",
             "high": 64,
             "low": 46,
             "precipitation_prob": 0,
             "wind_speed": "1 to 6 mph",
-            "wind_direction": "SSW",
+            "wind_direction": "WSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 64. South southwest wind 1 to 6 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 64. West southwest wind 1 to 6 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-02-18",
-            "high": 62,
-            "low": 50,
-            "precipitation_prob": 6,
-            "wind_speed": "9 mph",
+            "high": 63,
+            "low": 51,
+            "precipitation_prob": 4,
+            "wind_speed": "8 mph",
             "wind_direction": "SW",
             "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 62. Southwest wind around 9 mph, with gusts as high as 23 mph."
+            "detailed_forecast": "Mostly cloudy, with a high near 63. Southwest wind around 8 mph, with gusts as high as 23 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-02-19",
             "high": 67,
-            "low": 51,
+            "low": 53,
             "precipitation_prob": 33,
-            "wind_speed": "2 to 8 mph",
+            "wind_speed": "1 to 8 mph",
             "wind_direction": "SW",
             "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Mostly cloudy, with a high near 67. Chance of precipitation is 30%."
+            "detailed_forecast": "A chance of rain. Partly sunny, with a high near 67. Southwest wind 1 to 8 mph, with gusts as high as 18 mph. Chance of precipitation is 30%."
         },
         {
             "day": "Friday",
             "date": "2026-02-20",
-            "high": 66,
-            "low": 47,
-            "precipitation_prob": 37,
-            "wind_speed": "5 to 10 mph",
-            "wind_direction": "WSW",
+            "high": 67,
+            "low": 45,
+            "precipitation_prob": 49,
+            "wind_speed": "5 to 9 mph",
+            "wind_direction": "W",
             "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain before 7am, then a chance of rain and a slight chance of thunderstorms. Mostly cloudy, with a high near 66. Chance of precipitation is 40%."
+            "detailed_forecast": "A chance of rain before 4pm. Partly sunny, with a high near 67. Chance of precipitation is 50%."
         },
         {
             "day": "Saturday",
             "date": "2026-02-21",
-            "high": 59,
-            "low": 36,
-            "precipitation_prob": 45,
-            "wind_speed": "8 mph",
-            "wind_direction": "WNW",
+            "high": 56,
+            "low": 33,
+            "precipitation_prob": 48,
+            "wind_speed": "3 to 7 mph",
+            "wind_direction": "NW",
             "short_forecast": "Chance Rain",
-            "detailed_forecast": "A chance of rain. Partly sunny, with a high near 59. Chance of precipitation is 50%."
+            "detailed_forecast": "A chance of rain. Partly sunny, with a high near 56. Chance of precipitation is 50%."
         },
         {
             "day": "Sunday",
             "date": "2026-02-22",
-            "high": 48,
-            "low": 22,
-            "precipitation_prob": 41,
-            "wind_speed": "7 to 12 mph",
+            "high": 44,
+            "low": 21,
+            "precipitation_prob": 32,
+            "wind_speed": "12 mph",
             "wind_direction": "NW",
-            "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Partly sunny, with a high near 48. Chance of precipitation is 40%."
+            "short_forecast": "Chance Light Snow",
+            "detailed_forecast": "A chance of snow before 1pm, then a slight chance of rain and snow. Partly sunny, with a high near 44. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible."
+        },
+        {
+            "day": "Monday",
+            "date": "2026-02-23",
+            "high": 36,
+            "low": 18,
+            "precipitation_prob": 6,
+            "wind_speed": "13 mph",
+            "wind_direction": "NNW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 36."
         }
     ],
     "active_alerts": [],
@@ -142,18 +142,16 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Washington's Birthday",
-            "Tuesday",
+            "Today",
             "Wednesday"
         ],
         "grading": [
-            "Washington's Birthday",
-            "Tuesday",
-            "Wednesday"
+            "Today",
+            "Wednesday",
+            "Monday"
         ],
         "painting": [
-            "Washington's Birthday",
-            "Tuesday",
+            "Today",
             "Wednesday"
         ]
     },
@@ -195,5 +193,5 @@
             }
         ]
     },
-    "last_updated": "2026-02-16T14:14:15.985662"
+    "last_updated": "2026-02-17T14:27:16.346391"
 }
