@@ -8,123 +8,112 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 0,
-        "temperature_c": 0,
-        "wind_speed_mph": 0,
-        "wind_direction": "N/A",
-        "humidity_percent": 0,
-        "conditions": "N/A",
+        "temperature_f": 42.8,
+        "temperature_c": 6,
+        "wind_speed_mph": 29.0,
+        "wind_direction": "SSW",
+        "humidity_percent": 70,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-03-12",
-            "high": 42,
-            "low": 29,
-            "precipitation_prob": 31,
-            "wind_speed": "13 to 18 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Chance Sleet then Mostly Sunny",
-            "detailed_forecast": "A chance of sleet and a chance of rain and snow showers before 11am. Mostly sunny, with a high near 42. North northwest wind 13 to 18 mph, with gusts as high as 41 mph. Chance of precipitation is 30%. New rainfall amounts between a quarter and half of an inch possible."
-        },
-        {
-            "day": "Friday",
             "date": "2026-03-13",
-            "high": 59,
+            "high": 58,
             "low": 37,
             "precipitation_prob": 0,
-            "wind_speed": "3 to 9 mph",
+            "wind_speed": "9 mph",
             "wind_direction": "SSW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 59. South southwest wind 3 to 9 mph, with gusts as high as 22 mph."
+            "detailed_forecast": "Sunny, with a high near 58. South southwest wind around 9 mph, with gusts as high as 26 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-03-14",
-            "high": 66,
-            "low": 43,
-            "precipitation_prob": 1,
+            "high": 67,
+            "low": 44,
+            "precipitation_prob": 0,
             "wind_speed": "1 to 6 mph",
-            "wind_direction": "SSW",
+            "wind_direction": "SSE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 66. South southwest wind 1 to 6 mph."
+            "detailed_forecast": "Sunny, with a high near 67. South southeast wind 1 to 6 mph."
         },
         {
             "day": "Sunday",
             "date": "2026-03-15",
-            "high": 62,
-            "low": 44,
-            "precipitation_prob": 21,
-            "wind_speed": "2 to 10 mph",
-            "wind_direction": "S",
-            "short_forecast": "Mostly Sunny then Slight Chance Rain Showers",
-            "detailed_forecast": "A slight chance of rain showers after 2pm. Mostly sunny, with a high near 62."
+            "high": 61,
+            "low": 50,
+            "precipitation_prob": 23,
+            "wind_speed": "3 to 10 mph",
+            "wind_direction": "SSE",
+            "short_forecast": "Mostly Cloudy then Slight Chance Rain Showers",
+            "detailed_forecast": "A slight chance of rain showers after noon. Mostly cloudy, with a high near 61. South southeast wind 3 to 10 mph, with gusts as high as 24 mph. Chance of precipitation is 20%."
         },
         {
             "day": "Monday",
             "date": "2026-03-16",
-            "high": 54,
+            "high": 58,
             "low": 20,
-            "precipitation_prob": 82,
-            "wind_speed": "14 to 17 mph",
-            "wind_direction": "W",
-            "short_forecast": "Rain Showers then Chance Rain And Snow Showers",
-            "detailed_forecast": "Rain showers before 2pm, then a chance of rain and snow showers. Mostly cloudy, with a high near 54. Chance of precipitation is 80%."
+            "precipitation_prob": 77,
+            "wind_speed": "13 to 16 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Showers And Thunderstorms Likely",
+            "detailed_forecast": "Rain showers before 8am, then showers and thunderstorms likely. Mostly cloudy, with a high near 58. Chance of precipitation is 80%."
         },
         {
             "day": "Tuesday",
             "date": "2026-03-17",
-            "high": 40,
-            "low": 22,
-            "precipitation_prob": 6,
-            "wind_speed": "8 to 12 mph",
+            "high": 37,
+            "low": 20,
+            "precipitation_prob": 1,
+            "wind_speed": "12 to 16 mph",
             "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 40."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 37."
         },
         {
             "day": "Wednesday",
             "date": "2026-03-18",
-            "high": 50,
-            "low": 31,
-            "precipitation_prob": 4,
-            "wind_speed": "1 to 6 mph",
-            "wind_direction": "W",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 50."
-        }
-    ],
-    "active_alerts": [
+            "high": 49,
+            "low": 30,
+            "precipitation_prob": 1,
+            "wind_speed": "2 to 6 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 49."
+        },
         {
-            "event": "Special Weather Statement",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Special Weather Statement issued March 12 at 9:39AM EDT by NWS Greenville-Spartanburg SC",
-            "description": "At 939 AM EDT, Doppler radar was tracking strong thunderstorms along\na line extending from 3 miles southwest of Downtown Concord to 5\nmiles east of Rock Hill. Movement was east at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDowntown Concord, Monroe, Indian Land, Rock Hill, South Charlotte,\nEast Charlotte, West Concord, Matthews, Mint Hill, and Indian Trail.",
-            "instruction": "If outdoors, consider seeking shelter inside a building.\n\nA Tornado Watch remains in effect until 100 PM EDT for Upstate South\nCarolina.",
-            "onset": "2026-03-12T09:39:00-04:00",
-            "expires": "2026-03-12T10:45:00-04:00"
+            "day": "Thursday",
+            "date": "2026-03-19",
+            "high": 58,
+            "low": 37,
+            "precipitation_prob": 6,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 58."
         }
     ],
+    "active_alerts": [],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.0,
+        "pour_status": "GO",
+        "evap_rate_kg_m2_h": 0.214,
         "evap_status": "LOW",
         "notes": [
-            "Cold weather - use heated concrete/protection"
+            "Optimal conditions for concrete work"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "CAUTION",
+            "status": "GO",
             "notes": [
-                "Cold weather - use heated concrete/protection"
+                "Optimal conditions for concrete work"
             ]
         },
         "grading_excavation": {
@@ -146,28 +135,34 @@
             ]
         },
         "crane_ops": {
-            "status": "GO",
-            "notes": []
+            "status": "STOP",
+            "notes": [
+                "Wind speed 29.0 mph exceeds safe limits"
+            ]
         },
-        "general_safety": []
+        "general_safety": [
+            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
+        ]
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Friday",
+            "Today",
             "Saturday",
             "Sunday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ],
         "grading": [
-            "Friday",
+            "Today",
             "Saturday",
             "Tuesday",
-            "Wednesday"
+            "Wednesday",
+            "Thursday"
         ],
         "painting": [
-            "Friday",
+            "Today",
             "Saturday",
-            "Wednesday"
+            "Thursday"
         ]
     },
     "swppp_compliance": {
@@ -208,5 +203,5 @@
             }
         ]
     },
-    "last_updated": "2026-03-12T14:13:05.234581"
+    "last_updated": "2026-03-13T14:10:14.559993"
 }
