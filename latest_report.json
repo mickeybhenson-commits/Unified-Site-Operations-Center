@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 42.8,
-        "temperature_c": 6,
-        "wind_speed_mph": 29.0,
-        "wind_direction": "SSW",
-        "humidity_percent": 70,
+        "temperature_f": 51.8,
+        "temperature_c": 11,
+        "wind_speed_mph": 12.4,
+        "wind_direction": "SE",
+        "humidity_percent": 50,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-03-13",
-            "high": 58,
-            "low": 37,
-            "precipitation_prob": 0,
-            "wind_speed": "9 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 58. South southwest wind around 9 mph, with gusts as high as 26 mph."
-        },
-        {
-            "day": "Saturday",
             "date": "2026-03-14",
             "high": 67,
             "low": 44,
             "precipitation_prob": 0,
             "wind_speed": "1 to 6 mph",
-            "wind_direction": "SSE",
+            "wind_direction": "ENE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 67. South southeast wind 1 to 6 mph."
+            "detailed_forecast": "Sunny, with a high near 67. East northeast wind 1 to 6 mph."
         },
         {
             "day": "Sunday",
             "date": "2026-03-15",
             "high": 61,
-            "low": 50,
-            "precipitation_prob": 23,
+            "low": 47,
+            "precipitation_prob": 40,
             "wind_speed": "3 to 10 mph",
             "wind_direction": "SSE",
-            "short_forecast": "Mostly Cloudy then Slight Chance Rain Showers",
-            "detailed_forecast": "A slight chance of rain showers after noon. Mostly cloudy, with a high near 61. South southeast wind 3 to 10 mph, with gusts as high as 24 mph. Chance of precipitation is 20%."
+            "short_forecast": "Partly Sunny then Chance Rain Showers",
+            "detailed_forecast": "A chance of rain showers after noon. Partly sunny, with a high near 61. South southeast wind 3 to 10 mph, with gusts as high as 24 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
         },
         {
             "day": "Monday",
             "date": "2026-03-16",
-            "high": 58,
-            "low": 20,
-            "precipitation_prob": 77,
-            "wind_speed": "13 to 16 mph",
+            "high": 57,
+            "low": 18,
+            "precipitation_prob": 88,
+            "wind_speed": "12 to 15 mph",
             "wind_direction": "SW",
-            "short_forecast": "Showers And Thunderstorms Likely",
-            "detailed_forecast": "Rain showers before 8am, then showers and thunderstorms likely. Mostly cloudy, with a high near 58. Chance of precipitation is 80%."
+            "short_forecast": "Rain Showers",
+            "detailed_forecast": "Rain showers. Mostly cloudy, with a high near 57. Southwest wind 12 to 15 mph, with gusts as high as 36 mph. Chance of precipitation is 90%."
         },
         {
             "day": "Tuesday",
             "date": "2026-03-17",
-            "high": 37,
-            "low": 20,
+            "high": 35,
+            "low": 18,
             "precipitation_prob": 1,
-            "wind_speed": "12 to 16 mph",
+            "wind_speed": "9 to 13 mph",
             "wind_direction": "NW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 37."
+            "detailed_forecast": "Mostly sunny, with a high near 35."
         },
         {
             "day": "Wednesday",
             "date": "2026-03-18",
-            "high": 49,
-            "low": 30,
+            "high": 48,
+            "low": 29,
             "precipitation_prob": 1,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "SW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 49."
+            "wind_speed": "1 to 6 mph",
+            "wind_direction": "SSW",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 48."
         },
         {
             "day": "Thursday",
             "date": "2026-03-19",
-            "high": 58,
-            "low": 37,
-            "precipitation_prob": 6,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 58."
+            "high": 60,
+            "low": 38,
+            "precipitation_prob": 2,
+            "wind_speed": "3 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 60."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-03-20",
+            "high": 66,
+            "low": 40,
+            "precipitation_prob": 8,
+            "wind_speed": "1 to 7 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 66."
         }
     ],
     "active_alerts": [],
@@ -103,17 +103,19 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.214,
+        "evap_rate_kg_m2_h": 0.271,
         "evap_status": "LOW",
         "notes": [
-            "Optimal conditions for concrete work"
+            "Optimal conditions for concrete work",
+            "Rain expected Monday (88%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "GO",
             "notes": [
-                "Optimal conditions for concrete work"
+                "Optimal conditions for concrete work",
+                "Rain expected Monday (88%)"
             ]
         },
         "grading_excavation": {
@@ -123,46 +125,39 @@
             ]
         },
         "asphalt_paving": {
-            "status": "STOP",
+            "status": "CAUTION",
             "notes": [
-                "Temperature too low for asphalt"
+                "Rain forecasted - complete quickly"
             ]
         },
         "painting_coating": {
-            "status": "CAUTION",
-            "notes": [
-                "Temperature outside optimal range"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 29.0 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Saturday",
-            "Sunday",
             "Wednesday",
-            "Thursday"
+            "Thursday",
+            "Friday"
         ],
         "grading": [
             "Today",
-            "Saturday",
             "Tuesday",
             "Wednesday",
-            "Thursday"
+            "Thursday",
+            "Friday"
         ],
         "painting": [
             "Today",
-            "Saturday",
-            "Thursday"
+            "Thursday",
+            "Friday"
         ]
     },
     "swppp_compliance": {
@@ -203,5 +198,5 @@
             }
         ]
     },
-    "last_updated": "2026-03-13T14:10:14.559993"
+    "last_updated": "2026-03-14T13:59:22.359119"
 }
