@@ -8,105 +8,94 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 60.8,
-        "temperature_c": 16,
-        "wind_speed_mph": 49.7,
-        "wind_direction": "SSW",
-        "humidity_percent": 0,
-        "conditions": "Light Rain",
+        "temperature_f": 35.6,
+        "temperature_c": 2,
+        "wind_speed_mph": 29.0,
+        "wind_direction": "NW",
+        "humidity_percent": 44,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-03-16",
-            "high": 57,
-            "low": 18,
-            "precipitation_prob": 74,
-            "wind_speed": "12 mph",
-            "wind_direction": "W",
-            "short_forecast": "Showers And Thunderstorms Likely then Chance Snow Showers",
-            "detailed_forecast": "Showers and thunderstorms likely before 5pm, then a chance of snow showers. Some of the storms could be severe. Cloudy. High near 57, with temperatures falling to around 38 in the afternoon. West wind around 12 mph, with gusts as high as 28 mph. Chance of precipitation is 70%. New rainfall amounts between a half and three quarters of an inch possible."
-        },
-        {
-            "day": "Tuesday",
             "date": "2026-03-17",
-            "high": 36,
+            "high": 35,
             "low": 20,
-            "precipitation_prob": 2,
-            "wind_speed": "7 to 10 mph",
+            "precipitation_prob": 1,
+            "wind_speed": "9 mph",
             "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 36. Northwest wind 7 to 10 mph, with gusts as high as 24 mph."
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 35. Northwest wind around 9 mph, with gusts as high as 23 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-03-18",
-            "high": 46,
+            "high": 43,
             "low": 28,
-            "precipitation_prob": 1,
-            "wind_speed": "0 to 5 mph",
+            "precipitation_prob": 10,
+            "wind_speed": "0 to 3 mph",
             "wind_direction": "SSW",
             "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 46. South southwest wind 0 to 5 mph."
+            "detailed_forecast": "Partly sunny, with a high near 43. South southwest wind 0 to 3 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-03-19",
             "high": 58,
-            "low": 38,
-            "precipitation_prob": 5,
+            "low": 36,
+            "precipitation_prob": 2,
             "wind_speed": "3 mph",
             "wind_direction": "W",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 58."
+            "detailed_forecast": "Mostly sunny, with a high near 58. West wind around 3 mph."
         },
         {
             "day": "Friday",
             "date": "2026-03-20",
-            "high": 66,
+            "high": 67,
             "low": 45,
-            "precipitation_prob": 5,
-            "wind_speed": "1 to 6 mph",
-            "wind_direction": "WNW",
+            "precipitation_prob": 3,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "W",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 66."
+            "detailed_forecast": "Sunny, with a high near 67."
         },
         {
             "day": "Saturday",
             "date": "2026-03-21",
-            "high": 72,
-            "low": 48,
-            "precipitation_prob": 4,
-            "wind_speed": "2 to 9 mph",
+            "high": 70,
+            "low": 47,
+            "precipitation_prob": 6,
+            "wind_speed": "3 to 7 mph",
             "wind_direction": "W",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 72."
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 70."
         },
         {
             "day": "Sunday",
             "date": "2026-03-22",
-            "high": 73,
-            "low": 45,
-            "precipitation_prob": 6,
-            "wind_speed": "5 to 9 mph",
-            "wind_direction": "WNW",
+            "high": 74,
+            "low": 47,
+            "precipitation_prob": 8,
+            "wind_speed": "3 to 9 mph",
+            "wind_direction": "W",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 73."
-        }
-    ],
-    "active_alerts": [
+            "detailed_forecast": "Sunny, with a high near 74."
+        },
         {
-            "event": "Severe Thunderstorm Watch",
-            "severity": "Severe",
-            "urgency": "Future",
-            "headline": "Severe Thunderstorm Watch issued March 16 at 8:43AM EDT until March 16 at 11:00AM EDT by NWS Greenville-Spartanburg SC",
-            "description": "SEVERE THUNDERSTORM WATCH 64 REMAINS VALID UNTIL 11 AM EDT THIS\nMORNING FOR THE FOLLOWING AREAS\n\nIN NORTH CAROLINA THIS WATCH INCLUDES 13 COUNTIES\n\nIN PIEDMONT NORTH CAROLINA\n\nALEXANDER             CABARRUS              CATAWBA\nCLEVELAND             DAVIE                 GASTON\nIREDELL               LINCOLN               MECKLENBURG\nROWAN                 UNION NC\n\nIN WESTERN NORTH CAROLINA\n\nBURKE                 CALDWELL\n\nIN SOUTH CAROLINA THIS WATCH INCLUDES 7 COUNTIES\n\nIN UPSTATE SOUTH CAROLINA\n\nCHEROKEE              CHESTER               GREENWOOD\nLAURENS               SPARTANBURG           UNION SC\nYORK\n\nTHIS INCLUDES THE CITIES OF ADVANCE, BETHLEHEM, BLACKSTOCK,\nCATAWBA, CHARLOTTE, CHESTER, CLINTON, CONCORD, CORNWELL, CROUSE,\nELLENDALE, FARMINGTON, FORK CHURCH, GAFFNEY, GASTONIA,\nGRANITE FALLS, GREAT FALLS, HICKORY, HIDDENITE, HUNTERSVILLE,\nINDIAN TRAIL, KANNAPOLIS, KINGS CREEK, KINGS MOUNTAIN, LAURENS,\nLENOIR, LINCOLNTON, MATTHEWS, MILLERSVILLE, MOCKSVILLE,\nMONARCH MILLS, MONROE, MOORESVILLE, MORGANTON, NEWTON,\nNINETY SIX, PATTERSON, PLEASANT GROVE, ROCK HILL, SALISBURY,\nSAWMILLS, SHELBY, SPARTANBURG, ST. STEPHENS, STATESVILLE,\nSTONY POINT, TAYLORSVILLE, TRINITY, UNION, VALDESE, WARE SHOALS,\nAND WEDDINGTON.",
-            "instruction": null,
-            "onset": "2026-03-16T08:43:00-04:00",
-            "expires": "2026-03-16T11:00:00-04:00"
+            "day": "Monday",
+            "date": "2026-03-23",
+            "high": 64,
+            "low": 37,
+            "precipitation_prob": 13,
+            "wind_speed": "8 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 64."
         }
     ],
+    "active_alerts": [],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -114,19 +103,17 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 2.831,
-        "evap_status": "HIGH",
+        "evap_rate_kg_m2_h": 0.254,
+        "evap_status": "LOW",
         "notes": [
-            "High evaporation (2.831 kg/m\u00b2/h) - increase curing",
-            "Rain expected Today (74%)"
+            "Cold weather - use heated concrete/protection"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "CAUTION",
             "notes": [
-                "High evaporation (2.831 kg/m\u00b2/h) - increase curing",
-                "Rain expected Today (74%)"
+                "Cold weather - use heated concrete/protection"
             ]
         },
         "grading_excavation": {
@@ -136,19 +123,21 @@
             ]
         },
         "asphalt_paving": {
-            "status": "CAUTION",
+            "status": "STOP",
             "notes": [
-                "Rain forecasted - complete quickly"
+                "Temperature too low for asphalt"
             ]
         },
         "painting_coating": {
-            "status": "GO",
-            "notes": []
+            "status": "CAUTION",
+            "notes": [
+                "Temperature outside optimal range"
+            ]
         },
         "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 49.7 mph exceeds safe limits"
+                "Wind speed 29.0 mph exceeds safe limits"
             ]
         },
         "general_safety": [
@@ -157,25 +146,27 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Wednesday",
             "Thursday",
             "Friday",
             "Saturday",
-            "Sunday"
+            "Sunday",
+            "Monday"
         ],
         "grading": [
-            "Tuesday",
+            "Today",
             "Wednesday",
             "Thursday",
             "Friday",
             "Saturday",
-            "Sunday"
+            "Sunday",
+            "Monday"
         ],
         "painting": [
             "Thursday",
             "Friday",
             "Saturday",
-            "Sunday"
+            "Sunday",
+            "Monday"
         ]
     },
     "swppp_compliance": {
@@ -216,5 +207,5 @@
             }
         ]
     },
-    "last_updated": "2026-03-16T14:42:24.521128"
+    "last_updated": "2026-03-17T14:37:34.261944"
 }
