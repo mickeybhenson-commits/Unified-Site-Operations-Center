@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 35.6,
-        "temperature_c": 2,
+        "temperature_f": 37.4,
+        "temperature_c": 3,
         "wind_speed_mph": 29.0,
-        "wind_direction": "NW",
-        "humidity_percent": 44,
+        "wind_direction": "SE",
+        "humidity_percent": 38,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-03-17",
-            "high": 35,
-            "low": 20,
-            "precipitation_prob": 1,
-            "wind_speed": "9 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 35. Northwest wind around 9 mph, with gusts as high as 23 mph."
-        },
-        {
-            "day": "Wednesday",
             "date": "2026-03-18",
-            "high": 43,
-            "low": 28,
-            "precipitation_prob": 10,
-            "wind_speed": "0 to 3 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 43. South southwest wind 0 to 3 mph."
+            "high": 47,
+            "low": 31,
+            "precipitation_prob": 2,
+            "wind_speed": "3 mph",
+            "wind_direction": "N",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 47. North wind around 3 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-03-19",
             "high": 58,
-            "low": 36,
-            "precipitation_prob": 2,
-            "wind_speed": "3 mph",
-            "wind_direction": "W",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 58. West wind around 3 mph."
+            "low": 39,
+            "precipitation_prob": 6,
+            "wind_speed": "2 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 58. Southwest wind around 2 mph."
         },
         {
             "day": "Friday",
             "date": "2026-03-20",
-            "high": 67,
-            "low": 45,
-            "precipitation_prob": 3,
+            "high": 66,
+            "low": 47,
+            "precipitation_prob": 5,
             "wind_speed": "1 to 5 mph",
-            "wind_direction": "W",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 67."
+            "wind_direction": "WSW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 66. West southwest wind 1 to 5 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-03-21",
-            "high": 70,
-            "low": 47,
-            "precipitation_prob": 6,
-            "wind_speed": "3 to 7 mph",
+            "high": 71,
+            "low": 51,
+            "precipitation_prob": 4,
+            "wind_speed": "2 to 7 mph",
             "wind_direction": "W",
             "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 70."
+            "detailed_forecast": "Partly sunny, with a high near 71."
         },
         {
             "day": "Sunday",
             "date": "2026-03-22",
-            "high": 74,
-            "low": 47,
-            "precipitation_prob": 8,
-            "wind_speed": "3 to 9 mph",
+            "high": 77,
+            "low": 51,
+            "precipitation_prob": 7,
+            "wind_speed": "3 to 8 mph",
             "wind_direction": "W",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 74."
+            "detailed_forecast": "Sunny, with a high near 77."
         },
         {
             "day": "Monday",
             "date": "2026-03-23",
-            "high": 64,
+            "high": 68,
+            "low": 40,
+            "precipitation_prob": 21,
+            "wind_speed": "7 mph",
+            "wind_direction": "N",
+            "short_forecast": "Partly Sunny then Slight Chance Showers And Thunderstorms",
+            "detailed_forecast": "A slight chance of showers and thunderstorms after 2pm. Partly sunny, with a high near 68."
+        },
+        {
+            "day": "Tuesday",
+            "date": "2026-03-24",
+            "high": 53,
             "low": 37,
-            "precipitation_prob": 13,
-            "wind_speed": "8 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 64."
+            "precipitation_prob": 24,
+            "wind_speed": "7 mph",
+            "wind_direction": "SE",
+            "short_forecast": "Slight Chance Rain Showers",
+            "detailed_forecast": "A slight chance of rain showers. Mostly cloudy, with a high near 53."
         }
     ],
     "active_alerts": [],
@@ -103,7 +103,7 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 0.254,
+        "evap_rate_kg_m2_h": 0.317,
         "evap_status": "LOW",
         "notes": [
             "Cold weather - use heated concrete/protection"
@@ -146,27 +146,26 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
+            "Today",
             "Thursday",
             "Friday",
             "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
         "grading": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Friday",
             "Saturday",
-            "Sunday",
-            "Monday"
+            "Sunday"
         ],
         "painting": [
             "Thursday",
             "Friday",
             "Saturday",
-            "Sunday",
-            "Monday"
+            "Sunday"
         ]
     },
     "swppp_compliance": {
@@ -207,5 +206,5 @@
             }
         ]
     },
-    "last_updated": "2026-03-17T14:37:34.261944"
+    "last_updated": "2026-03-18T14:45:00.246703"
 }
