@@ -8,94 +8,105 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 69.8,
-        "temperature_c": 21,
-        "wind_speed_mph": 29.0,
-        "wind_direction": "WSW",
-        "humidity_percent": 60,
+        "temperature_f": 46.4,
+        "temperature_c": 8,
+        "wind_speed_mph": 0,
+        "wind_direction": "N",
+        "humidity_percent": 37,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-03-27",
-            "high": 79,
-            "low": 31,
-            "precipitation_prob": 25,
-            "wind_speed": "8 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Sunny then Chance Rain Showers",
-            "detailed_forecast": "A chance of rain showers after 4pm. Sunny, with a high near 79. Northwest wind around 8 mph, with gusts as high as 21 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
-        },
-        {
-            "day": "Saturday",
             "date": "2026-03-28",
-            "high": 54,
+            "high": 53,
             "low": 32,
-            "precipitation_prob": 1,
-            "wind_speed": "6 to 16 mph",
-            "wind_direction": "NNW",
+            "precipitation_prob": 0,
+            "wind_speed": "6 to 13 mph",
+            "wind_direction": "N",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 54. North northwest wind 6 to 16 mph, with gusts as high as 36 mph."
+            "detailed_forecast": "Sunny, with a high near 53. North wind 6 to 13 mph, with gusts as high as 29 mph."
         },
         {
             "day": "Sunday",
             "date": "2026-03-29",
             "high": 58,
-            "low": 41,
+            "low": 42,
             "precipitation_prob": 0,
-            "wind_speed": "2 to 7 mph",
+            "wind_speed": "2 to 8 mph",
             "wind_direction": "S",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 58. South wind 2 to 7 mph, with gusts as high as 18 mph."
+            "detailed_forecast": "Sunny, with a high near 58. South wind 2 to 8 mph, with gusts as high as 18 mph."
         },
         {
             "day": "Monday",
             "date": "2026-03-30",
             "high": 68,
-            "low": 49,
-            "precipitation_prob": 5,
+            "low": 50,
+            "precipitation_prob": 3,
             "wind_speed": "2 to 7 mph",
-            "wind_direction": "SW",
+            "wind_direction": "SSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 68."
+            "detailed_forecast": "Mostly sunny, with a high near 68. South southwest wind 2 to 7 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-03-31",
-            "high": 74,
-            "low": 54,
+            "high": 73,
+            "low": 56,
             "precipitation_prob": 13,
-            "wind_speed": "2 to 8 mph",
-            "wind_direction": "SW",
+            "wind_speed": "3 to 9 mph",
+            "wind_direction": "SSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 74."
+            "detailed_forecast": "Mostly sunny, with a high near 73."
         },
         {
             "day": "Wednesday",
             "date": "2026-04-01",
-            "high": 76,
+            "high": 74,
             "low": 56,
-            "precipitation_prob": 34,
-            "wind_speed": "2 to 9 mph",
-            "wind_direction": "SW",
-            "short_forecast": "Mostly Sunny then Chance Light Rain",
-            "detailed_forecast": "A chance of rain after 2pm. Mostly sunny, with a high near 76. Chance of precipitation is 30%."
+            "precipitation_prob": 68,
+            "wind_speed": "3 to 9 mph",
+            "wind_direction": "SSW",
+            "short_forecast": "Light Rain Likely",
+            "detailed_forecast": "A slight chance of rain before 8am, then rain likely and a chance of thunderstorms. Partly sunny, with a high near 74. Chance of precipitation is 70%."
         },
         {
             "day": "Thursday",
             "date": "2026-04-02",
-            "high": 74,
-            "low": 56,
-            "precipitation_prob": 40,
-            "wind_speed": "5 to 9 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain. Partly sunny, with a high near 74. Chance of precipitation is 40%."
+            "high": 68,
+            "low": 52,
+            "precipitation_prob": 70,
+            "wind_speed": "2 to 8 mph",
+            "wind_direction": "S",
+            "short_forecast": "Rain Likely",
+            "detailed_forecast": "A chance of rain before 2pm, then rain likely and a slight chance of thunderstorms. Mostly cloudy, with a high near 68. Chance of precipitation is 70%."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-04-03",
+            "high": 63,
+            "low": 53,
+            "precipitation_prob": 64,
+            "wind_speed": "3 to 7 mph",
+            "wind_direction": "SSE",
+            "short_forecast": "Light Rain Likely",
+            "detailed_forecast": "Rain likely. Mostly cloudy, with a high near 63. Chance of precipitation is 60%."
         }
     ],
-    "active_alerts": [],
+    "active_alerts": [
+        {
+            "event": "Red Flag Warning",
+            "severity": "Severe",
+            "urgency": "Expected",
+            "headline": "Red Flag Warning issued March 28 at 2:11AM EDT until March 28 at 11:00PM EDT by NWS Greenville-Spartanburg SC",
+            "description": "...RED FLAG WARNING FOR GUSTY WINDS, DRY FUELS, AND LOW HUMIDITY\nTODAY...\n\n* AFFECTED AREA...Cherokee, York, Rabun, Anderson, Abbeville,\nLaurens, Union, Chester, Habersham, Stephens, Greenwood,\nFranklin, Hart, Elbert, Avery, Alexander, Iredell, Davie,\nMadison, Yancey, Mitchell, Swain, Haywood, Buncombe, Catawba,\nRowan, Graham, Northern Jackson, Macon, Southern Jackson,\nTransylvania, Henderson, Cleveland, Lincoln, Gaston,\nMecklenburg, Cabarrus, Union, Oconee Mountains, Pickens\nMountains, Greenville Mountains, Greater Oconee, Greater\nPickens, Central Greenville, Southern Greenville, Northern\nSpartanburg, Southern Spartanburg, North Carolina Portion of\nthe Great Smoky Mountains National Park, Caldwell Mountains,\nGreater Caldwell, Burke Mountains, Greater Burke, McDowell\nMountains, Eastern McDowell, Rutherford Mountains, Greater\nRutherford, Polk Mountains and Eastern Polk.\n\n* TIMING...From 8 AM this morning to 11 PM EDT this evening.\n\n* WINDS...Northeast 10 to 25 mph with gusts up to 40 mph.\n\n* RELATIVE HUMIDITY...As low as 15 percent.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+            "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.",
+            "onset": "2026-03-28T08:00:00-04:00",
+            "expires": "2026-03-28T12:00:00-04:00"
+        }
+    ],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -103,8 +114,8 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.963,
-        "evap_status": "MODERATE",
+        "evap_rate_kg_m2_h": 0.043,
+        "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work"
         ]
@@ -123,39 +134,38 @@
             ]
         },
         "asphalt_paving": {
-            "status": "GO",
-            "notes": []
-        },
-        "painting_coating": {
-            "status": "GO",
-            "notes": []
-        },
-        "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 29.0 mph exceeds safe limits"
+                "Temperature too low for asphalt"
             ]
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "painting_coating": {
+            "status": "CAUTION",
+            "notes": [
+                "Temperature outside optimal range"
+            ]
+        },
+        "crane_ops": {
+            "status": "GO",
+            "notes": []
+        },
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Saturday",
             "Sunday",
             "Monday",
             "Tuesday"
         ],
         "grading": [
-            "Saturday",
+            "Today",
             "Sunday",
             "Monday",
             "Tuesday"
         ],
         "painting": [
-            "Saturday",
+            "Today",
             "Sunday",
             "Monday",
             "Tuesday"
@@ -199,5 +209,5 @@
             }
         ]
     },
-    "last_updated": "2026-03-27T14:30:37.102900"
+    "last_updated": "2026-03-28T14:02:03.259575"
 }
