@@ -8,123 +8,114 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 46.4,
-        "temperature_c": 8,
-        "wind_speed_mph": 24.9,
-        "wind_direction": "S",
-        "humidity_percent": 39,
-        "conditions": "Clear",
+        "temperature_f": 62.6,
+        "temperature_c": 17,
+        "wind_speed_mph": 49.7,
+        "wind_direction": "SW",
+        "humidity_percent": 63,
+        "conditions": "Mostly Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-03-29",
-            "high": 58,
-            "low": 44,
-            "precipitation_prob": 0,
-            "wind_speed": "8 mph",
-            "wind_direction": "S",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 58. South wind around 8 mph."
-        },
-        {
-            "day": "Monday",
             "date": "2026-03-30",
-            "high": 68,
-            "low": 51,
-            "precipitation_prob": 5,
-            "wind_speed": "2 to 7 mph",
-            "wind_direction": "SSW",
+            "high": 66,
+            "low": 52,
+            "precipitation_prob": 8,
+            "wind_speed": "3 to 7 mph",
+            "wind_direction": "SW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 68. South southwest wind 2 to 7 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 66. Southwest wind 3 to 7 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-03-31",
             "high": 73,
             "low": 56,
-            "precipitation_prob": 27,
-            "wind_speed": "2 to 8 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of rain showers between 2pm and 5pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 73. South southwest wind 2 to 8 mph, with gusts as high as 20 mph. Chance of precipitation is 30%."
+            "precipitation_prob": 40,
+            "wind_speed": "2 to 7 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Mostly Sunny then Chance Light Rain",
+            "detailed_forecast": "A slight chance of rain between noon and 2pm, then a chance of rain and a slight chance of thunderstorms. Mostly sunny, with a high near 73. Southwest wind 2 to 7 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
         },
         {
             "day": "Wednesday",
             "date": "2026-04-01",
-            "high": 74,
-            "low": 56,
-            "precipitation_prob": 68,
-            "wind_speed": "2 to 8 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Slight Chance T-storms then Chance Light Rain",
-            "detailed_forecast": "A slight chance of thunderstorms and a slight chance of rain between 8am and noon, then a chance of rain and a slight chance of thunderstorms between noon and 2pm, then a chance of thunderstorms and a chance of rain between 2pm and 3pm, then rain likely and a chance of thunderstorms. Partly sunny, with a high near 74. Chance of precipitation is 70%."
+            "high": 75,
+            "low": 55,
+            "precipitation_prob": 71,
+            "wind_speed": "1 to 7 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Chance T-storms",
+            "detailed_forecast": "A slight chance of rain between 9am and 11am, then a chance of thunderstorms and a chance of rain between 11am and 3pm, then rain likely and a chance of thunderstorms. Partly sunny, with a high near 75. Southwest wind 1 to 7 mph. Chance of precipitation is 70%."
         },
         {
             "day": "Thursday",
             "date": "2026-04-02",
-            "high": 72,
-            "low": 57,
-            "precipitation_prob": 65,
+            "high": 73,
+            "low": 56,
+            "precipitation_prob": 35,
             "wind_speed": "2 to 9 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Light Rain Likely",
-            "detailed_forecast": "A chance of rain before 2pm, then rain likely and a slight chance of thunderstorms. Mostly cloudy, with a high near 72. Chance of precipitation is 70%."
+            "wind_direction": "S",
+            "short_forecast": "Mostly Sunny then Chance Light Rain",
+            "detailed_forecast": "A slight chance of rain between noon and 2pm, then a chance of rain and a slight chance of thunderstorms. Mostly sunny, with a high near 73. Chance of precipitation is 40%."
         },
         {
             "day": "Friday",
             "date": "2026-04-03",
-            "high": 71,
+            "high": 72,
             "low": 58,
-            "precipitation_prob": 64,
-            "wind_speed": "3 to 7 mph",
+            "precipitation_prob": 58,
+            "wind_speed": "2 to 8 mph",
             "wind_direction": "S",
             "short_forecast": "Light Rain Likely",
-            "detailed_forecast": "Rain likely before 2pm, then rain likely and a slight chance of thunderstorms. Mostly cloudy, with a high near 71. Chance of precipitation is 60%."
+            "detailed_forecast": "A chance of rain before 2pm, then rain likely and a slight chance of thunderstorms. Mostly cloudy, with a high near 72. Chance of precipitation is 60%."
         },
         {
             "day": "Saturday",
             "date": "2026-04-04",
             "high": 72,
-            "low": 55,
-            "precipitation_prob": 64,
+            "low": 56,
+            "precipitation_prob": 66,
             "wind_speed": "2 to 8 mph",
             "wind_direction": "S",
             "short_forecast": "Light Rain Likely",
-            "detailed_forecast": "Rain likely. Mostly cloudy, with a high near 72. Chance of precipitation is 60%."
-        }
-    ],
-    "active_alerts": [
+            "detailed_forecast": "A chance of rain before 2pm, then rain likely and a slight chance of thunderstorms. Mostly cloudy, with a high near 72. Chance of precipitation is 70%."
+        },
         {
-            "event": "Special Weather Statement",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Special Weather Statement issued March 29 at 4:05AM EDT by NWS Greenville-Spartanburg SC",
-            "description": "While moisture is expected to begin slowly recovering today,\nanother very dry afternoon is expected with relative humidity\nvalues between 15 and 25 percent forecast across much of the\narea. Although winds will be mostly light, between 5 and 10 mph,\nthe dry air combined with very dry vegetation will result in a\ncontinuation of elevated fire danger.\n\nStatewide burn bans are in effect for both North Carolina and\nSouth Carolina until further notice. Open burning of any kind\nis subject to fines until the bans are lifted.",
-            "instruction": null,
-            "onset": "2026-03-29T04:05:00-04:00",
-            "expires": "2026-03-29T20:00:00-04:00"
+            "day": "Sunday",
+            "date": "2026-04-05",
+            "high": 67,
+            "low": 44,
+            "precipitation_prob": 49,
+            "wind_speed": "5 to 10 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Chance Light Rain",
+            "detailed_forecast": "A chance of rain before 2pm, then a chance of rain and a slight chance of thunderstorms. Mostly cloudy, with a high near 67. Chance of precipitation is 50%."
         }
     ],
+    "active_alerts": [],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.463,
-        "evap_status": "LOW",
+        "pour_status": "CAUTION",
+        "evap_rate_kg_m2_h": 1.126,
+        "evap_status": "HIGH",
         "notes": [
-            "Optimal conditions for concrete work"
+            "High evaporation (1.126 kg/m\u00b2/h) - increase curing",
+            "Rain expected Wednesday (71%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "GO",
+            "status": "CAUTION",
             "notes": [
-                "Optimal conditions for concrete work"
+                "High evaporation (1.126 kg/m\u00b2/h) - increase curing",
+                "Rain expected Wednesday (71%)"
             ]
         },
         "grading_excavation": {
@@ -134,38 +125,34 @@
             ]
         },
         "asphalt_paving": {
-            "status": "STOP",
+            "status": "CAUTION",
             "notes": [
-                "Temperature too low for asphalt"
+                "Rain forecasted - complete quickly"
             ]
         },
         "painting_coating": {
-            "status": "CAUTION",
-            "notes": [
-                "Temperature outside optimal range"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 24.9 mph exceeds safe limits"
+                "Wind speed 49.7 mph exceeds safe limits"
             ]
         },
-        "general_safety": []
+        "general_safety": [
+            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
+        ]
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Today",
-            "Monday",
-            "Tuesday"
+            "Today"
         ],
         "grading": [
-            "Today",
-            "Monday"
+            "Today"
         ],
         "painting": [
-            "Today",
-            "Monday"
+            "Today"
         ]
     },
     "swppp_compliance": {
@@ -206,5 +193,5 @@
             }
         ]
     },
-    "last_updated": "2026-03-29T14:03:25.859377"
+    "last_updated": "2026-03-30T14:47:50.219982"
 }
