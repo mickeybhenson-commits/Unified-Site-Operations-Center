@@ -8,65 +8,54 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 59.0,
-        "temperature_c": 15,
+        "temperature_f": 51.8,
+        "temperature_c": 11,
         "wind_speed_mph": 0,
         "wind_direction": "N",
-        "humidity_percent": 0,
+        "humidity_percent": 32,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-04-07",
-            "high": 61,
-            "low": 35,
-            "precipitation_prob": 1,
-            "wind_speed": "7 mph",
-            "wind_direction": "N",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 61. North wind around 7 mph."
-        },
-        {
-            "day": "Wednesday",
             "date": "2026-04-08",
             "high": 58,
-            "low": 34,
-            "precipitation_prob": 1,
-            "wind_speed": "3 to 7 mph",
+            "low": 35,
+            "precipitation_prob": 0,
+            "wind_speed": "6 mph",
             "wind_direction": "SE",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 58. Southeast wind 3 to 7 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 58. Southeast wind around 6 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-04-09",
             "high": 64,
-            "low": 38,
-            "precipitation_prob": 4,
-            "wind_speed": "1 to 6 mph",
+            "low": 40,
+            "precipitation_prob": 2,
+            "wind_speed": "1 to 5 mph",
             "wind_direction": "SE",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 64. Southeast wind 1 to 6 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 64. Southeast wind 1 to 5 mph."
         },
         {
             "day": "Friday",
             "date": "2026-04-10",
-            "high": 71,
-            "low": 45,
-            "precipitation_prob": 2,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Patchy Frost then Sunny",
-            "detailed_forecast": "Patchy frost before 8am. Sunny, with a high near 71."
+            "high": 73,
+            "low": 46,
+            "precipitation_prob": 0,
+            "wind_speed": "2 mph",
+            "wind_direction": "N",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 73. North wind around 2 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-04-11",
             "high": 76,
             "low": 50,
-            "precipitation_prob": 3,
+            "precipitation_prob": 5,
             "wind_speed": "1 to 5 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
@@ -75,24 +64,35 @@
         {
             "day": "Sunday",
             "date": "2026-04-12",
-            "high": 76,
-            "low": 52,
-            "precipitation_prob": 1,
-            "wind_speed": "1 to 8 mph",
-            "wind_direction": "SSW",
+            "high": 75,
+            "low": 51,
+            "precipitation_prob": 0,
+            "wind_speed": "1 to 7 mph",
+            "wind_direction": "S",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 76."
+            "detailed_forecast": "Sunny, with a high near 75."
         },
         {
             "day": "Monday",
             "date": "2026-04-13",
-            "high": 76,
-            "low": 54,
-            "precipitation_prob": 2,
-            "wind_speed": "2 to 8 mph",
+            "high": 74,
+            "low": 55,
+            "precipitation_prob": 1,
+            "wind_speed": "3 to 9 mph",
             "wind_direction": "SSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 76."
+            "detailed_forecast": "Mostly sunny, with a high near 74."
+        },
+        {
+            "day": "Tuesday",
+            "date": "2026-04-14",
+            "high": 78,
+            "low": 57,
+            "precipitation_prob": 8,
+            "wind_speed": "3 to 9 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 78."
         }
     ],
     "active_alerts": [],
@@ -103,7 +103,7 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.125,
+        "evap_rate_kg_m2_h": 0.062,
         "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work"
@@ -139,30 +139,30 @@
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Friday",
             "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
         "grading": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Friday",
             "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
         "painting": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Friday",
             "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ]
     },
     "swppp_compliance": {
@@ -203,5 +203,5 @@
             }
         ]
     },
-    "last_updated": "2026-04-07T14:51:28.185773"
+    "last_updated": "2026-04-08T14:51:29.738100"
 }
