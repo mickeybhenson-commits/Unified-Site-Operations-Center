@@ -8,66 +8,55 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 62.6,
-        "temperature_c": 17,
-        "wind_speed_mph": 16.6,
-        "wind_direction": "E",
-        "humidity_percent": 68,
-        "conditions": "",
+        "temperature_f": 69.8,
+        "temperature_c": 21,
+        "wind_speed_mph": 53.9,
+        "wind_direction": "WSW",
+        "humidity_percent": 64,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-04-12",
+            "date": "2026-04-13",
             "high": 77,
             "low": 54,
-            "precipitation_prob": 0,
-            "wind_speed": "2 to 9 mph",
-            "wind_direction": "S",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 77. South wind 2 to 9 mph, with gusts as high as 20 mph."
-        },
-        {
-            "day": "Monday",
-            "date": "2026-04-13",
-            "high": 75,
-            "low": 54,
-            "precipitation_prob": 2,
-            "wind_speed": "3 to 8 mph",
-            "wind_direction": "SW",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 75. Southwest wind 3 to 8 mph, with gusts as high as 18 mph."
+            "precipitation_prob": 5,
+            "wind_speed": "3 to 7 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 77. West southwest wind 3 to 7 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-04-14",
             "high": 81,
-            "low": 54,
-            "precipitation_prob": 7,
-            "wind_speed": "1 to 6 mph",
+            "low": 56,
+            "precipitation_prob": 5,
+            "wind_speed": "2 to 6 mph",
             "wind_direction": "WSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 81. West southwest wind 1 to 6 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 81. West southwest wind 2 to 6 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-04-15",
-            "high": 83,
-            "low": 56,
+            "high": 84,
+            "low": 57,
             "precipitation_prob": 0,
             "wind_speed": "1 to 7 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 83."
+            "wind_direction": "W",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 84. West wind 1 to 7 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-04-16",
             "high": 81,
-            "low": 56,
-            "precipitation_prob": 7,
-            "wind_speed": "1 to 8 mph",
+            "low": 55,
+            "precipitation_prob": 1,
+            "wind_speed": "1 to 9 mph",
             "wind_direction": "WSW",
             "short_forecast": "Mostly Sunny",
             "detailed_forecast": "Mostly sunny, with a high near 81."
@@ -75,24 +64,35 @@
         {
             "day": "Friday",
             "date": "2026-04-17",
-            "high": 81,
+            "high": 82,
             "low": 57,
-            "precipitation_prob": 10,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "WNW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 81."
+            "precipitation_prob": 4,
+            "wind_speed": "5 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 82."
         },
         {
             "day": "Saturday",
             "date": "2026-04-18",
-            "high": 83,
-            "low": 57,
-            "precipitation_prob": 17,
-            "wind_speed": "1 to 8 mph",
+            "high": 84,
+            "low": 55,
+            "precipitation_prob": 9,
+            "wind_speed": "1 to 9 mph",
             "wind_direction": "SW",
-            "short_forecast": "Mostly Sunny then Slight Chance Rain Showers",
-            "detailed_forecast": "A slight chance of rain showers after 2pm. Mostly sunny, with a high near 83."
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 84."
+        },
+        {
+            "day": "Sunday",
+            "date": "2026-04-19",
+            "high": 72,
+            "low": 41,
+            "precipitation_prob": 37,
+            "wind_speed": "5 to 9 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Chance Rain Showers",
+            "detailed_forecast": "A chance of rain showers. Partly sunny, with a high near 72. Chance of precipitation is 40%."
         }
     ],
     "active_alerts": [],
@@ -102,18 +102,18 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.356,
-        "evap_status": "LOW",
+        "pour_status": "CAUTION",
+        "evap_rate_kg_m2_h": 1.551,
+        "evap_status": "HIGH",
         "notes": [
-            "Optimal conditions for concrete work"
+            "High evaporation (1.551 kg/m\u00b2/h) - increase curing"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "GO",
+            "status": "CAUTION",
             "notes": [
-                "Optimal conditions for concrete work"
+                "High evaporation (1.551 kg/m\u00b2/h) - increase curing"
             ]
         },
         "grading_excavation": {
@@ -131,17 +131,18 @@
             "notes": []
         },
         "crane_ops": {
-            "status": "CAUTION",
+            "status": "STOP",
             "notes": [
-                "Monitor wind speeds closely"
+                "Wind speed 53.9 mph exceeds safe limits"
             ]
         },
-        "general_safety": []
+        "general_safety": [
+            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
+        ]
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
@@ -150,7 +151,6 @@
         ],
         "grading": [
             "Today",
-            "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
@@ -159,7 +159,6 @@
         ],
         "painting": [
             "Today",
-            "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
@@ -205,5 +204,5 @@
             }
         ]
     },
-    "last_updated": "2026-04-12T14:07:33.659897"
+    "last_updated": "2026-04-13T14:59:02.950014"
 }
