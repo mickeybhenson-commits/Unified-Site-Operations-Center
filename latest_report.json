@@ -8,77 +8,66 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 71.6,
-        "temperature_c": 22,
-        "wind_speed_mph": 12.4,
-        "wind_direction": "SW",
-        "humidity_percent": 53,
+        "temperature_f": 77.0,
+        "temperature_c": 25,
+        "wind_speed_mph": 37.3,
+        "wind_direction": "WSW",
+        "humidity_percent": 47,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-04-15",
-            "high": 82,
-            "low": 56,
-            "precipitation_prob": 0,
-            "wind_speed": "2 to 7 mph",
-            "wind_direction": "W",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 82. West wind 2 to 7 mph."
-        },
-        {
-            "day": "Thursday",
             "date": "2026-04-16",
-            "high": 81,
-            "low": 57,
-            "precipitation_prob": 3,
-            "wind_speed": "2 to 8 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 81. West southwest wind 2 to 8 mph."
+            "high": 80,
+            "low": 55,
+            "precipitation_prob": 0,
+            "wind_speed": "9 mph",
+            "wind_direction": "W",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 80. West wind around 9 mph."
         },
         {
             "day": "Friday",
             "date": "2026-04-17",
-            "high": 81,
+            "high": 79,
             "low": 57,
-            "precipitation_prob": 9,
+            "precipitation_prob": 7,
             "wind_speed": "5 mph",
             "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 81. Northwest wind around 5 mph."
+            "detailed_forecast": "Sunny, with a high near 79. Northwest wind around 5 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-04-18",
             "high": 83,
-            "low": 48,
-            "precipitation_prob": 6,
+            "low": 46,
+            "precipitation_prob": 16,
             "wind_speed": "1 to 8 mph",
             "wind_direction": "SW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 83."
+            "short_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+            "detailed_forecast": "A slight chance of showers and thunderstorms after 5pm. Mostly sunny, with a high near 83. Southwest wind 1 to 8 mph, with gusts as high as 18 mph. Chance of precipitation is 20%."
         },
         {
             "day": "Sunday",
             "date": "2026-04-19",
-            "high": 62,
-            "low": 36,
-            "precipitation_prob": 38,
-            "wind_speed": "8 to 13 mph",
+            "high": 58,
+            "low": 37,
+            "precipitation_prob": 44,
+            "wind_speed": "10 to 14 mph",
             "wind_direction": "NW",
             "short_forecast": "Chance Rain Showers",
-            "detailed_forecast": "A chance of rain showers. Partly sunny, with a high near 62. Chance of precipitation is 40%."
+            "detailed_forecast": "A chance of rain showers before 2pm. Partly sunny, with a high near 58. Chance of precipitation is 40%."
         },
         {
             "day": "Monday",
             "date": "2026-04-20",
             "high": 62,
             "low": 39,
-            "precipitation_prob": 1,
-            "wind_speed": "8 mph",
+            "precipitation_prob": 4,
+            "wind_speed": "7 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
             "detailed_forecast": "Sunny, with a high near 62."
@@ -87,12 +76,23 @@
             "day": "Tuesday",
             "date": "2026-04-21",
             "high": 68,
-            "low": 44,
-            "precipitation_prob": 3,
-            "wind_speed": "1 to 6 mph",
-            "wind_direction": "SSW",
+            "low": 45,
+            "precipitation_prob": 2,
+            "wind_speed": "2 to 7 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 68."
+        },
+        {
+            "day": "Wednesday",
+            "date": "2026-04-22",
+            "high": 72,
+            "low": 48,
+            "precipitation_prob": 10,
+            "wind_speed": "2 to 7 mph",
+            "wind_direction": "WSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 68."
+            "detailed_forecast": "Mostly sunny, with a high near 72."
         }
     ],
     "active_alerts": [
@@ -100,11 +100,11 @@
             "event": "Special Weather Statement",
             "severity": "Moderate",
             "urgency": "Expected",
-            "headline": "Special Weather Statement issued April 15 at 1:53AM EDT by NWS Greenville-Spartanburg SC",
-            "description": "Relative humidity values will fall into the 25 to 30 percent range\nthis afternoon, with winds increasing to around 10 to 15 mph with\nsome higher gusts. With vegetation remaining dry, the ongoing\ndrought, and favorable meteorological conditions, fires will be\nable to catch and spread rapidly.\n\nRefer to your local burn permitting authority regarding whether\nyou may burn outdoors today. If you do burn, exercise extreme\ncaution as fires can quickly get out of hand under these\nconditions.",
+            "headline": "Special Weather Statement issued April 16 at 5:50AM EDT by NWS Greenville-Spartanburg SC",
+            "description": "Relative humidity values will fall into the 20 to 30 percent\nrange again this afternoon, with winds increasing to around 10 to\n15 mph with gusts of 15 to 25 mph. With vegetation remaining dry,\nthe ongoing drought, and favorable meteorological conditions,\nfires will be able to catch and spread rapidly.\n\nA statewide burn ban issued by the North Carolina Forest Service\nis currently in place. Open burning of any kind is illegal.",
             "instruction": null,
-            "onset": "2026-04-15T01:53:00-04:00",
-            "expires": "2026-04-15T13:00:00-04:00"
+            "onset": "2026-04-16T05:50:00-04:00",
+            "expires": "2026-04-16T13:00:00-04:00"
         }
     ],
     "soil_moisture": {
@@ -113,18 +113,18 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.57,
-        "evap_status": "MODERATE",
+        "pour_status": "CAUTION",
+        "evap_rate_kg_m2_h": 2.057,
+        "evap_status": "HIGH",
         "notes": [
-            "Optimal conditions for concrete work"
+            "High evaporation (2.057 kg/m\u00b2/h) - increase curing"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "GO",
+            "status": "CAUTION",
             "notes": [
-                "Optimal conditions for concrete work"
+                "High evaporation (2.057 kg/m\u00b2/h) - increase curing"
             ]
         },
         "grading_excavation": {
@@ -142,35 +142,39 @@
             "notes": []
         },
         "crane_ops": {
-            "status": "GO",
-            "notes": []
+            "status": "STOP",
+            "notes": [
+                "Wind speed 37.3 mph exceeds safe limits"
+            ]
         },
-        "general_safety": []
+        "general_safety": [
+            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
+        ]
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Thursday",
             "Friday",
             "Saturday",
             "Monday",
-            "Tuesday"
+            "Tuesday",
+            "Wednesday"
         ],
         "grading": [
             "Today",
-            "Thursday",
             "Friday",
             "Saturday",
             "Monday",
-            "Tuesday"
+            "Tuesday",
+            "Wednesday"
         ],
         "painting": [
             "Today",
-            "Thursday",
             "Friday",
             "Saturday",
             "Monday",
-            "Tuesday"
+            "Tuesday",
+            "Wednesday"
         ]
     },
     "swppp_compliance": {
@@ -211,5 +215,5 @@
             }
         ]
     },
-    "last_updated": "2026-04-15T14:52:29.440486"
+    "last_updated": "2026-04-16T15:11:16.731690"
 }
