@@ -8,76 +8,65 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 73.4,
-        "temperature_c": 23,
-        "wind_speed_mph": 20.7,
-        "wind_direction": "SSE",
-        "humidity_percent": 53,
-        "conditions": "Clear",
+        "temperature_f": 55.4,
+        "temperature_c": 13,
+        "wind_speed_mph": 0,
+        "wind_direction": "N",
+        "humidity_percent": 62,
+        "conditions": "Mostly Cloudy",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-04-18",
-            "high": 82,
-            "low": 42,
-            "precipitation_prob": 10,
-            "wind_speed": "2 to 9 mph",
-            "wind_direction": "SW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 82. Southwest wind 2 to 9 mph, with gusts as high as 20 mph."
-        },
-        {
-            "day": "Sunday",
             "date": "2026-04-19",
-            "high": 56,
-            "low": 40,
-            "precipitation_prob": 51,
+            "high": 55,
+            "low": 39,
+            "precipitation_prob": 1,
             "wind_speed": "12 to 17 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Chance Rain Showers",
-            "detailed_forecast": "A chance of rain showers before 1pm. Partly sunny, with a high near 56. Northwest wind 12 to 17 mph, with gusts as high as 35 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+            "wind_direction": "NNW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 55. North northwest wind 12 to 17 mph, with gusts as high as 35 mph. New rainfall amounts less than a tenth of an inch possible."
         },
         {
             "day": "Monday",
             "date": "2026-04-20",
             "high": 61,
             "low": 36,
-            "precipitation_prob": 0,
-            "wind_speed": "5 to 12 mph",
-            "wind_direction": "NW",
+            "precipitation_prob": 2,
+            "wind_speed": "3 to 13 mph",
+            "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 61. Northwest wind 5 to 12 mph, with gusts as high as 25 mph."
+            "detailed_forecast": "Sunny, with a high near 61. West northwest wind 3 to 13 mph, with gusts as high as 28 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-04-21",
-            "high": 70,
-            "low": 46,
+            "high": 69,
+            "low": 47,
             "precipitation_prob": 0,
             "wind_speed": "1 to 6 mph",
             "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 70."
+            "detailed_forecast": "Sunny, with a high near 69. West northwest wind 1 to 6 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-04-22",
-            "high": 75,
+            "high": 74,
             "low": 49,
-            "precipitation_prob": 3,
+            "precipitation_prob": 2,
             "wind_speed": "2 to 8 mph",
             "wind_direction": "W",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 75."
+            "detailed_forecast": "Sunny, with a high near 74."
         },
         {
             "day": "Thursday",
             "date": "2026-04-23",
             "high": 77,
             "low": 52,
-            "precipitation_prob": 4,
+            "precipitation_prob": 8,
             "wind_speed": "5 mph",
             "wind_direction": "WNW",
             "short_forecast": "Sunny",
@@ -86,13 +75,24 @@
         {
             "day": "Friday",
             "date": "2026-04-24",
-            "high": 77,
-            "low": 54,
-            "precipitation_prob": 10,
-            "wind_speed": "1 to 8 mph",
+            "high": 76,
+            "low": 55,
+            "precipitation_prob": 11,
+            "wind_speed": "1 to 7 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 76."
+        },
+        {
+            "day": "Saturday",
+            "date": "2026-04-25",
+            "high": 73,
+            "low": 50,
+            "precipitation_prob": 63,
+            "wind_speed": "2 to 8 mph",
             "wind_direction": "WSW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 77."
+            "short_forecast": "Showers And Thunderstorms Likely",
+            "detailed_forecast": "A chance of rain showers before 2pm, then showers and thunderstorms likely. Partly sunny, with a high near 73. Chance of precipitation is 60%."
         }
     ],
     "active_alerts": [],
@@ -103,8 +103,8 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.944,
-        "evap_status": "MODERATE",
+        "evap_rate_kg_m2_h": 0.041,
+        "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work"
         ]
@@ -131,10 +131,8 @@
             "notes": []
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 20.7 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "general_safety": []
     },
@@ -202,5 +200,5 @@
             }
         ]
     },
-    "last_updated": "2026-04-18T14:09:07.290022"
+    "last_updated": "2026-04-19T14:08:11.332701"
 }
