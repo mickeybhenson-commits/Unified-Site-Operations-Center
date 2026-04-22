@@ -8,112 +8,123 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 55.4,
-        "temperature_c": 13,
-        "wind_speed_mph": 24.9,
-        "wind_direction": "ENE",
-        "humidity_percent": 44,
+        "temperature_f": 66.2,
+        "temperature_c": 19,
+        "wind_speed_mph": 41.4,
+        "wind_direction": "SW",
+        "humidity_percent": 43,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-04-21",
-            "high": 71,
-            "low": 48,
-            "precipitation_prob": 0,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 71. North northeast wind 1 to 5 mph."
-        },
-        {
-            "day": "Wednesday",
             "date": "2026-04-22",
             "high": 74,
-            "low": 49,
+            "low": 50,
             "precipitation_prob": 4,
-            "wind_speed": "2 to 7 mph",
+            "wind_speed": "7 mph",
             "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 74. West northwest wind 2 to 7 mph."
+            "detailed_forecast": "Sunny, with a high near 74. West northwest wind around 7 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-04-23",
-            "high": 74,
-            "low": 51,
-            "precipitation_prob": 6,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "W",
+            "high": 75,
+            "low": 52,
+            "precipitation_prob": 7,
+            "wind_speed": "3 mph",
+            "wind_direction": "WSW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 74. West wind 1 to 5 mph."
+            "detailed_forecast": "Sunny, with a high near 75. West southwest wind around 3 mph."
         },
         {
             "day": "Friday",
             "date": "2026-04-24",
             "high": 75,
-            "low": 55,
-            "precipitation_prob": 7,
+            "low": 54,
+            "precipitation_prob": 16,
             "wind_speed": "1 to 6 mph",
             "wind_direction": "WSW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 75."
+            "short_forecast": "Mostly Sunny then Slight Chance Rain Showers",
+            "detailed_forecast": "A slight chance of rain showers after 5pm. Mostly sunny, with a high near 75. West southwest wind 1 to 6 mph. Chance of precipitation is 20%."
         },
         {
             "day": "Saturday",
             "date": "2026-04-25",
             "high": 72,
-            "low": 54,
-            "precipitation_prob": 77,
-            "wind_speed": "1 to 7 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Showers And Thunderstorms",
-            "detailed_forecast": "A chance of rain showers before 8am, then showers and thunderstorms. Partly sunny, with a high near 72. Chance of precipitation is 80%."
+            "low": 52,
+            "precipitation_prob": 83,
+            "wind_speed": "1 to 6 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Slight Chance Showers And Thunderstorms then Showers And Thunderstorms",
+            "detailed_forecast": "A slight chance of rain showers between 7am and 8am, then a slight chance of showers and thunderstorms between 8am and 9am, then showers and thunderstorms. Mostly cloudy, with a high near 72. Chance of precipitation is 80%."
         },
         {
             "day": "Sunday",
             "date": "2026-04-26",
             "high": 73,
             "low": 51,
-            "precipitation_prob": 36,
+            "precipitation_prob": 28,
             "wind_speed": "2 to 6 mph",
-            "wind_direction": "NNE",
+            "wind_direction": "NE",
             "short_forecast": "Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of rain showers before 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 73. Chance of precipitation is 40%."
+            "detailed_forecast": "A slight chance of rain showers before 2pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 73. Chance of precipitation is 30%."
         },
         {
             "day": "Monday",
             "date": "2026-04-27",
-            "high": 69,
-            "low": 53,
-            "precipitation_prob": 45,
+            "high": 67,
+            "low": 54,
+            "precipitation_prob": 33,
             "wind_speed": "2 to 7 mph",
-            "wind_direction": "SE",
+            "wind_direction": "SSE",
             "short_forecast": "Chance Rain Showers",
-            "detailed_forecast": "A chance of rain showers before 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 69. Chance of precipitation is 50%."
+            "detailed_forecast": "A chance of rain showers before 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 67. Chance of precipitation is 30%."
+        },
+        {
+            "day": "Tuesday",
+            "date": "2026-04-28",
+            "high": 75,
+            "low": 51,
+            "precipitation_prob": 58,
+            "wind_speed": "5 to 9 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Rain Showers Likely",
+            "detailed_forecast": "Rain showers likely before 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 75. Chance of precipitation is 60%."
         }
     ],
-    "active_alerts": [],
+    "active_alerts": [
+        {
+            "event": "Special Weather Statement",
+            "severity": "Moderate",
+            "urgency": "Expected",
+            "headline": "Special Weather Statement issued April 22 at 2:13AM EDT by NWS Greenville-Spartanburg SC",
+            "description": "Relative humidity is forecast to fall into the 20 to 25 percent\nrange across much of western North Carolina this afternoon. Winds\nare expected to be somewhat elevated in the afternoon, with gusts\nbetween 15 and 20 mph. The low humidity combined with gusty winds\nand very dry vegetation will result in an elevated threat for the\nrapid spread of wildfires across the area.\n\nA statewide burn ban has been issued by the North Carolina Forest\nService. Outdoor burning is prohibited.",
+            "instruction": null,
+            "onset": "2026-04-22T02:13:00-04:00",
+            "expires": "2026-04-22T14:00:00-04:00"
+        }
+    ],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.66,
-        "evap_status": "MODERATE",
+        "pour_status": "CAUTION",
+        "evap_rate_kg_m2_h": 1.676,
+        "evap_status": "HIGH",
         "notes": [
-            "Optimal conditions for concrete work"
+            "High evaporation (1.676 kg/m\u00b2/h) - increase curing"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "GO",
+            "status": "CAUTION",
             "notes": [
-                "Optimal conditions for concrete work"
+                "High evaporation (1.676 kg/m\u00b2/h) - increase curing"
             ]
         },
         "grading_excavation": {
@@ -133,27 +144,27 @@
         "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 24.9 mph exceeds safe limits"
+                "Wind speed 41.4 mph exceeds safe limits"
             ]
         },
-        "general_safety": []
+        "general_safety": [
+            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
+        ]
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Wednesday",
             "Thursday",
-            "Friday"
+            "Friday",
+            "Sunday"
         ],
         "grading": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Friday"
         ],
         "painting": [
             "Today",
-            "Wednesday",
             "Thursday",
             "Friday"
         ]
@@ -196,5 +207,5 @@
             }
         ]
     },
-    "last_updated": "2026-04-21T14:57:47.789476"
+    "last_updated": "2026-04-22T14:56:56.866327"
 }
