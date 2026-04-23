@@ -8,43 +8,32 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 66.2,
-        "temperature_c": 19,
-        "wind_speed_mph": 41.4,
-        "wind_direction": "SW",
-        "humidity_percent": 43,
+        "temperature_f": 77.0,
+        "temperature_c": 25,
+        "wind_speed_mph": 0,
+        "wind_direction": "N",
+        "humidity_percent": 32,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-04-22",
-            "high": 74,
-            "low": 50,
-            "precipitation_prob": 4,
-            "wind_speed": "7 mph",
-            "wind_direction": "WNW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 74. West northwest wind around 7 mph."
-        },
-        {
-            "day": "Thursday",
             "date": "2026-04-23",
-            "high": 75,
-            "low": 52,
-            "precipitation_prob": 7,
+            "high": 76,
+            "low": 53,
+            "precipitation_prob": 9,
             "wind_speed": "3 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 75. West southwest wind around 3 mph."
+            "wind_direction": "E",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 76. East wind around 3 mph."
         },
         {
             "day": "Friday",
             "date": "2026-04-24",
             "high": 75,
-            "low": 54,
-            "precipitation_prob": 16,
+            "low": 55,
+            "precipitation_prob": 15,
             "wind_speed": "1 to 6 mph",
             "wind_direction": "WSW",
             "short_forecast": "Mostly Sunny then Slight Chance Rain Showers",
@@ -54,57 +43,68 @@
             "day": "Saturday",
             "date": "2026-04-25",
             "high": 72,
-            "low": 52,
-            "precipitation_prob": 83,
+            "low": 51,
+            "precipitation_prob": 85,
             "wind_speed": "1 to 6 mph",
             "wind_direction": "WNW",
-            "short_forecast": "Slight Chance Showers And Thunderstorms then Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of rain showers between 7am and 8am, then a slight chance of showers and thunderstorms between 8am and 9am, then showers and thunderstorms. Mostly cloudy, with a high near 72. Chance of precipitation is 80%."
+            "short_forecast": "Rain Showers",
+            "detailed_forecast": "Rain showers before 2pm, then showers and thunderstorms. Mostly cloudy, with a high near 72. West northwest wind 1 to 6 mph. Chance of precipitation is 90%."
         },
         {
             "day": "Sunday",
             "date": "2026-04-26",
-            "high": 73,
-            "low": 51,
-            "precipitation_prob": 28,
-            "wind_speed": "2 to 6 mph",
+            "high": 75,
+            "low": 52,
+            "precipitation_prob": 22,
+            "wind_speed": "1 to 6 mph",
             "wind_direction": "NE",
-            "short_forecast": "Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of rain showers before 2pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 73. Chance of precipitation is 30%."
+            "short_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+            "detailed_forecast": "A slight chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 75."
         },
         {
             "day": "Monday",
             "date": "2026-04-27",
-            "high": 67,
-            "low": 54,
-            "precipitation_prob": 33,
+            "high": 69,
+            "low": 56,
+            "precipitation_prob": 37,
             "wind_speed": "2 to 7 mph",
             "wind_direction": "SSE",
             "short_forecast": "Chance Rain Showers",
-            "detailed_forecast": "A chance of rain showers before 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 67. Chance of precipitation is 30%."
+            "detailed_forecast": "A chance of rain showers. Partly sunny, with a high near 69. Chance of precipitation is 40%."
         },
         {
             "day": "Tuesday",
             "date": "2026-04-28",
             "high": 75,
-            "low": 51,
-            "precipitation_prob": 58,
-            "wind_speed": "5 to 9 mph",
+            "low": 50,
+            "precipitation_prob": 74,
+            "wind_speed": "3 to 8 mph",
             "wind_direction": "WSW",
-            "short_forecast": "Rain Showers Likely",
-            "detailed_forecast": "Rain showers likely before 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 75. Chance of precipitation is 60%."
+            "short_forecast": "Showers And Thunderstorms Likely",
+            "detailed_forecast": "Showers and thunderstorms likely. Mostly cloudy, with a high near 75. Chance of precipitation is 70%."
+        },
+        {
+            "day": "Wednesday",
+            "date": "2026-04-29",
+            "high": 74,
+            "low": 52,
+            "precipitation_prob": 22,
+            "wind_speed": "2 to 7 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Slight Chance Rain Showers",
+            "detailed_forecast": "A slight chance of rain showers. Mostly sunny, with a high near 74."
         }
     ],
     "active_alerts": [
         {
-            "event": "Special Weather Statement",
-            "severity": "Moderate",
-            "urgency": "Expected",
-            "headline": "Special Weather Statement issued April 22 at 2:13AM EDT by NWS Greenville-Spartanburg SC",
-            "description": "Relative humidity is forecast to fall into the 20 to 25 percent\nrange across much of western North Carolina this afternoon. Winds\nare expected to be somewhat elevated in the afternoon, with gusts\nbetween 15 and 20 mph. The low humidity combined with gusty winds\nand very dry vegetation will result in an elevated threat for the\nrapid spread of wildfires across the area.\n\nA statewide burn ban has been issued by the North Carolina Forest\nService. Outdoor burning is prohibited.",
+            "event": "Air Quality Alert",
+            "severity": "Unknown",
+            "urgency": "Unknown",
+            "headline": "Air Quality Alert issued April 23 at 11:11AM EDT by NWS Greenville-Spartanburg SC",
+            "description": "The North Carolina Department of Environmental Quality in Raleigh NC\nhas issued a Code Orange Air Quality Action Day for Ground Level\nOzone for Gaston, Mecklenburg, Cabarrus, and Union Counties, until\n8 PM EDT this evening.\n\nAn Air Quality Action Day means that Ground Level Ozone\nconcentrations within the region may approach or exceed unhealthy\nstandards. For additional information, please visit the North\nCarolina Division of Air Quality Web site at\nhttps://airquality.climate.ncsu.edu/.",
             "instruction": null,
-            "onset": "2026-04-22T02:13:00-04:00",
-            "expires": "2026-04-22T14:00:00-04:00"
+            "onset": "2026-04-23T11:11:00-04:00",
+            "expires": "2026-04-23T20:00:00-04:00"
         }
     ],
     "soil_moisture": {
@@ -113,18 +113,20 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 1.676,
-        "evap_status": "HIGH",
+        "pour_status": "GO",
+        "evap_rate_kg_m2_h": 0.165,
+        "evap_status": "LOW",
         "notes": [
-            "High evaporation (1.676 kg/m\u00b2/h) - increase curing"
+            "Optimal conditions for concrete work",
+            "Rain expected Saturday (85%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "CAUTION",
+            "status": "GO",
             "notes": [
-                "High evaporation (1.676 kg/m\u00b2/h) - increase curing"
+                "Optimal conditions for concrete work",
+                "Rain expected Saturday (85%)"
             ]
         },
         "grading_excavation": {
@@ -134,38 +136,34 @@
             ]
         },
         "asphalt_paving": {
-            "status": "GO",
-            "notes": []
+            "status": "CAUTION",
+            "notes": [
+                "Rain forecasted - complete quickly"
+            ]
         },
         "painting_coating": {
             "status": "GO",
             "notes": []
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 41.4 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Thursday",
             "Friday",
-            "Sunday"
+            "Sunday",
+            "Wednesday"
         ],
         "grading": [
             "Today",
-            "Thursday",
             "Friday"
         ],
         "painting": [
             "Today",
-            "Thursday",
             "Friday"
         ]
     },
@@ -207,5 +205,5 @@
             }
         ]
     },
-    "last_updated": "2026-04-22T14:56:56.866327"
+    "last_updated": "2026-04-23T15:24:50.790892"
 }
