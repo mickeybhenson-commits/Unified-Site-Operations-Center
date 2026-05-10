@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 64.4,
-        "temperature_c": 18,
-        "wind_speed_mph": 29.0,
-        "wind_direction": "WSW",
-        "humidity_percent": 77,
-        "conditions": "Mostly Cloudy",
+        "temperature_f": 73.4,
+        "temperature_c": 23,
+        "wind_speed_mph": 24.9,
+        "wind_direction": "NNW",
+        "humidity_percent": 0,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-05-09",
-            "high": 73,
-            "low": 52,
-            "precipitation_prob": 0,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "WNW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 73. West northwest wind 2 to 6 mph."
-        },
-        {
-            "day": "Sunday",
             "date": "2026-05-10",
             "high": 76,
             "low": 55,
-            "precipitation_prob": 16,
-            "wind_speed": "0 to 3 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of showers and thunderstorms after 5pm. Mostly sunny, with a high near 76. North northeast wind 0 to 3 mph. Chance of precipitation is 20%."
+            "precipitation_prob": 0,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "N",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 76. North wind 1 to 5 mph."
         },
         {
             "day": "Monday",
             "date": "2026-05-11",
-            "high": 66,
-            "low": 42,
-            "precipitation_prob": 62,
-            "wind_speed": "1 to 8 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Rain Showers Likely",
-            "detailed_forecast": "Rain showers likely between 8am and 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 66. North northwest wind 1 to 8 mph, with gusts as high as 18 mph. Chance of precipitation is 60%."
+            "high": 68,
+            "low": 45,
+            "precipitation_prob": 45,
+            "wind_speed": "0 to 6 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Chance Rain Showers then Slight Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of rain showers between 10am and 2pm, then a slight chance of showers and thunderstorms between 2pm and 3pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 68. Northwest wind 0 to 6 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
         },
         {
             "day": "Tuesday",
             "date": "2026-05-12",
-            "high": 67,
-            "low": 48,
-            "precipitation_prob": 2,
-            "wind_speed": "3 mph",
-            "wind_direction": "NNE",
+            "high": 69,
+            "low": 49,
+            "precipitation_prob": 1,
+            "wind_speed": "0 to 3 mph",
+            "wind_direction": "ENE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 67."
+            "detailed_forecast": "Sunny, with a high near 69. East northeast wind 0 to 3 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-05-13",
-            "high": 71,
-            "low": 49,
-            "precipitation_prob": 27,
+            "high": 72,
+            "low": 48,
+            "precipitation_prob": 23,
             "wind_speed": "1 to 8 mph",
             "wind_direction": "WSW",
-            "short_forecast": "Chance Rain Showers then Slight Chance Showers And Thunderstorms",
-            "detailed_forecast": "A chance of rain showers between 8am and 2pm, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near 71. Chance of precipitation is 30%."
+            "short_forecast": "Slight Chance Rain Showers then Slight Chance Showers And Thunderstorms",
+            "detailed_forecast": "A slight chance of rain showers between 11am and 2pm, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near 72."
         },
         {
             "day": "Thursday",
             "date": "2026-05-14",
-            "high": 68,
-            "low": 47,
-            "precipitation_prob": 1,
-            "wind_speed": "2 to 9 mph",
+            "high": 66,
+            "low": 46,
+            "precipitation_prob": 2,
+            "wind_speed": "3 to 9 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 68."
+            "detailed_forecast": "Sunny, with a high near 66."
         },
         {
             "day": "Friday",
             "date": "2026-05-15",
-            "high": 74,
-            "low": 52,
-            "precipitation_prob": 4,
-            "wind_speed": "1 to 6 mph",
-            "wind_direction": "NW",
+            "high": 75,
+            "low": 54,
+            "precipitation_prob": 2,
+            "wind_speed": "0 to 3 mph",
+            "wind_direction": "WNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 74."
+            "detailed_forecast": "Sunny, with a high near 75."
+        },
+        {
+            "day": "Saturday",
+            "date": "2026-05-16",
+            "high": 81,
+            "low": 58,
+            "precipitation_prob": 13,
+            "wind_speed": "0 to 5 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 81."
         }
     ],
     "active_alerts": [],
@@ -102,20 +102,18 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.453,
-        "evap_status": "LOW",
+        "pour_status": "CAUTION",
+        "evap_rate_kg_m2_h": 2.372,
+        "evap_status": "HIGH",
         "notes": [
-            "Optimal conditions for concrete work",
-            "Rain expected Monday (62%)"
+            "High evaporation (2.372 kg/m\u00b2/h) - increase curing"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "GO",
+            "status": "CAUTION",
             "notes": [
-                "Optimal conditions for concrete work",
-                "Rain expected Monday (62%)"
+                "High evaporation (2.372 kg/m\u00b2/h) - increase curing"
             ]
         },
         "grading_excavation": {
@@ -125,10 +123,8 @@
             ]
         },
         "asphalt_paving": {
-            "status": "CAUTION",
-            "notes": [
-                "Rain forecasted - complete quickly"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "painting_coating": {
             "status": "GO",
@@ -137,35 +133,33 @@
         "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 29.0 mph exceeds safe limits"
+                "Wind speed 24.9 mph exceeds safe limits"
             ]
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Sunday",
             "Tuesday",
             "Wednesday",
             "Thursday",
-            "Friday"
+            "Friday",
+            "Saturday"
         ],
         "grading": [
             "Today",
-            "Sunday",
             "Tuesday",
             "Thursday",
-            "Friday"
+            "Friday",
+            "Saturday"
         ],
         "painting": [
             "Today",
-            "Sunday",
             "Tuesday",
             "Thursday",
-            "Friday"
+            "Friday",
+            "Saturday"
         ]
     },
     "swppp_compliance": {
@@ -206,5 +200,5 @@
             }
         ]
     },
-    "last_updated": "2026-05-09T14:33:06.189345"
+    "last_updated": "2026-05-10T14:34:38.857198"
 }
