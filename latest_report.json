@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 69.8,
-        "temperature_c": 21,
-        "wind_speed_mph": 45.6,
-        "wind_direction": "NW",
-        "humidity_percent": 0,
+        "temperature_f": 66.2,
+        "temperature_c": 19,
+        "wind_speed_mph": 16.6,
+        "wind_direction": "N",
+        "humidity_percent": 32,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-05-14",
-            "high": 62,
-            "low": 41,
-            "precipitation_prob": 0,
-            "wind_speed": "10 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 62. North northwest wind around 10 mph, with gusts as high as 23 mph."
-        },
-        {
-            "day": "Friday",
             "date": "2026-05-15",
-            "high": 76,
+            "high": 75,
             "low": 53,
             "precipitation_prob": 0,
-            "wind_speed": "0 to 3 mph",
-            "wind_direction": "NNW",
+            "wind_speed": "2 mph",
+            "wind_direction": "NNE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 76. North northwest wind 0 to 3 mph."
+            "detailed_forecast": "Sunny, with a high near 75. North northeast wind around 2 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-05-16",
             "high": 81,
-            "low": 59,
-            "precipitation_prob": 9,
+            "low": 60,
+            "precipitation_prob": 2,
             "wind_speed": "0 to 6 mph",
-            "wind_direction": "SW",
+            "wind_direction": "SSW",
             "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 81. Southwest wind 0 to 6 mph."
+            "detailed_forecast": "Mostly sunny, with a high near 81. South southwest wind 0 to 6 mph."
         },
         {
             "day": "Sunday",
             "date": "2026-05-17",
-            "high": 83,
-            "low": 60,
-            "precipitation_prob": 18,
+            "high": 82,
+            "low": 61,
+            "precipitation_prob": 11,
             "wind_speed": "0 to 7 mph",
-            "wind_direction": "SW",
-            "short_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of showers and thunderstorms after 3pm. Mostly sunny, with a high near 83."
+            "wind_direction": "SSW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 82. South southwest wind 0 to 7 mph."
         },
         {
             "day": "Monday",
             "date": "2026-05-18",
-            "high": 83,
-            "low": 61,
-            "precipitation_prob": 13,
+            "high": 82,
+            "low": 60,
+            "precipitation_prob": 9,
             "wind_speed": "0 to 8 mph",
             "wind_direction": "SSW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 83."
+            "detailed_forecast": "Sunny, with a high near 82."
         },
         {
             "day": "Tuesday",
             "date": "2026-05-19",
             "high": 82,
             "low": 62,
-            "precipitation_prob": 31,
+            "precipitation_prob": 11,
             "wind_speed": "0 to 7 mph",
             "wind_direction": "SSW",
-            "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 82. Chance of precipitation is 30%."
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 82."
         },
         {
             "day": "Wednesday",
             "date": "2026-05-20",
             "high": 81,
-            "low": 61,
-            "precipitation_prob": 62,
-            "wind_speed": "0 to 5 mph",
-            "wind_direction": "SW",
+            "low": 62,
+            "precipitation_prob": 57,
+            "wind_speed": "0 to 3 mph",
+            "wind_direction": "WSW",
             "short_forecast": "Showers And Thunderstorms Likely",
             "detailed_forecast": "Showers and thunderstorms likely after 8am. Partly sunny, with a high near 81. Chance of precipitation is 60%."
+        },
+        {
+            "day": "Thursday",
+            "date": "2026-05-21",
+            "high": 79,
+            "low": 60,
+            "precipitation_prob": 66,
+            "wind_speed": "0 to 5 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Showers And Thunderstorms Likely",
+            "detailed_forecast": "Showers and thunderstorms likely after 8am. Partly sunny, with a high near 79. Chance of precipitation is 70%."
         }
     ],
     "active_alerts": [],
@@ -102,18 +102,18 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 3.675,
-        "evap_status": "HIGH",
+        "pour_status": "GO",
+        "evap_rate_kg_m2_h": 0.87,
+        "evap_status": "MODERATE",
         "notes": [
-            "High evaporation (3.675 kg/m\u00b2/h) - increase curing"
+            "Optimal conditions for concrete work"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "CAUTION",
+            "status": "GO",
             "notes": [
-                "High evaporation (3.675 kg/m\u00b2/h) - increase curing"
+                "Optimal conditions for concrete work"
             ]
         },
         "grading_excavation": {
@@ -131,36 +131,34 @@
             "notes": []
         },
         "crane_ops": {
-            "status": "STOP",
+            "status": "CAUTION",
             "notes": [
-                "Wind speed 45.6 mph exceeds safe limits"
+                "Monitor wind speeds closely"
             ]
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "Today",
-            "Friday",
             "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
         "grading": [
             "Today",
-            "Friday",
             "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ],
         "painting": [
             "Today",
-            "Friday",
             "Saturday",
             "Sunday",
-            "Monday"
+            "Monday",
+            "Tuesday"
         ]
     },
     "swppp_compliance": {
@@ -201,5 +199,5 @@
             }
         ]
     },
-    "last_updated": "2026-05-14T15:39:39.144317"
+    "last_updated": "2026-05-15T15:35:07.744383"
 }
