@@ -8,135 +8,94 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 87.8,
-        "temperature_c": 31,
-        "wind_speed_mph": 20.7,
-        "wind_direction": "N",
-        "humidity_percent": 55,
-        "conditions": "Clear",
+        "temperature_f": 84.2,
+        "temperature_c": 29,
+        "wind_speed_mph": 37.3,
+        "wind_direction": "S",
+        "humidity_percent": 70,
+        "conditions": "Mostly Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "Today",
-            "date": "2026-07-17",
-            "high": 82,
-            "low": 68,
-            "precipitation_prob": 62,
-            "wind_speed": "2 mph",
-            "wind_direction": "NE",
-            "short_forecast": "Mostly Sunny then Showers And Thunderstorms Likely",
-            "detailed_forecast": "Showers and thunderstorms likely after 1pm. Mostly sunny, with a high near 82. Northeast wind around 2 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
-        },
-        {
-            "day": "Saturday",
             "date": "2026-07-18",
             "high": 80,
             "low": 66,
-            "precipitation_prob": 93,
+            "precipitation_prob": 87,
             "wind_speed": "2 mph",
-            "wind_direction": "WNW",
-            "short_forecast": "Showers And Thunderstorms",
-            "detailed_forecast": "A chance of rain showers between 10am and 11am, then showers and thunderstorms between 11am and 3pm, then showers and thunderstorms likely. Partly sunny, with a high near 80. West northwest wind around 2 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+            "wind_direction": "NNW",
+            "short_forecast": "Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms between 11am and 1pm, then showers and thunderstorms between 1pm and 5pm, then a chance of showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy, with a high near 80. North northwest wind around 2 mph. Chance of precipitation is 90%. New rainfall amounts between three quarters and one inch possible."
         },
         {
             "day": "Sunday",
             "date": "2026-07-19",
             "high": 80,
             "low": 65,
-            "precipitation_prob": 78,
-            "wind_speed": "3 mph",
+            "precipitation_prob": 71,
+            "wind_speed": "2 mph",
             "wind_direction": "NW",
-            "short_forecast": "Showers And Thunderstorms Likely",
-            "detailed_forecast": "A slight chance of rain showers between 10am and 11am, then showers and thunderstorms likely between 11am and 5pm, then showers and thunderstorms. Partly sunny, with a high near 80. Northwest wind around 3 mph. Chance of precipitation is 80%."
+            "short_forecast": "Partly Sunny then Showers And Thunderstorms Likely",
+            "detailed_forecast": "Showers and thunderstorms likely after 2pm. Partly sunny, with a high near 80. Northwest wind around 2 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
         },
         {
             "day": "Monday",
             "date": "2026-07-20",
             "high": 80,
             "low": 66,
-            "precipitation_prob": 60,
+            "precipitation_prob": 83,
             "wind_speed": "2 mph",
-            "wind_direction": "E",
-            "short_forecast": "Mostly Sunny then Showers And Thunderstorms Likely",
-            "detailed_forecast": "Showers and thunderstorms likely after 2pm. Mostly sunny, with a high near 80. Chance of precipitation is 60%."
+            "wind_direction": "SSW",
+            "short_forecast": "Showers And Thunderstorms Likely",
+            "detailed_forecast": "A slight chance of rain showers between 9am and 11am, then showers and thunderstorms likely between 11am and 5pm, then showers and thunderstorms. Partly sunny, with a high near 80. South southwest wind around 2 mph. Chance of precipitation is 80%."
         },
         {
             "day": "Tuesday",
             "date": "2026-07-21",
-            "high": 82,
-            "low": 68,
-            "precipitation_prob": 23,
-            "wind_speed": "0 to 3 mph",
-            "wind_direction": "W",
-            "short_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 82."
+            "high": 81,
+            "low": 67,
+            "precipitation_prob": 44,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "SW",
+            "short_forecast": "Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms after 11am. Partly sunny, with a high near 81. Chance of precipitation is 40%."
         },
         {
             "day": "Wednesday",
             "date": "2026-07-22",
-            "high": 81,
-            "low": 63,
-            "precipitation_prob": 36,
-            "wind_speed": "2 to 7 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 81. Chance of precipitation is 40%."
+            "high": 80,
+            "low": 60,
+            "precipitation_prob": 47,
+            "wind_speed": "3 to 7 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 80. Chance of precipitation is 50%."
         },
         {
             "day": "Thursday",
             "date": "2026-07-23",
-            "high": 79,
-            "low": 62,
-            "precipitation_prob": 15,
-            "wind_speed": "1 to 5 mph",
-            "wind_direction": "NE",
+            "high": 77,
+            "low": 63,
+            "precipitation_prob": 19,
+            "wind_speed": "5 mph",
+            "wind_direction": "NNE",
             "short_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 79."
+            "detailed_forecast": "A slight chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 77."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-07-24",
+            "high": 78,
+            "low": 64,
+            "precipitation_prob": 23,
+            "wind_speed": "0 to 3 mph",
+            "wind_direction": "SSE",
+            "short_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+            "detailed_forecast": "A slight chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 78."
         }
     ],
-    "active_alerts": [
-        {
-            "event": "Air Quality Alert",
-            "severity": "Unknown",
-            "urgency": "Unknown",
-            "headline": "Air Quality Alert issued July 17 at 12:45AM EDT by NWS Greenville-Spartanburg SC",
-            "description": "The North Carolina Department of Environmental Quality in Raleigh NC\nhas issued a Code Orange Air Quality Action Day for Ground Level\nOzone for Gaston and Mecklenburg Counties, from 10 AM this morning\nto 8 PM EDT this evening.\n\nAn Air Quality Action Day means that Ground Level Ozone\nconcentrations within the region may approach or exceed unhealthy\nstandards. For additional information, please visit the North\nCarolina Division of Air Quality Web site at\nhttps://airquality.climate.ncsu.edu/.",
-            "instruction": null,
-            "onset": "2026-07-17T00:45:00-04:00",
-            "expires": "2026-07-17T20:00:00-04:00"
-        },
-        {
-            "event": "Air Quality Alert",
-            "severity": "Unknown",
-            "urgency": "Unknown",
-            "headline": "Air Quality Alert issued July 17 at 12:20AM EDT by NWS Greenville-Spartanburg SC",
-            "description": "The North Carolina Department of Environmental Quality in Raleigh NC\nhas issued a Code Orange Air Quality Action Day for Ground Level\nOzone for Gaston and Mecklenburg Counties, from 10 AM this morning\nto 8 PM EDT this evening.\n\nAn Air Quality Action Day means that Ground Level Ozone\nconcentrations within the region may approach or exceed unhealthy\nstandards. For additional information, please visit the North\nCarolina Division of Air Quality Web site at\nhttps://airquality.climate.ncsu.edu/.",
-            "instruction": null,
-            "onset": "2026-07-17T00:20:00-04:00",
-            "expires": "2026-07-18T00:30:00-04:00"
-        },
-        {
-            "event": "Air Quality Alert",
-            "severity": "Unknown",
-            "urgency": "Unknown",
-            "headline": "Air Quality Alert issued July 16 at 8:06PM EDT by NWS Greenville-Spartanburg SC",
-            "description": "The North Carolina Department of Environmental Quality in Raleigh\nhas issued a Code Orange Air Quality Action Day for Ground Level\nOzone for Mecklenburg and Gaston Counties, from 10 AM to 8 PM EDT\nFriday.\n\nAn Air Quality Action Day means that Ground Level Ozone\nconcentrations within the region may approach or exceed unhealthy\nstandards. For additional information, please visit the North\nCarolina Division of Air Quality Web site at\nhttps://airquality.climate.ncsu.edu/.",
-            "instruction": null,
-            "onset": "2026-07-16T20:06:00-04:00",
-            "expires": "2026-07-17T20:00:00-04:00"
-        },
-        {
-            "event": "Air Quality Alert",
-            "severity": "Unknown",
-            "urgency": "Unknown",
-            "headline": "Air Quality Alert issued July 16 at 8:02PM EDT by NWS Greenville-Spartanburg SC",
-            "description": "The North Carolina Department of Environmental Quality in Raleigh\nhas issued a Code Orange Air Quality Action Day for Ground Level\nOzone for Gaston County, from 10 AM to 8 PM EDT Friday.\n\nAn Air Quality Action Day means that Ground Level Ozone\nconcentrations within the region may approach or exceed unhealthy\nstandards. For additional information, please visit the North\nCarolina Division of Air Quality Web site at\nhttps://airquality.climate.ncsu.edu/.",
-            "instruction": null,
-            "onset": "2026-07-16T20:02:00-04:00",
-            "expires": "2026-07-17T20:00:00-04:00"
-        }
-    ],
+    "active_alerts": [],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -144,23 +103,23 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 1.411,
+        "evap_rate_kg_m2_h": 1.454,
         "evap_status": "HIGH",
         "notes": [
-            "High evaporation (1.411 kg/m\u00b2/h) - increase curing",
-            "Rain expected Today (62%)",
-            "Rain expected Saturday (93%)",
-            "Rain expected Sunday (78%)"
+            "High evaporation (1.454 kg/m\u00b2/h) - increase curing",
+            "Rain expected Today (87%)",
+            "Rain expected Sunday (71%)",
+            "Rain expected Monday (83%)"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "CAUTION",
             "notes": [
-                "High evaporation (1.411 kg/m\u00b2/h) - increase curing",
-                "Rain expected Today (62%)",
-                "Rain expected Saturday (93%)",
-                "Rain expected Sunday (78%)"
+                "High evaporation (1.454 kg/m\u00b2/h) - increase curing",
+                "Rain expected Today (87%)",
+                "Rain expected Sunday (71%)",
+                "Rain expected Monday (83%)"
             ]
         },
         "grading_excavation": {
@@ -182,15 +141,17 @@
         "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 20.7 mph exceeds safe limits"
+                "Wind speed 37.3 mph exceeds safe limits"
             ]
         },
-        "general_safety": []
+        "general_safety": [
+            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
+        ]
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Tuesday",
-            "Thursday"
+            "Thursday",
+            "Friday"
         ],
         "grading": [
             "Thursday"
@@ -237,5 +198,5 @@
             }
         ]
     },
-    "last_updated": "2026-07-17T14:55:35.894521"
+    "last_updated": "2026-07-18T14:32:59.423398"
 }
