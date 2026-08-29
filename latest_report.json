@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 72.0,
-        "temperature_c": 22.2,
-        "wind_speed_mph": 25.0,
-        "wind_direction": "SSE",
-        "humidity_percent": 84,
-        "conditions": "Light Rain",
+        "temperature_f": 84.0,
+        "temperature_c": 28.9,
+        "wind_speed_mph": 12.1,
+        "wind_direction": "N",
+        "humidity_percent": 61,
+        "conditions": "Partly Cloudy",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
-            "day": "Tonight",
-            "date": "2026-08-28",
-            "high": 63,
-            "low": 76,
-            "precipitation_prob": 21,
-            "wind_speed": "1 mph",
-            "wind_direction": "SSW",
-            "short_forecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-            "detailed_forecast": "A slight chance of showers and thunderstorms before 8pm. Partly cloudy, with a low around 63. South southwest wind around 1 mph. Chance of precipitation is 20%. New rainfall amounts between a tenth and quarter of an inch possible."
-        },
-        {
-            "day": "Saturday Night",
+            "day": "This Afternoon",
             "date": "2026-08-29",
-            "high": 64,
-            "low": 78,
-            "precipitation_prob": 29,
-            "wind_speed": "0 to 5 mph",
-            "wind_direction": "SSE",
+            "high": 76,
+            "low": 64,
+            "precipitation_prob": 28,
+            "wind_speed": "6 mph",
+            "wind_direction": "SE",
             "short_forecast": "Chance Showers And Thunderstorms",
-            "detailed_forecast": "A chance of showers and thunderstorms before 1am. Mostly cloudy, with a low around 64. South southeast wind 0 to 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+            "detailed_forecast": "A chance of showers and thunderstorms. Mostly sunny, with a high near 76. Southeast wind around 6 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
         },
         {
-            "day": "Sunday Night",
+            "day": "Sunday",
             "date": "2026-08-30",
-            "high": 63,
-            "low": 81,
+            "high": 78,
+            "low": 63,
+            "precipitation_prob": 42,
+            "wind_speed": "0 to 3 mph",
+            "wind_direction": "SSE",
+            "short_forecast": "Partly Sunny then Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Partly sunny, with a high near 78. South southeast wind 0 to 3 mph. Chance of precipitation is 40%. New rainfall amounts between a quarter and half of an inch possible."
+        },
+        {
+            "day": "Monday",
+            "date": "2026-08-31",
+            "high": 81,
+            "low": 65,
+            "precipitation_prob": 39,
+            "wind_speed": "2 mph",
+            "wind_direction": "N",
+            "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 81. North wind around 2 mph. Chance of precipitation is 40%."
+        },
+        {
+            "day": "Tuesday",
+            "date": "2026-09-01",
+            "high": 82,
+            "low": 66,
+            "precipitation_prob": 22,
+            "wind_speed": "2 mph",
+            "wind_direction": "NNE",
+            "short_forecast": "Sunny then Slight Chance Showers And Thunderstorms",
+            "detailed_forecast": "A slight chance of showers and thunderstorms after 3pm. Sunny, with a high near 82."
+        },
+        {
+            "day": "Wednesday",
+            "date": "2026-09-02",
+            "high": 83,
+            "low": 67,
+            "precipitation_prob": 35,
+            "wind_speed": "2 mph",
+            "wind_direction": "N",
+            "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 83. Chance of precipitation is 40%."
+        },
+        {
+            "day": "Thursday",
+            "date": "2026-09-03",
+            "high": 83,
+            "low": 66,
+            "precipitation_prob": 40,
+            "wind_speed": "2 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 83. Chance of precipitation is 40%."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-09-04",
+            "high": 83,
+            "low": 65,
             "precipitation_prob": 51,
             "wind_speed": "3 mph",
-            "wind_direction": "SW",
-            "short_forecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-            "detailed_forecast": "A chance of showers and thunderstorms before 8pm. Partly cloudy, with a low around 63. Southwest wind around 3 mph. Chance of precipitation is 50%."
-        },
-        {
-            "day": "Monday Night",
-            "date": "2026-08-31",
-            "high": 65,
-            "low": 82,
-            "precipitation_prob": 29,
-            "wind_speed": "1 mph",
-            "wind_direction": "SW",
-            "short_forecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-            "detailed_forecast": "A chance of showers and thunderstorms before 8pm. Partly cloudy, with a low around 65. Chance of precipitation is 30%."
-        },
-        {
-            "day": "Tuesday Night",
-            "date": "2026-09-01",
-            "high": 66,
-            "low": 83,
-            "precipitation_prob": 27,
-            "wind_speed": "2 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-            "detailed_forecast": "A chance of showers and thunderstorms before 8pm. Partly cloudy, with a low around 66. Chance of precipitation is 30%."
-        },
-        {
-            "day": "Wednesday Night",
-            "date": "2026-09-02",
-            "high": 66,
-            "low": 82,
-            "precipitation_prob": 34,
-            "wind_speed": "2 mph",
-            "wind_direction": "WSW",
-            "short_forecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-            "detailed_forecast": "A chance of showers and thunderstorms before 8pm. Partly cloudy, with a low around 66. Chance of precipitation is 30%."
-        },
-        {
-            "day": "Thursday Night",
-            "date": "2026-09-03",
-            "high": 66,
-            "low": 82,
-            "precipitation_prob": 42,
-            "wind_speed": "2 mph",
-            "wind_direction": "W",
-            "short_forecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-            "detailed_forecast": "A chance of showers and thunderstorms before 8pm. Partly cloudy, with a low around 66. Chance of precipitation is 40%."
+            "wind_direction": "NW",
+            "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 83. Chance of precipitation is 50%."
         }
     ],
     "active_alerts": [],
@@ -103,8 +103,8 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.363,
-        "evap_status": "LOW",
+        "evap_rate_kg_m2_h": 0.689,
+        "evap_status": "MODERATE",
         "notes": [
             "Optimal conditions for concrete work"
         ]
@@ -131,19 +131,15 @@
             "notes": []
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 25.0 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Tonight",
-            "Saturday Night",
-            "Monday Night",
-            "Tuesday Night"
+            "This Afternoon",
+            "Tuesday"
         ],
         "grading": [],
         "painting": []
@@ -186,5 +182,5 @@
             }
         ]
     },
-    "last_updated": "2026-08-28T23:07:24.696253"
+    "last_updated": "2026-08-29T17:16:05.435257"
 }
