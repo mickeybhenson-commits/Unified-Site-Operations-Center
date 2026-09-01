@@ -8,94 +8,105 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 91.0,
-        "temperature_c": 32.8,
-        "wind_speed_mph": 12.1,
-        "wind_direction": "N",
-        "humidity_percent": 45,
+        "temperature_f": 91.9,
+        "temperature_c": 33.3,
+        "wind_speed_mph": 25.0,
+        "wind_direction": "NW",
+        "humidity_percent": 47,
         "conditions": "Partly Cloudy",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "This Afternoon",
-            "date": "2026-08-31",
-            "high": 81,
-            "low": 66,
-            "precipitation_prob": 13,
-            "wind_speed": "5 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 81. North northeast wind around 5 mph."
-        },
-        {
-            "day": "Tuesday",
             "date": "2026-09-01",
-            "high": 83,
+            "high": 85,
             "low": 67,
-            "precipitation_prob": 6,
+            "precipitation_prob": 4,
             "wind_speed": "3 mph",
-            "wind_direction": "NNW",
+            "wind_direction": "NNE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 83. North northwest wind around 3 mph."
+            "detailed_forecast": "Sunny, with a high near 85. North northeast wind around 3 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-09-02",
-            "high": 84,
+            "high": 87,
             "low": 68,
-            "precipitation_prob": 24,
+            "precipitation_prob": 13,
             "wind_speed": "2 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Sunny then Slight Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of showers and thunderstorms after 3pm. Sunny, with a high near 84. North northeast wind around 2 mph. Chance of precipitation is 20%."
+            "wind_direction": "N",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 87. North wind around 2 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-09-03",
-            "high": 84,
+            "high": 85,
             "low": 67,
-            "precipitation_prob": 33,
+            "precipitation_prob": 25,
             "wind_speed": "2 mph",
-            "wind_direction": "E",
-            "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 84. Chance of precipitation is 30%."
+            "wind_direction": "ENE",
+            "short_forecast": "Sunny then Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Sunny, with a high near 85. East northeast wind around 2 mph. Chance of precipitation is 30%."
         },
         {
             "day": "Friday",
             "date": "2026-09-04",
-            "high": 83,
-            "low": 66,
-            "precipitation_prob": 49,
+            "high": 84,
+            "low": 67,
+            "precipitation_prob": 33,
             "wind_speed": "3 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of rain showers between 8am and 2pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 83. Chance of precipitation is 50%."
+            "wind_direction": "NNW",
+            "short_forecast": "Sunny then Chance Showers And Thunderstorms",
+            "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Sunny, with a high near 84. Chance of precipitation is 30%."
         },
         {
             "day": "Saturday",
             "date": "2026-09-05",
-            "high": 81,
-            "low": 63,
-            "precipitation_prob": 47,
-            "wind_speed": "6 mph",
+            "high": 83,
+            "low": 65,
+            "precipitation_prob": 36,
+            "wind_speed": "2 to 6 mph",
             "wind_direction": "NW",
-            "short_forecast": "Chance Showers And Thunderstorms",
-            "detailed_forecast": "A chance of showers and thunderstorms after 8am. Mostly sunny, with a high near 81. Chance of precipitation is 50%."
+            "short_forecast": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
+            "detailed_forecast": "A slight chance of rain showers between 8am and 2pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 83. Chance of precipitation is 40%."
         },
         {
             "day": "Sunday",
             "date": "2026-09-06",
+            "high": 79,
+            "low": 63,
+            "precipitation_prob": 57,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "NNW",
+            "short_forecast": "Showers And Thunderstorms Likely",
+            "detailed_forecast": "A slight chance of rain showers between 8am and 2pm, then showers and thunderstorms likely. Mostly sunny, with a high near 79. Chance of precipitation is 60%."
+        },
+        {
+            "day": "Labor Day",
+            "date": "2026-09-07",
             "high": 76,
-            "low": 60,
-            "precipitation_prob": 52,
+            "low": 61,
+            "precipitation_prob": 45,
             "wind_speed": "5 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
-            "detailed_forecast": "A slight chance of rain showers between 8am and 2pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 76. Chance of precipitation is 50%."
+            "wind_direction": "ESE",
+            "short_forecast": "Chance Rain Showers",
+            "detailed_forecast": "A chance of rain showers between 8am and 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 76. Chance of precipitation is 50%."
         }
     ],
-    "active_alerts": [],
+    "active_alerts": [
+        {
+            "event": "Air Quality Alert",
+            "severity": "Unknown",
+            "urgency": "Unknown",
+            "headline": "Air Quality Alert issued September 1 at 11:42AM EDT by NWS Greenville-Spartanburg SC",
+            "description": "The North Carolina Department of Environmental Quality in Raleigh NC\nhas issued a Code Orange Air Quality Action Day for Ground Level\nOzone for Mecklenburg County, until 8 PM EDT this evening.\n\nAn Air Quality Action Day means that Ground Level Ozone\nconcentrations within the region may approach or exceed unhealthy\nstandards. For additional information, please visit the North\nCarolina Division of Air Quality Web site at\nhttps://airquality.climate.ncsu.edu/.",
+            "instruction": null,
+            "onset": "2026-09-01T11:42:00-04:00",
+            "expires": "2026-09-01T20:00:00-04:00"
+        }
+    ],
     "soil_moisture": {
         "level": "48%",
         "status": "Workable",
@@ -103,17 +114,17 @@
     },
     "concrete_ops": {
         "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 1.186,
+        "evap_rate_kg_m2_h": 2.207,
         "evap_status": "HIGH",
         "notes": [
-            "High evaporation (1.186 kg/m\u00b2/h) - increase curing"
+            "High evaporation (2.207 kg/m\u00b2/h) - increase curing"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
             "status": "CAUTION",
             "notes": [
-                "High evaporation (1.186 kg/m\u00b2/h) - increase curing"
+                "High evaporation (2.207 kg/m\u00b2/h) - increase curing"
             ]
         },
         "grading_excavation": {
@@ -133,8 +144,10 @@
             ]
         },
         "crane_ops": {
-            "status": "GO",
-            "notes": []
+            "status": "STOP",
+            "notes": [
+                "Wind speed 25.0 mph exceeds safe limits"
+            ]
         },
         "general_safety": [
             "\ud83c\udf21\ufe0f Heat Advisory: Ensure hydration stations, frequent breaks"
@@ -143,16 +156,14 @@
     "optimal_work_windows": {
         "concrete_pouring": [
             "This Afternoon",
-            "Tuesday",
-            "Wednesday"
+            "Thursday"
         ],
         "grading": [
             "This Afternoon",
-            "Tuesday"
+            "Wednesday"
         ],
         "painting": [
-            "This Afternoon",
-            "Tuesday"
+            "This Afternoon"
         ]
     },
     "swppp_compliance": {
@@ -193,5 +204,5 @@
             }
         ]
     },
-    "last_updated": "2026-08-31T19:33:09.699499"
+    "last_updated": "2026-09-01T17:21:49.910354"
 }
