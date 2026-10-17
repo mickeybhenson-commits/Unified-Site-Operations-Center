@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 84.2,
-        "temperature_c": 29,
-        "wind_speed_mph": 37.3,
-        "wind_direction": "SSW",
+        "temperature_f": 60.8,
+        "temperature_c": 16,
+        "wind_speed_mph": 0,
+        "wind_direction": "N",
         "humidity_percent": 55,
-        "conditions": "Clear",
+        "conditions": "Cloudy",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "This Afternoon",
-            "date": "2026-10-16",
-            "high": 75,
-            "low": 40,
-            "precipitation_prob": 6,
-            "wind_speed": "7 mph",
-            "wind_direction": "W",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 75. West wind around 7 mph."
-        },
-        {
-            "day": "Saturday",
             "date": "2026-10-17",
             "high": 48,
-            "low": 34,
-            "precipitation_prob": 27,
-            "wind_speed": "12 to 16 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Chance Rain Showers then Partly Sunny",
-            "detailed_forecast": "A chance of rain showers before 7am. Partly sunny, with a high near 48. North northwest wind 12 to 16 mph, with gusts as high as 33 mph. Chance of precipitation is 30%."
+            "low": 32,
+            "precipitation_prob": 2,
+            "wind_speed": "14 mph",
+            "wind_direction": "N",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 48. North wind around 14 mph, with gusts as high as 26 mph."
         },
         {
             "day": "Sunday",
             "date": "2026-10-18",
-            "high": 54,
+            "high": 55,
             "low": 36,
-            "precipitation_prob": 3,
-            "wind_speed": "2 to 6 mph",
-            "wind_direction": "NE",
+            "precipitation_prob": 0,
+            "wind_speed": "1 to 6 mph",
+            "wind_direction": "ESE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 54. Northeast wind 2 to 6 mph."
+            "detailed_forecast": "Sunny, with a high near 55. East southeast wind 1 to 6 mph."
         },
         {
             "day": "Monday",
             "date": "2026-10-19",
-            "high": 62,
+            "high": 63,
             "low": 41,
-            "precipitation_prob": 1,
-            "wind_speed": "1 to 5 mph",
+            "precipitation_prob": 0,
+            "wind_speed": "3 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 62."
+            "detailed_forecast": "Sunny, with a high near 63. North northwest wind around 3 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-10-20",
-            "high": 66,
-            "low": 45,
+            "high": 67,
+            "low": 44,
             "precipitation_prob": 0,
             "wind_speed": "5 mph",
-            "wind_direction": "NNW",
+            "wind_direction": "N",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 66."
+            "detailed_forecast": "Sunny, with a high near 67."
         },
         {
             "day": "Wednesday",
             "date": "2026-10-21",
-            "high": 66,
-            "low": 45,
-            "precipitation_prob": 1,
-            "wind_speed": "1 to 5 mph",
+            "high": 68,
+            "low": 44,
+            "precipitation_prob": 0,
+            "wind_speed": "0 to 5 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 66."
+            "detailed_forecast": "Sunny, with a high near 68."
         },
         {
             "day": "Thursday",
             "date": "2026-10-22",
-            "high": 66,
+            "high": 67,
             "low": 46,
-            "precipitation_prob": 2,
-            "wind_speed": "0 to 5 mph",
+            "precipitation_prob": 1,
+            "wind_speed": "1 to 6 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 67."
+        },
+        {
+            "day": "Friday",
+            "date": "2026-10-23",
+            "high": 68,
+            "low": 47,
+            "precipitation_prob": 1,
+            "wind_speed": "5 mph",
             "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 66."
+            "detailed_forecast": "Sunny, with a high near 68."
         }
     ],
     "active_alerts": [],
@@ -102,18 +102,18 @@
         "last_rain_inches": 0.0
     },
     "concrete_ops": {
-        "pour_status": "CAUTION",
-        "evap_rate_kg_m2_h": 2.182,
-        "evap_status": "HIGH",
+        "pour_status": "GO",
+        "evap_rate_kg_m2_h": 0.061,
+        "evap_status": "LOW",
         "notes": [
-            "High evaporation (2.182 kg/m\u00b2/h) - increase curing"
+            "Optimal conditions for concrete work"
         ]
     },
     "activity_recommendations": {
         "concrete_pouring": {
-            "status": "CAUTION",
+            "status": "GO",
             "notes": [
-                "High evaporation (2.182 kg/m\u00b2/h) - increase curing"
+                "Optimal conditions for concrete work"
             ]
         },
         "grading_excavation": {
@@ -131,24 +131,20 @@
             "notes": []
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 37.3 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "This Afternoon",
-            "Saturday",
             "Sunday",
             "Monday",
             "Tuesday",
             "Wednesday",
-            "Thursday"
+            "Thursday",
+            "Friday"
         ],
         "grading": [
             "This Afternoon",
@@ -156,15 +152,16 @@
             "Monday",
             "Tuesday",
             "Wednesday",
-            "Thursday"
+            "Thursday",
+            "Friday"
         ],
         "painting": [
-            "This Afternoon",
             "Sunday",
             "Monday",
             "Tuesday",
             "Wednesday",
-            "Thursday"
+            "Thursday",
+            "Friday"
         ]
     },
     "swppp_compliance": {
@@ -205,5 +202,5 @@
             }
         ]
     },
-    "last_updated": "2026-10-16T17:34:29.032409"
+    "last_updated": "2026-10-17T16:33:35.488560"
 }
