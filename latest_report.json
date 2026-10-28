@@ -8,36 +8,25 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 73.4,
-        "temperature_c": 23,
-        "wind_speed_mph": 12.4,
-        "wind_direction": "ENE",
-        "humidity_percent": 33,
+        "temperature_f": 75.2,
+        "temperature_c": 24,
+        "wind_speed_mph": 0,
+        "wind_direction": "N",
+        "humidity_percent": 44,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "This Afternoon",
-            "date": "2026-10-27",
-            "high": 67,
-            "low": 46,
+            "date": "2026-10-28",
+            "high": 64,
+            "low": 47,
             "precipitation_prob": 0,
             "wind_speed": "5 mph",
             "wind_direction": "SE",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 67. Southeast wind around 5 mph."
-        },
-        {
-            "day": "Wednesday",
-            "date": "2026-10-28",
-            "high": 63,
-            "low": 47,
-            "precipitation_prob": 0,
-            "wind_speed": "0 to 5 mph",
-            "wind_direction": "SE",
             "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 63. Southeast wind 0 to 5 mph."
+            "detailed_forecast": "Mostly cloudy, with a high near 64. Southeast wind around 5 mph."
         },
         {
             "day": "Thursday",
@@ -45,54 +34,65 @@
             "high": 68,
             "low": 48,
             "precipitation_prob": 0,
-            "wind_speed": "0 to 3 mph",
-            "wind_direction": "NNE",
+            "wind_speed": "2 mph",
+            "wind_direction": "NW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 68. North northeast wind 0 to 3 mph."
+            "detailed_forecast": "Sunny, with a high near 68. Northwest wind around 2 mph."
         },
         {
             "day": "Friday",
             "date": "2026-10-30",
             "high": 71,
-            "low": 53,
+            "low": 52,
             "precipitation_prob": 0,
-            "wind_speed": "3 mph",
-            "wind_direction": "N",
+            "wind_speed": "5 mph",
+            "wind_direction": "NNW",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 71."
+            "detailed_forecast": "Sunny, with a high near 71. North northwest wind around 5 mph."
         },
         {
             "day": "Saturday",
             "date": "2026-10-31",
-            "high": 62,
-            "low": 50,
-            "precipitation_prob": 5,
-            "wind_speed": "1 to 7 mph",
-            "wind_direction": "SSE",
+            "high": 61,
+            "low": 48,
+            "precipitation_prob": 2,
+            "wind_speed": "2 to 7 mph",
+            "wind_direction": "SE",
             "short_forecast": "Mostly Cloudy",
-            "detailed_forecast": "Mostly cloudy, with a high near 62."
+            "detailed_forecast": "Mostly cloudy, with a high near 61."
         },
         {
             "day": "Sunday",
             "date": "2026-11-01",
-            "high": 57,
-            "low": 52,
-            "precipitation_prob": 70,
-            "wind_speed": "5 mph",
+            "high": 56,
+            "low": 49,
+            "precipitation_prob": 42,
+            "wind_speed": "2 to 6 mph",
             "wind_direction": "SE",
-            "short_forecast": "Rain Showers Likely",
-            "detailed_forecast": "Rain showers likely. Cloudy, with a high near 57. Chance of precipitation is 70%."
+            "short_forecast": "Chance Rain Showers",
+            "detailed_forecast": "A chance of rain showers after 7am. Mostly cloudy, with a high near 56. Chance of precipitation is 40%."
         },
         {
             "day": "Monday",
             "date": "2026-11-02",
-            "high": 64,
-            "low": 53,
-            "precipitation_prob": 42,
-            "wind_speed": "5 mph",
-            "wind_direction": "SE",
+            "high": 59,
+            "low": 50,
+            "precipitation_prob": 43,
+            "wind_speed": "6 mph",
+            "wind_direction": "ESE",
             "short_forecast": "Chance Rain Showers",
-            "detailed_forecast": "A chance of rain showers. Mostly cloudy, with a high near 64. Chance of precipitation is 40%."
+            "detailed_forecast": "A chance of rain showers. Partly sunny, with a high near 59. Chance of precipitation is 40%."
+        },
+        {
+            "day": "Tuesday",
+            "date": "2026-11-03",
+            "high": 61,
+            "low": 52,
+            "precipitation_prob": 12,
+            "wind_speed": "3 to 8 mph",
+            "wind_direction": "SE",
+            "short_forecast": "Partly Sunny",
+            "detailed_forecast": "Partly sunny, with a high near 61."
         }
     ],
     "active_alerts": [],
@@ -103,8 +103,8 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.864,
-        "evap_status": "MODERATE",
+        "evap_rate_kg_m2_h": 0.128,
+        "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work"
         ]
@@ -139,24 +139,24 @@
     "optimal_work_windows": {
         "concrete_pouring": [
             "This Afternoon",
-            "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday"
+            "Saturday",
+            "Tuesday"
         ],
         "grading": [
             "This Afternoon",
-            "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday"
+            "Saturday",
+            "Tuesday"
         ],
         "painting": [
             "This Afternoon",
-            "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday"
+            "Saturday",
+            "Tuesday"
         ]
     },
     "swppp_compliance": {
@@ -197,5 +197,5 @@
             }
         ]
     },
-    "last_updated": "2026-10-27T18:48:40.934164"
+    "last_updated": "2026-10-28T18:57:57.878540"
 }
