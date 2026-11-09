@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 64.4,
-        "temperature_c": 18,
-        "wind_speed_mph": 24.9,
+        "temperature_f": 66.2,
+        "temperature_c": 19,
+        "wind_speed_mph": 12.4,
         "wind_direction": "S",
-        "humidity_percent": 45,
+        "humidity_percent": 35,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
-            "day": "This Afternoon",
-            "date": "2026-11-08",
-            "high": 62,
-            "low": 37,
+            "day": "Tonight",
+            "date": "2026-11-09",
+            "high": 42,
+            "low": 66,
             "precipitation_prob": 0,
             "wind_speed": "5 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 62. North northeast wind around 5 mph."
-        },
-        {
-            "day": "Monday",
-            "date": "2026-11-09",
-            "high": 61,
-            "low": 40,
-            "precipitation_prob": 0,
-            "wind_speed": "7 mph",
             "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 61. Northwest wind around 7 mph."
+            "short_forecast": "Clear",
+            "detailed_forecast": "Clear, with a low around 42. Northwest wind around 5 mph."
         },
         {
-            "day": "Tuesday",
+            "day": "Tuesday Night",
             "date": "2026-11-10",
-            "high": 66,
-            "low": 42,
-            "precipitation_prob": 0,
-            "wind_speed": "2 mph",
-            "wind_direction": "NW",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 66. Northwest wind around 2 mph."
-        },
-        {
-            "day": "Veterans Day",
-            "date": "2026-11-11",
-            "high": 64,
-            "low": 43,
-            "precipitation_prob": 1,
-            "wind_speed": "3 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 64."
-        },
-        {
-            "day": "Thursday",
-            "date": "2026-11-12",
-            "high": 53,
-            "low": 34,
-            "precipitation_prob": 34,
-            "wind_speed": "5 to 13 mph",
-            "wind_direction": "WNW",
-            "short_forecast": "Chance Light Rain",
-            "detailed_forecast": "A chance of rain after 7am. Partly sunny, with a high near 53. Chance of precipitation is 30%."
-        },
-        {
-            "day": "Friday",
-            "date": "2026-11-13",
-            "high": 40,
-            "low": 27,
-            "precipitation_prob": 7,
-            "wind_speed": "16 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Partly Sunny",
-            "detailed_forecast": "Partly sunny, with a high near 40."
-        },
-        {
-            "day": "Saturday",
-            "date": "2026-11-14",
             "high": 43,
-            "low": 29,
-            "precipitation_prob": 2,
-            "wind_speed": "9 to 15 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 43."
+            "low": 64,
+            "precipitation_prob": 0,
+            "wind_speed": "3 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Partly Cloudy",
+            "detailed_forecast": "Partly cloudy, with a low around 43. West northwest wind around 3 mph."
+        },
+        {
+            "day": "Wednesday Night",
+            "date": "2026-11-11",
+            "high": 46,
+            "low": 54,
+            "precipitation_prob": 34,
+            "wind_speed": "5 mph",
+            "wind_direction": "WSW",
+            "short_forecast": "Partly Cloudy then Chance Light Rain",
+            "detailed_forecast": "A chance of rain after 1am. Partly cloudy, with a low around 46. West southwest wind around 5 mph. Chance of precipitation is 30%."
+        },
+        {
+            "day": "Thursday Night",
+            "date": "2026-11-12",
+            "high": 33,
+            "low": 39,
+            "precipitation_prob": 18,
+            "wind_speed": "14 to 17 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Slight Chance Light Rain then Slight Chance Light Snow",
+            "detailed_forecast": "A slight chance of rain before 1am, then a slight chance of snow. Mostly cloudy, with a low around 33."
+        },
+        {
+            "day": "Friday Night",
+            "date": "2026-11-13",
+            "high": 28,
+            "low": 42,
+            "precipitation_prob": 15,
+            "wind_speed": "18 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Slight Chance Light Snow then Mostly Cloudy",
+            "detailed_forecast": "A slight chance of snow before 7pm. Mostly cloudy, with a low around 28."
+        },
+        {
+            "day": "Saturday Night",
+            "date": "2026-11-14",
+            "high": 27,
+            "low": 52,
+            "precipitation_prob": 0,
+            "wind_speed": "6 to 12 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Mostly Clear",
+            "detailed_forecast": "Mostly clear, with a low around 27."
+        },
+        {
+            "day": "Sunday Night",
+            "date": "2026-11-15",
+            "high": 32,
+            "low": 55,
+            "precipitation_prob": 3,
+            "wind_speed": "3 mph",
+            "wind_direction": "WNW",
+            "short_forecast": "Mostly Clear",
+            "detailed_forecast": "Mostly clear, with a low around 32."
         }
     ],
     "active_alerts": [],
@@ -103,7 +103,7 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.942,
+        "evap_rate_kg_m2_h": 0.648,
         "evap_status": "MODERATE",
         "notes": [
             "Optimal conditions for concrete work"
@@ -131,34 +131,22 @@
             "notes": []
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 24.9 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
         "general_safety": []
     },
     "optimal_work_windows": {
-        "concrete_pouring": [
-            "This Afternoon",
-            "Monday",
-            "Tuesday",
-            "Veterans Day"
-        ],
+        "concrete_pouring": [],
         "grading": [
-            "This Afternoon",
-            "Monday",
-            "Tuesday",
-            "Veterans Day",
-            "Friday",
-            "Saturday"
+            "Tonight",
+            "Tuesday Night",
+            "Thursday Night",
+            "Friday Night",
+            "Saturday Night",
+            "Sunday Night"
         ],
-        "painting": [
-            "This Afternoon",
-            "Monday",
-            "Tuesday",
-            "Veterans Day"
-        ]
+        "painting": []
     },
     "swppp_compliance": {
         "risk_level": "LOW",
@@ -198,5 +186,5 @@
             }
         ]
     },
-    "last_updated": "2026-11-08T18:24:57.587490"
+    "last_updated": "2026-11-09T23:03:31.211079"
 }
