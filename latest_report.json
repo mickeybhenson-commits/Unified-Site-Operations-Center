@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 51.8,
-        "temperature_c": 11,
-        "wind_speed_mph": 29.0,
-        "wind_direction": "NNW",
-        "humidity_percent": 37,
-        "conditions": "Mostly Cloudy",
+        "temperature_f": 55.4,
+        "temperature_c": 13,
+        "wind_speed_mph": 37.3,
+        "wind_direction": "N",
+        "humidity_percent": 44,
+        "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "This Afternoon",
-            "date": "2026-11-14",
-            "high": 38,
-            "low": 27,
-            "precipitation_prob": 0,
-            "wind_speed": "9 mph",
-            "wind_direction": "NNW",
-            "short_forecast": "Mostly Sunny",
-            "detailed_forecast": "Mostly sunny, with a high near 38. North northwest wind around 9 mph, with gusts as high as 20 mph."
-        },
-        {
-            "day": "Sunday",
             "date": "2026-11-15",
-            "high": 47,
-            "low": 28,
+            "high": 46,
+            "low": 29,
             "precipitation_prob": 0,
-            "wind_speed": "7 mph",
-            "wind_direction": "NNW",
+            "wind_speed": "6 mph",
+            "wind_direction": "N",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 47. North northwest wind around 7 mph."
+            "detailed_forecast": "Sunny, with a high near 46. North wind around 6 mph."
         },
         {
             "day": "Monday",
             "date": "2026-11-16",
-            "high": 53,
-            "low": 32,
-            "precipitation_prob": 0,
-            "wind_speed": "3 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 53. North northeast wind around 3 mph."
-        },
-        {
-            "day": "Tuesday",
-            "date": "2026-11-17",
-            "high": 56,
+            "high": 54,
             "low": 34,
             "precipitation_prob": 0,
             "wind_speed": "0 to 3 mph",
             "wind_direction": "ESE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 56."
+            "detailed_forecast": "Sunny. High near 54, with temperatures falling to around 48 in the afternoon. East southeast wind 0 to 3 mph."
+        },
+        {
+            "day": "Tuesday",
+            "date": "2026-11-17",
+            "high": 57,
+            "low": 36,
+            "precipitation_prob": 0,
+            "wind_speed": "0 to 3 mph",
+            "wind_direction": "SSE",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 57. South southeast wind 0 to 3 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-11-18",
-            "high": 59,
-            "low": 36,
+            "high": 60,
+            "low": 38,
             "precipitation_prob": 0,
             "wind_speed": "0 to 5 mph",
             "wind_direction": "ESE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 59."
+            "detailed_forecast": "Sunny, with a high near 60."
         },
         {
             "day": "Thursday",
             "date": "2026-11-19",
-            "high": 63,
-            "low": 40,
+            "high": 64,
+            "low": 42,
             "precipitation_prob": 0,
-            "wind_speed": "2 mph",
-            "wind_direction": "NNE",
+            "wind_speed": "0 to 3 mph",
+            "wind_direction": "N",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 63."
+            "detailed_forecast": "Sunny, with a high near 64."
         },
         {
             "day": "Friday",
             "date": "2026-11-20",
             "high": 64,
-            "low": 41,
+            "low": 42,
             "precipitation_prob": 0,
             "wind_speed": "3 mph",
             "wind_direction": "NNE",
             "short_forecast": "Sunny",
             "detailed_forecast": "Sunny, with a high near 64."
+        },
+        {
+            "day": "Saturday",
+            "date": "2026-11-21",
+            "high": 62,
+            "low": 42,
+            "precipitation_prob": 0,
+            "wind_speed": "0 to 5 mph",
+            "wind_direction": "S",
+            "short_forecast": "Sunny",
+            "detailed_forecast": "Sunny, with a high near 62."
         }
     ],
     "active_alerts": [],
@@ -103,7 +103,7 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.723,
+        "evap_rate_kg_m2_h": 0.959,
         "evap_status": "MODERATE",
         "notes": [
             "Optimal conditions for concrete work"
@@ -133,7 +133,7 @@
         "crane_ops": {
             "status": "STOP",
             "notes": [
-                "Wind speed 29.0 mph exceeds safe limits"
+                "Wind speed 37.3 mph exceeds safe limits"
             ]
         },
         "general_safety": [
@@ -142,28 +142,30 @@
     },
     "optimal_work_windows": {
         "concrete_pouring": [
-            "Sunday",
+            "This Afternoon",
             "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
-            "Friday"
+            "Friday",
+            "Saturday"
         ],
         "grading": [
             "This Afternoon",
-            "Sunday",
             "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
-            "Friday"
+            "Friday",
+            "Saturday"
         ],
         "painting": [
             "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
-            "Friday"
+            "Friday",
+            "Saturday"
         ]
     },
     "swppp_compliance": {
@@ -204,5 +206,5 @@
             }
         ]
     },
-    "last_updated": "2026-11-14T18:47:04.208997"
+    "last_updated": "2026-11-15T19:25:25.396671"
 }
