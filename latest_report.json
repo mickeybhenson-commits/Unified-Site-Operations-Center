@@ -8,91 +8,91 @@
         }
     },
     "current_conditions": {
-        "temperature_f": 55.4,
-        "temperature_c": 13,
-        "wind_speed_mph": 37.3,
+        "temperature_f": 51.8,
+        "temperature_c": 11,
+        "wind_speed_mph": 0,
         "wind_direction": "N",
-        "humidity_percent": 44,
+        "humidity_percent": 50,
         "conditions": "Clear",
         "precipitation_24h": 0.0
     },
     "forecast_7day": [
         {
             "day": "This Afternoon",
-            "date": "2026-11-15",
-            "high": 46,
-            "low": 29,
-            "precipitation_prob": 0,
-            "wind_speed": "6 mph",
-            "wind_direction": "N",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 46. North wind around 6 mph."
-        },
-        {
-            "day": "Monday",
             "date": "2026-11-16",
             "high": 54,
-            "low": 34,
+            "low": 33,
             "precipitation_prob": 0,
-            "wind_speed": "0 to 3 mph",
-            "wind_direction": "ESE",
+            "wind_speed": "2 mph",
+            "wind_direction": "SE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny. High near 54, with temperatures falling to around 48 in the afternoon. East southeast wind 0 to 3 mph."
+            "detailed_forecast": "Sunny. High near 54, with temperatures falling to around 46 in the afternoon. Southeast wind around 2 mph."
         },
         {
             "day": "Tuesday",
             "date": "2026-11-17",
-            "high": 57,
-            "low": 36,
+            "high": 54,
+            "low": 33,
             "precipitation_prob": 0,
-            "wind_speed": "0 to 3 mph",
+            "wind_speed": "1 to 5 mph",
             "wind_direction": "SSE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 57. South southeast wind 0 to 3 mph."
+            "detailed_forecast": "Sunny. High near 54, with temperatures falling to around 48 in the afternoon. South southeast wind 1 to 5 mph."
         },
         {
             "day": "Wednesday",
             "date": "2026-11-18",
-            "high": 60,
-            "low": 38,
+            "high": 57,
+            "low": 39,
             "precipitation_prob": 0,
             "wind_speed": "0 to 5 mph",
-            "wind_direction": "ESE",
+            "wind_direction": "SSE",
             "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 60."
+            "detailed_forecast": "Sunny, with a high near 57. South southeast wind 0 to 5 mph."
         },
         {
             "day": "Thursday",
             "date": "2026-11-19",
-            "high": 64,
-            "low": 42,
-            "precipitation_prob": 0,
-            "wind_speed": "0 to 3 mph",
-            "wind_direction": "N",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 64."
+            "high": 59,
+            "low": 43,
+            "precipitation_prob": 2,
+            "wind_speed": "1 to 5 mph",
+            "wind_direction": "SE",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 59."
         },
         {
             "day": "Friday",
             "date": "2026-11-20",
-            "high": 64,
-            "low": 42,
-            "precipitation_prob": 0,
-            "wind_speed": "3 mph",
-            "wind_direction": "NNE",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 64."
+            "high": 60,
+            "low": 44,
+            "precipitation_prob": 5,
+            "wind_speed": "0 to 5 mph",
+            "wind_direction": "E",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 60."
         },
         {
             "day": "Saturday",
             "date": "2026-11-21",
+            "high": 57,
+            "low": 46,
+            "precipitation_prob": 19,
+            "wind_speed": "5 mph",
+            "wind_direction": "SE",
+            "short_forecast": "Mostly Sunny then Slight Chance Light Rain",
+            "detailed_forecast": "A slight chance of rain after 1pm. Mostly sunny, with a high near 57."
+        },
+        {
+            "day": "Sunday",
+            "date": "2026-11-22",
             "high": 62,
-            "low": 42,
-            "precipitation_prob": 0,
-            "wind_speed": "0 to 5 mph",
-            "wind_direction": "S",
-            "short_forecast": "Sunny",
-            "detailed_forecast": "Sunny, with a high near 62."
+            "low": 44,
+            "precipitation_prob": 11,
+            "wind_speed": "5 mph",
+            "wind_direction": "NW",
+            "short_forecast": "Mostly Sunny",
+            "detailed_forecast": "Mostly sunny, with a high near 62."
         }
     ],
     "active_alerts": [],
@@ -103,8 +103,8 @@
     },
     "concrete_ops": {
         "pour_status": "GO",
-        "evap_rate_kg_m2_h": 0.959,
-        "evap_status": "MODERATE",
+        "evap_rate_kg_m2_h": 0.045,
+        "evap_status": "LOW",
         "notes": [
             "Optimal conditions for concrete work"
         ]
@@ -131,41 +131,38 @@
             "notes": []
         },
         "crane_ops": {
-            "status": "STOP",
-            "notes": [
-                "Wind speed 37.3 mph exceeds safe limits"
-            ]
+            "status": "GO",
+            "notes": []
         },
-        "general_safety": [
-            "\ud83d\udca8 High Wind: Secure loose materials, caution with tall equipment"
-        ]
+        "general_safety": []
     },
     "optimal_work_windows": {
         "concrete_pouring": [
             "This Afternoon",
-            "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday"
+            "Saturday",
+            "Sunday"
         ],
         "grading": [
             "This Afternoon",
-            "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday"
+            "Saturday",
+            "Sunday"
         ],
         "painting": [
-            "Monday",
+            "This Afternoon",
             "Tuesday",
             "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday"
+            "Saturday",
+            "Sunday"
         ]
     },
     "swppp_compliance": {
@@ -206,5 +203,5 @@
             }
         ]
     },
-    "last_updated": "2026-11-15T19:25:25.396671"
+    "last_updated": "2026-11-16T22:57:37.385673"
 }
